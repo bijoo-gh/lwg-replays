@@ -59,13 +59,14 @@ class ReplayBrowser {
             const zip = new JSZip();
             
             // Add each replay to the zip
-            for (const [index, replay] of filteredData.entries()) {
-                const url = `replays/${replay[4]}`; // replay[4] contains the URL
+            const totalFiles = filteredData.length;
+            for (const [index, replayData] of filteredData.entries()) {
+                const url = `replays/${replayData[4]}`; // replayData[4] contains the URL
                 const response = await fetch(url);
                 const blob = await response.blob();
                 
                 // Use the original filename from the URL
-                const filename = replay[4].split('/').pop();
+                const filename = replayData[4].split('/').pop();
                 zip.file(filename, blob);
 
                 // Update progress
@@ -74,7 +75,7 @@ class ReplayBrowser {
                         <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"/>
                         <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
                     </svg>
-                    Processing ${index + 1}/${filteredData.length}...
+                    Processing ${index + 1}/${totalFiles}...
                 `;
             }
 
@@ -101,14 +102,14 @@ class ReplayBrowser {
         }
     }
 
-    updateDownloadCount() {
-        const count = this.getFilteredData().length;
-        document.getElementById('download-count').textContent = count;
-    }
+        updateDownloadCount() {
+            const count = this.getFilteredData().length;
+            document.getElementById('download-count').textContent = count;
+        }
 
-    loadStateFromUrl() {
-        const params = new URLSearchParams(window.location.search);
-        
+        loadStateFromUrl() {
+            const params = new URLSearchParams(window.location.search);
+            
         // Load search term
         if (params.has('search')) {
             this.searchTerm = params.get('search');
