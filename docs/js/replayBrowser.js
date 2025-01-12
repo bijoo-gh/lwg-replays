@@ -1,27 +1,225 @@
 class ReplayBrowser {
     constructor() {
-        this.replays = [];
-        this.grid = null;
-        this.filters = new Map();
-        this.searchTerm = '';
+        this.table = null;
+        this.downloadQueue = [];
+        this.isDownloading = false;
+        this.playersArray = [];
         this.init();
     }
 
     async init() {
-        const response = await fetch('replays/index.json');
-        const data = await response.json();
-        this.replays = data.replays;
-        
-        // Load initial state from URL
-        this.loadStateFromUrl();
-        
-        this.setupFilters();
-        this.setupGrid();
-        this.setupEventListeners();
-        this.updateActiveFilters();
-        this.updateDownloadCount();
+        try {
+            const response = await fetch('replays/index.json');
+            const data = await response.json();
 
-        // Listen for browser back/forward
+            // Update collection date in the banner
+            if (data.collection_info?.timestamp) {
+                const collectionDate = new Date(data.collection_info.timestamp).toISOString().split('T')[0];
+                document.getElementById('collection-date').textContent = collectionDate;
+            }
+
+            // Prepare unique players using only player names
+            const uniquePlayers = new Set();
+            data.replays.forEach(replay => {
+                replay.players.forEach(player => {
+                    uniquePlayers.add(player.name);  // Use only the player name
+                });
+            });
+            this.playersArray = Array.from(uniquePlayers).sort();
+
+            await this.initializeDataTable(data.replays);
+            this.setupEventListeners();
+            this.loadStateFromUrl();
+        } catch (error) {
+            console.error('Failed to load replay data:', error);
+            this.showError('Failed to load replay data. Please try again later.');
+        }
+    }
+
+    initializeDataTable(replays) {
+        var that = this
+        this.table = $('#replays-table').DataTable({
+            data: replays,
+            dom: 'Plfrtip',
+            searchPanes: {
+                cascadePanes: true,
+                viewTotal: true,
+                layout: 'columns-5',  // Adjust the layout as needed
+                clear: true,
+                controls: false,
+                initCollapsed: false,
+                orderable: false,
+                panes: [
+                    // Custom 'Player' Pane
+                    {
+                        header: 'Player',
+                        options: this.playersArray.map(player => ({
+                            label: player,
+                            value: function(rowData) {
+                                // Compare using only the player name
+                                return rowData.players.some(p => p.name === player);
+                            }
+                        }))
+                    }
+                ],
+                columns: [1, 3, 4, 5]  // Map, Tournament, Stage, Version columns
+            },
+            columns: [
+                {
+                    data: 'file_date',
+                    render: {
+                        _: function(data) {
+                            return new Date(data).toISOString().split('T')[0]; // YYYY-MM-DD format
+                        },
+                        display: function(data) {
+                            return new Date(data).toISOString().split('T')[0];
+                        },
+                        sort: function(data) {
+                            return new Date(data).getTime();
+                        },
+                        filter: function(data) {
+                            return new Date(data).getTime();
+                        }
+                    },
+                    type: 'date'
+                },
+                {
+                    data: 'map',
+                    searchPanes: {
+                        show: true
+                    }
+                },
+                {
+                    data: 'players',
+                    render: function(data, type, row) {
+                        let playerNames = data.map(p =>
+                            p.clan ? `${p.name} [${p.clan}]` : p.name
+                        ).join(' vs ');
+                        return playerNames;
+                    }
+                    // No automatic SearchPane for this column
+                },
+                {
+                    data: function(row) {
+                        return (row.tournament_info && row.tournament_info.tournament_type) || '';
+                    },
+                    defaultContent: '',
+                    searchPanes: {
+                        show: true
+                    },
+                    render: function(data, type, row) {
+                        if (!data) return '';
+                        const className = that.getTournamentClassName(data);
+                        const season = row.tournament_info && row.tournament_info.season ? ` S${row.tournament_info.season}` : '';
+                        if (type === 'display') {
+                            return `<span class="tournament-badge ${className}">${data}${season}</span>`;
+                        }
+                        return data + season;
+                    }
+                },
+                {
+                    data: function(row) {
+                        let data = row.tournament_info || {};
+                        if (data.week) {
+                            const weekMatch = data.week.toString().match(/week\s*(\d+)/i);
+                            if (weekMatch) {
+                                return `Week ${weekMatch[1]}`;
+                            } else {
+                                return `Week ${data.week}`;
+                            }
+                        } else if (data.stage) {
+                            if (data.stage.toLowerCase().includes('group stage')) {
+                                return 'Group Stage';
+                            } else {
+                                return data.stage;
+                            }
+                        } else if (data.group) {
+                            const groupMatch = data.group.match(/group\s*([a-d])/i);
+                            if (groupMatch) {
+                                return `Group ${groupMatch[1].toUpperCase()}`;
+                            } else {
+                                return data.group;
+                            }
+                        }
+                        return '';
+                    },
+                    type: 'string',
+                    searchPanes: {
+                        show: true
+                    }
+                },
+                {
+                    data: 'game_version',
+                    searchPanes: {
+                        show: true
+                    }
+                },
+                {
+                    data: 'file_size',
+                    render: {
+                        _: (data) => this.formatFileSize(data),
+                        sort: (data) => data,
+                        filter: (data) => data
+                    },
+                    type: 'num'
+                },
+                {
+                    data: 'url',
+                    render: (data) => `
+                        <button class="download-button" onclick="browser.downloadReplay('${data}')">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                            </svg>
+                            Download
+                        </button>`
+                }
+            ],
+            order: [[0, 'desc']],
+            pageLength: 25,
+            responsive: true,
+            stateSave: true,
+            stateLoadParams: (settings, data) => {
+                return {
+                    search: data.search,
+                    searchPanes: data.searchPanes
+                };
+            }
+        });
+    }
+
+    getTournamentClassName(type) {
+        const classMap = {
+            'Pro League': 'pro-league',
+            'Closed Event Cup': 'cup',
+            'Global League': 'global-league',
+            'Showmatch': 'showmatch'
+        };
+        return classMap[type] || 'default';
+    }
+
+    formatFileSize(bytes) {
+        if (bytes === 0) return '0 B';
+        const k = 1024;
+        const sizes = ['B', 'KB', 'MB', 'GB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
+    }
+
+    setupEventListeners() {
+        document.getElementById('download-filtered').addEventListener('click', () => {
+            this.downloadFilteredReplays();
+        });
+
+        document.getElementById('cancel-download')?.addEventListener('click', () => {
+            this.cancelDownload();
+        });
+
+        this.table.on('stateLoaded search.dt', () => {
+            this.updateFilteredStats();
+            this.saveStateToUrl();
+        });
+
         window.addEventListener('popstate', (event) => {
             if (event.state) {
                 this.loadState(event.state);
@@ -29,315 +227,171 @@ class ReplayBrowser {
         });
     }
 
-    setupEventListeners() {
-        document.getElementById('download-all').addEventListener('click', () => {
-            this.downloadFilteredReplays();
-        });
+    updateFilteredStats() {
+        const filteredData = this.table.rows({ search: 'applied' }).data().toArray();
+        const totalSize = filteredData.reduce((sum, replay) => sum + replay.file_size, 0);
+        const sizeMB = (totalSize / (1024 * 1024)).toFixed(1);
+
+        document.getElementById('filtered-count').textContent = filteredData.length;
+        document.getElementById('filtered-size').textContent = `${sizeMB} MB`;
+    }
+
+    saveStateToUrl() {
+        // disable this for now
+        if (true) {
+            return;
+        }
+        const state = this.table.state.loaded();
+        if (!state) return;
+
+        const urlState = {
+            search: state.search.search,
+            searchPanes: state.searchPanes
+        };
+
+        const stateStr = btoa(JSON.stringify(urlState));
+        const newUrl = `${window.location.pathname}?state=${stateStr}`;
+        window.history.pushState(state, '', newUrl);
+    }
+
+    loadStateFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        const stateStr = params.get('state');
+
+        if (stateStr) {
+            try {
+                const state = JSON.parse(atob(stateStr));
+                this.loadState(state);
+            } catch (e) {
+                console.error('Failed to load state from URL:', e);
+            }
+        }
+    }
+
+    loadState(state) {
+        if (!state) return;
+
+        if (state.search) {
+            this.table.search(state.search);
+        }
+
+        if (state.searchPanes) {
+            this.table.searchPanes.clearSelections();
+            this.table.searchPanes.stateRestore(state.searchPanes);
+        }
+
+        this.table.draw();
+        this.updateFilteredStats();
     }
 
     async downloadFilteredReplays() {
-        const filteredData = this.getFilteredData();
+        const filteredData = this.table.rows({ search: 'applied' }).data().toArray();
         if (filteredData.length === 0) {
-            alert('No replays match the current filters');
+            this.showError('No replays match the current filters');
             return;
         }
 
-        // Create a progress indicator
-        const button = document.getElementById('download-all');
-        const originalText = button.innerHTML;
-        button.innerHTML = `
-            <svg class="animate-spin h-5 w-5 mr-2" viewBox="0 0 24 24">
-                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"/>
-                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
-            </svg>
-            Preparing Download...
-        `;
-        button.disabled = true;
+        const totalSize = filteredData.reduce((sum, replay) => sum + replay.file_size, 0);
+        const sizeMB = (totalSize / (1024 * 1024)).toFixed(1);
+
+        if (!confirm(`Download ${filteredData.length} replays (${sizeMB} MB)?`)) {
+            return;
+        }
+
+        this.downloadQueue = [...filteredData];
+        this.showDownloadModal(filteredData.length, sizeMB);
+        this.startDownload();
+    }
+
+    async startDownload() {
+        if (this.isDownloading || this.downloadQueue.length === 0) return;
+
+        this.isDownloading = true;
+        const zip = new JSZip();
+        const total = this.downloadQueue.length;
+        let processed = 0;
 
         try {
-            // Create a zip file
-            const zip = new JSZip();
-            
-            // Add each replay to the zip
-            const totalFiles = filteredData.length;
-            for (const [index, replayData] of filteredData.entries()) {
-                const url = `replays/${replayData[4]}`; // replayData[4] contains the URL
-                const response = await fetch(url);
+            while (this.downloadQueue.length > 0 && this.isDownloading) {
+                const replay = this.downloadQueue.shift();
+                const response = await fetch(`replays/${replay.url}`);
                 const blob = await response.blob();
-                
-                // Use the original filename from the URL
-                const filename = replayData[4].split('/').pop();
-                zip.file(filename, blob);
 
-                // Update progress
-                button.innerHTML = `
-                    <svg class="animate-spin h-5 w-5 mr-2" viewBox="0 0 24 24">
-                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"/>
-                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
-                    </svg>
-                    Processing ${index + 1}/${totalFiles}...
-                `;
+                const pathParts = replay.url.split('/');
+                const filename = pathParts.pop();
+                const folderPath = pathParts.join('/');
+
+                zip.file(`${folderPath}/${filename}`, blob);
+
+                processed++;
+                this.updateDownloadProgress(processed, total);
             }
 
-            // Generate the zip file
-            const content = await zip.generateAsync({ type: 'blob' });
-            
-            // Create a download link
-            const downloadUrl = URL.createObjectURL(content);
+            if (this.isDownloading) {
+                const content = await zip.generateAsync({ type: 'blob' });
+                const downloadUrl = URL.createObjectURL(content);
+                const link = document.createElement('a');
+                link.href = downloadUrl;
+                link.download = `lwg-replays-${new Date().toISOString().split('T')[0]}.zip`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(downloadUrl);
+            }
+        } catch (error) {
+            console.error('Download failed:', error);
+            this.showError('Failed to download replays. Please try again.');
+        } finally {
+            this.isDownloading = false;
+            this.hideDownloadModal();
+        }
+    }
+
+    cancelDownload() {
+        this.isDownloading = false;
+        this.downloadQueue = [];
+        this.hideDownloadModal();
+    }
+
+    async downloadReplay(url) {
+        try {
+            const response = await fetch(`replays/${url}`);
+            const blob = await response.blob();
+            const downloadUrl = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = downloadUrl;
-            link.download = `lwg-replays-${new Date().toISOString().split('T')[0]}.zip`;
+            link.download = url.split('/').pop();
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
             URL.revokeObjectURL(downloadUrl);
-
         } catch (error) {
             console.error('Download failed:', error);
-            alert('Failed to download replays. Please try again.');
-        } finally {
-            // Restore button state
-            button.innerHTML = originalText;
-            button.disabled = false;
+            this.showError('Failed to download replay. Please try again.');
         }
     }
 
-        updateDownloadCount() {
-            const count = this.getFilteredData().length;
-            document.getElementById('download-count').textContent = count;
-        }
-
-        loadStateFromUrl() {
-            const params = new URLSearchParams(window.location.search);
-            
-        // Load search term
-        if (params.has('search')) {
-            this.searchTerm = params.get('search');
-        }
-
-        // Load filters
-        ['map', 'player', 'tournament'].forEach(key => {
-            if (params.has(key)) {
-                this.filters.set(key, params.get(key));
-            }
-        });
+    showDownloadModal(count, size) {
+        const modal = document.getElementById('download-modal');
+        document.getElementById('download-count').textContent = count;
+        document.getElementById('download-size').textContent = size;
+        document.getElementById('download-total').textContent = count;
+        document.getElementById('download-current').textContent = '0';
+        modal.classList.remove('hidden');
     }
 
-    updateUrl() {
-        const params = new URLSearchParams();
-        
-        // Add search term
-        if (this.searchTerm) {
-            params.set('search', this.searchTerm);
-        }
-
-        // Add filters
-        this.filters.forEach((value, key) => {
-            if (value) {
-                params.set(key, value);
-            }
-        });
-
-        // Update URL without reloading
-        const newUrl = `${window.location.pathname}${params.toString() ? '?' + params.toString() : ''}`;
-        window.history.pushState(
-            { filters: Object.fromEntries(this.filters), searchTerm: this.searchTerm },
-            '',
-            newUrl
-        );
+    hideDownloadModal() {
+        document.getElementById('download-modal').classList.add('hidden');
     }
 
-    loadState(state) {
-        this.filters = new Map(Object.entries(state.filters));
-        this.searchTerm = state.searchTerm;
-        this.updateGrid();
-        this.updateActiveFilters();
-        this.syncFilterControls();
+    updateDownloadProgress(current, total) {
+        document.getElementById('download-current').textContent = current;
+        const percentage = (current / total) * 100;
+        document.querySelector('#download-progress .bg-blue-600').style.width = `${percentage}%`;
     }
 
-    syncFilterControls() {
-        // Update dropdown selections
-        this.filters.forEach((value, key) => {
-            const select = document.querySelector(`select[data-filter="${key}"]`);
-            if (select) select.value = value;
-        });
-
-        // Update search input
-        const searchInput = document.querySelector('.gridjs-search-input');
-        if (searchInput) searchInput.value = this.searchTerm;
-    }
-
-    setupFilters() {
-        const maps = new Set();
-        const tournaments = new Set();
-        const players = new Set();
-
-        this.replays.forEach(replay => {
-            if (replay.map) maps.add(replay.map);
-            if (replay.tournament_info.tournament_path) {
-                tournaments.add(replay.tournament_info.tournament_path);
-            }
-            replay.players.forEach(p => players.add(p.name));
-        });
-
-        this.addFilter('map', Array.from(maps), 'Map');
-        this.addFilter('player', Array.from(players), 'Player');
-        this.addFilter('tournament', Array.from(tournaments), 'Tournament');
-    }
-
-    addFilter(key, options, label) {
-        const select = document.createElement('select');
-        select.className = 'w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500';
-        select.dataset.filter = key;
-        select.innerHTML = `<option value="">All ${label}s</option>` +
-            options.sort().map(opt => `<option value="${opt}">${opt}</option>`).join('');
-        
-        // Set initial value from URL params
-        if (this.filters.has(key)) {
-            select.value = this.filters.get(key);
-        }
-
-        select.addEventListener('change', (e) => {
-            this.filters.set(key, e.target.value);
-            this.updateGrid();
-            this.updateActiveFilters();
-            this.updateUrl();
-        });
-
-        const container = document.createElement('div');
-        container.className = 'flex flex-col';
-        container.innerHTML = `<label class="mb-1 text-sm text-gray-600">${label}</label>`;
-        container.appendChild(select);
-
-        document.getElementById('filters').appendChild(container);
-    }
-
-    setupGrid() {
-        this.grid = new gridjs.Grid({
-            columns: [
-                {
-                    name: 'Date',
-                    formatter: (cell) => {
-                        return new Date(cell).toLocaleDateString();
-                    }
-                },
-                { name: 'Map' },
-                { 
-                    name: 'Players',
-                    formatter: (players) => {
-                        return players.map(p => 
-                            p.clan ? `${p.name} [${p.clan}]` : p.name
-                        ).join(' vs ');
-                    }
-                },
-                { name: 'Tournament' },
-                {
-                    name: 'Download',
-                    formatter: (cell) => {
-                        return gridjs.html(
-                            `<a href="replays/${cell}" class="text-blue-600 hover:text-blue-800" download>Download</a>`
-                        );
-                    }
-                }
-            ],
-            data: this.getFilteredData(),
-            search: {
-                enabled: true,
-                keyword: this.searchTerm,
-                onChange: (value) => {
-                    this.searchTerm = value;
-                    this.updateActiveFilters();
-                    this.updateUrl();
-                    this.updateDownloadCount();
-                }
-            },
-            sort: true,
-            pagination: {
-                limit: 20
-            },
-            style: {
-                table: {
-                    width: '100%'
-                }
-            }
-        }).render(document.getElementById('replay-table'));
-    }
-
-    updateActiveFilters() {
-        const container = document.getElementById('active-filters');
-        container.innerHTML = '';
-
-        // Add dropdown filters
-        this.filters.forEach((value, key) => {
-            if (value) {
-                this.addFilterPill(container, key, value);
-            }
-        });
-
-        // Add search term if exists
-        if (this.searchTerm) {
-            this.addFilterPill(container, 'search', this.searchTerm, true);
-        }
-
-        if (container.children.length === 0) {
-            container.innerHTML = '<span class="text-gray-500 text-sm">No active filters</span>';
-        }
-    }
-
-    addFilterPill(container, key, value, isSearch = false) {
-        const pill = document.createElement('div');
-        pill.className = 'filter-pill bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm flex items-center';
-        if (isSearch) {
-            pill.dataset.type = 'search';
-        }
-        
-        const label = isSearch ? 'Search' : key;
-        pill.innerHTML = `
-            ${label}: ${value}
-            <button class="ml-2 text-blue-600 hover:text-blue-800" 
-                    onclick="browser.removeFilter('${key}', ${isSearch})">×</button>
-        `;
-        container.appendChild(pill);
-    }
-
-    removeFilter(key, isSearch = false) {
-        if (isSearch) {
-            this.searchTerm = '';
-            // Update Grid.js search input
-            const searchInput = document.querySelector('.gridjs-search-input');
-            if (searchInput) searchInput.value = '';
-            this.grid.search('');
-        } else {
-            this.filters.delete(key);
-            document.querySelector(`select[data-filter="${key}"]`).value = '';
-            this.updateGrid();
-        }
-        this.updateActiveFilters();
-        this.updateUrl();
-        this.updateDownloadCount();
-    }
-
-    getFilteredData() {
-        return this.replays
-            .filter(replay => {
-                return (!this.filters.get('map') || replay.map === this.filters.get('map')) &&
-                       (!this.filters.get('tournament') || replay.tournament_info.tournament_path === this.filters.get('tournament')) &&
-                       (!this.filters.get('player') || replay.players.some(p => p.name === this.filters.get('player')));
-            })
-            .map(replay => [
-                replay.file_date,
-                replay.map,
-                replay.players,
-                replay.tournament_info.tournament_path || '',
-                replay.url
-            ]);
-    }
-
-    updateGrid() {
-        this.grid.updateConfig({
-            data: this.getFilteredData()
-        }).forceRender();
-        this.updateDownloadCount();
+    showError(message) {
+        alert(message);
     }
 }
 
