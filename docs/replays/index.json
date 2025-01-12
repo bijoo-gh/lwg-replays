@@ -1,0 +1,12 @@
+{
+    "replays": [
+        {
+            "filename": "game1.lwg",
+            "timestamp": "2024-01-11T20:00:00Z",
+            "players": ["Player1", "Player2"],
+            "map": "Desert Wars",
+            "url": "https://raw.githubusercontent.com/bijoo-gh/lwg-replays/main/replays/game1.lwg"
+        }
+    ]
+}
+
