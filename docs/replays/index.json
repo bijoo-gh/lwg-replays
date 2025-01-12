@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-01-12T09:05:27.207794",
+  "last_updated": "2025-01-12T11:50:10.743768",
   "collection_info": {
-    "timestamp": "2025-01-12T09:05:27.207804",
+    "timestamp": "2025-01-12T11:50:10.743793",
     "total_replays": 0,
     "total_size": 0
   },
@@ -9517,6 +9517,1370 @@
         "tournament_name": "LWG 500 2023",
         "tournament_type": "LWG500",
         "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "veni_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3/veni_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-01-12T03:53:08",
+      "file_size": 296291,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_WeirdRat_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3/icomefromsc_v_WeirdRat_on_Ravaged.json",
+      "file_date": "2025-01-12T03:21:53",
+      "file_size": 187959,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3/Aicy_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 607889,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "MaxRaX_v_Neagat_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3/MaxRaX_v_Neagat_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:53",
+      "file_size": 406752,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "MaxRaX",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "Neagat",
+          "team": 2,
+          "clan": "BestOf"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 3",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_icomefromsc_on_Ravaged (6).json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2/Neagat_v_icomefromsc_on_Ravaged (6).json",
+      "file_date": "2025-01-12T03:14:06",
+      "file_size": 233254,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Haffey_v_MaxRaX_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2/Haffey_v_MaxRaX_on_Ravaged.json",
+      "file_date": "2025-01-11T15:18:28",
+      "file_size": 644556,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Haffey",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "MaxRaX",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Satocastor_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2/Satocastor_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T03:23:37",
+      "file_size": 364826,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_veni_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2/WeirdRat_v_veni_on_Ravaged.json",
+      "file_date": "2025-01-12T03:14:09",
+      "file_size": 109918,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_glaba_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2/Aicy_v_glaba_on_Ravaged.json",
+      "file_date": "2025-01-12T03:09:24",
+      "file_size": 385035,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 2",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_glaba_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6/icomefromsc_v_glaba_on_Ravaged.json",
+      "file_date": "2025-01-12T11:38:11",
+      "file_size": 173723,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_Satocastor_on_Ravaged (5).json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6/Neagat_v_Satocastor_on_Ravaged (5).json",
+      "file_date": "2025-01-12T03:24:12",
+      "file_size": 329591,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_MaxRaX_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6/Aicy_v_MaxRaX_on_Ravaged.json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 309958,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "MaxRaX",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "veni_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6/veni_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T11:38:08",
+      "file_size": 434101,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_Haffey_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6/WeirdRat_v_Haffey_on_Ravaged.json",
+      "file_date": "2025-01-11T14:26:44",
+      "file_size": 372753,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Haffey",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 6",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_Aicy_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7/Neagat_v_Aicy_on_Ravaged (1).json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 509351,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "Aicy",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7/icomefromsc_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T11:38:12",
+      "file_size": 366141,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Haffey_v_veni_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7/Haffey_v_veni_on_Ravaged.json",
+      "file_date": "2025-01-11T13:32:19",
+      "file_size": 143699,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Haffey",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7/WeirdRat_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-01-12T03:14:03",
+      "file_size": 236273,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "glaba_v_MaxRaX_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7/glaba_v_MaxRaX_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:54",
+      "file_size": 121044,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "glaba",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "MaxRaX",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 7",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Haffey_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5/Haffey_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-11T14:26:41",
+      "file_size": 410469,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Haffey",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_icomefromsc_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5/Aicy_v_icomefromsc_on_Ravaged.json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 303448,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Satocastor_v_MaxRaX_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5/Satocastor_v_MaxRaX_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:51",
+      "file_size": 250353,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "MaxRaX",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "glaba_v_veni_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5/glaba_v_veni_on_Ravaged.json",
+      "file_date": "2025-01-12T11:38:04",
+      "file_size": 78837,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "glaba",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_WeirdRat_on_Ravaged (10).json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5/Neagat_v_WeirdRat_on_Ravaged (10).json",
+      "file_date": "2025-01-12T03:23:01",
+      "file_size": 599933,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 5",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9/Neagat_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T03:24:13",
+      "file_size": 576258,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Haffey_v_icomefromsc_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9/Haffey_v_icomefromsc_on_Ravaged.json",
+      "file_date": "2025-01-11T13:31:31",
+      "file_size": 458105,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Haffey",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "glaba_v_WeirdRat(ConsciouslyEating)_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9/glaba_v_WeirdRat(ConsciouslyEating)_on_Ravaged.json",
+      "file_date": "2025-01-11T13:01:58",
+      "file_size": 308207,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "glaba",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9/Aicy_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 572253,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "MaxRaX_v_veni_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9/MaxRaX_v_veni_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:45",
+      "file_size": 406290,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "MaxRaX",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 9",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "MaxRaX_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8/MaxRaX_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:49",
+      "file_size": 581364,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "MaxRaX",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_glaba_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8/Neagat_v_glaba_on_Ravaged.json",
+      "file_date": "2025-01-12T03:22:27",
+      "file_size": 402626,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Satocastor_v_Haffey_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8/Satocastor_v_Haffey_on_Ravaged.json",
+      "file_date": "2025-01-11T14:26:43",
+      "file_size": 100970,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Haffey",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "veni_v_icomefromsc_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8/veni_v_icomefromsc_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:35",
+      "file_size": 845965,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_WeirdRat_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8/Aicy_v_WeirdRat_on_Ravaged.json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 555707,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 8",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1/WeirdRat_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T03:14:02",
+      "file_size": 603652,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_Haffey_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1/Aicy_v_Haffey_on_Ravaged.json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 266023,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Haffey",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "glaba_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1/glaba_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-01-12T03:23:33",
+      "file_size": 399890,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "glaba",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "MaxRaX_v_icomefromsc_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1/MaxRaX_v_icomefromsc_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:46",
+      "file_size": 196480,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "MaxRaX",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_veni_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1/Neagat_v_veni_on_Ravaged.json",
+      "file_date": "2025-01-12T03:14:00",
+      "file_size": 342977,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 1",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Haffey_v_Neagat_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4/Haffey_v_Neagat_on_Ravaged.json",
+      "file_date": "2025-01-11T15:18:14",
+      "file_size": 186714,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Haffey",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Neagat",
+          "team": 2,
+          "clan": "BestOf"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "veni_v_Aicy_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4/veni_v_Aicy_on_Ravaged.json",
+      "file_date": "2025-01-12T03:04:00",
+      "file_size": 102730,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "Aicy",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "MaxRaX_v_WeirdRat_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4/MaxRaX_v_WeirdRat_on_Ravaged.json",
+      "file_date": "2025-01-12T03:13:29",
+      "file_size": 740416,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "MaxRaX",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Satocastor_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4/Satocastor_v_Marea_on_Ravaged.json",
+      "file_date": "2025-01-12T03:23:37",
+      "file_size": 364826,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4/icomefromsc_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-01-12T03:14:10",
+      "file_size": 149744,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 9/Round 4",
+        "tournament_name": "Closed Event Cup Vol 9",
+        "tournament_type": "Closed Event Cup",
+        "season": "9",
         "week": null,
         "stage": null,
         "group": null,
