@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LWG Replays</title>
+    
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/searchpanes/2.2.0/css/searchPanes.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/select/1.7.0/css/select.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css" rel="stylesheet">
+    
+    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
-    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    
+    <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
+    
+    <!-- Required JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/searchpanes/2.2.0/js/dataTables.searchPanes.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.7.0/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
 <body class="bg-gray-50">
     <!-- Attribution Banner -->
@@ -17,7 +32,9 @@
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
                     <div class="text-sm text-blue-700">
-                        Replays collected by ConsciouslyEating - 
+                        Replays collected by ConsciouslyEating 
+                        <span class="text-gray-600">(last updated: <span id="collection-date">-</span>)</span>
+                        - 
                         <a href="https://drive.google.com/drive/folders/1AeRCATKwpiD87BxAnOpwRZca-IMtg6ED" 
                            class="underline hover:text-blue-800"
                            target="_blank"
@@ -46,36 +63,68 @@
             <h1 class="text-2xl font-bold text-gray-900">Little War Game Replays</h1>
         </div>
 
-        <!-- Active Filters Display -->
-        <div class="mb-4 bg-white rounded-lg shadow-sm p-4">
-            <h3 class="text-sm font-medium text-gray-700 mb-2">Active Filters:</h3>
-            <div id="active-filters" class="flex flex-wrap gap-2">
-                <!-- Active filters will be displayed here -->
+        <!-- Download All Button and Stats -->
+        <div class="mb-4 flex justify-between items-center">
+            <div class="text-sm text-gray-600 filtered-stats">
+                Filtered: <strong id="filtered-count">0</strong> replays 
+                (<strong id="filtered-size">0 MB</strong>)
             </div>
-        </div>
-
-        <!-- Filters -->
-        <div class="mb-6 bg-white rounded-lg shadow-md p-4">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-4" id="filters">
-                <!-- Filters will be dynamically added here -->
-            </div>
-        </div>
-
-        <!-- Download All Button -->
-        <div class="mb-4 flex justify-end">
-            <button id="download-all" 
+            <button id="download-filtered" 
                     class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
                           d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                 </svg>
-                <span>Download Filtered Replays (<span id="download-count">0</span>)</span>
+                Download Filtered Replays
             </button>
         </div>
 
-        <!-- Grid.js table -->
+        <!-- DataTable -->
         <div class="bg-white rounded-lg shadow-md p-4">
-            <div id="replay-table"></div>
+<table id="replays-table" class="w-full">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Map</th>
+            <th>Players</th>
+            <th>Tournament</th>
+            <th>Stage</th>
+            <th>Version</th>
+            <th>Size</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+</table>
+
+        </div>
+
+        <!-- Download Modal -->
+        <div id="download-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full">
+            <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+                <div class="mt-3 text-center">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900">Download Replays</h3>
+                    <div class="mt-2 px-7 py-3">
+                        <p class="text-sm text-gray-500">
+                            Preparing to download <span id="download-count">0</span> replays
+                            (<span id="download-size">0</span> MB)
+                        </p>
+                        <div id="download-progress" class="mt-4">
+                            <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                            </div>
+                            <p class="text-sm text-gray-600 mt-2">
+                                Processing: <span id="download-current">0</span>/<span id="download-total">0</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items-center px-4 py-3">
+                        <button id="cancel-download" 
+                                class="px-4 py-2 bg-red-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300">
+                            Cancel
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -85,7 +134,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             browser = new ReplayBrowser();
             
-            // Check if banner was previously dismissed
             if (localStorage.getItem('bannerDismissed')) {
                 document.getElementById('attribution-banner').style.display = 'none';
             }

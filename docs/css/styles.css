@@ -1,41 +1,173 @@
-/* Additional custom styles beyond Tailwind */
-.filter-pill {
-    transition: all 0.2s ease-in-out;
+/* DataTables customization */
+.dtsp-searchPane {
+    min-width: 200px !important;
 }
 
-.filter-pill:hover {
-    transform: scale(1.02);
+.dtsp-searchPanes {
+    margin-top: 1rem;
 }
 
-.filter-pill[data-type="search"] {
+.dtsp-titleRow {
+    padding: 0.5rem;
+    background-color: #f9fafb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Custom table styling */
+.dataTables_wrapper {
+    padding: 1rem;
+}
+
+table.dataTable thead th {
+    padding: 10px 18px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+    font-weight: 600;
+}
+
+table.dataTable tbody td {
+    padding: 8px 10px;
+}
+
+/* Tournament type badges */
+.tournament-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.tournament-badge.pro-league {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.tournament-badge.cup {
     background-color: #fef3c7;
     color: #92400e;
 }
 
-.filter-pill[data-type="search"] button {
-    color: #92400e;
+.tournament-badge.global-league {
+    background-color: #dcfce7;
+    color: #166534;
 }
 
-.filter-pill[data-type="search"]:hover {
-    background-color: #fde68a;
+.tournament-badge.showmatch {
+    background-color: #f3e8ff;
+    color: #6b21a8;
 }
 
-.gridjs-wrapper {
-    border: none !important;
-    box-shadow: none !important;
+/* Download button styling */
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #2563eb;
+    transition: background-color 150ms;
 }
 
-.gridjs-table {
-    border: 1px solid #e5e7eb !important;
+.download-button:hover {
+    background-color: #1d4ed8;
 }
 
-.gridjs-th {
-    background-color: #f9fafb !important;
-    border-top: none !important;
+.download-button svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.375rem;
 }
 
-.gridjs-td {
-    border-color: #e5e7eb !important;
+/* Search panes improvements */
+.dtsp-searchPane .dtsp-searchCont {
+    padding: 0.5rem;
+}
+
+.dtsp-searchPane .dtsp-searchCont input {
+    width: 100%;
+    padding: 0.375rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+}
+
+/* File size formatting */
+.file-size {
+    font-family: monospace;
+    color: #6b7280;
+}
+
+/* Progress bar */
+.progress-wrapper {
+    width: 100%;
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 0.5rem;
+    background-color: #2563eb;
+    transition: width 200ms ease;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    max-width: 32rem;
+}
+
+/* Filtered stats styling */
+.filtered-stats {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #f3f4f6;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+}
+
+.filtered-stats strong {
+    color: #1f2937;
+}
+
+/* DataTables responsive improvements */
+@media (max-width: 768px) {
+    .dtsp-searchPane {
+        min-width: 100% !important;
+    }
+
+    .tournament-badge {
+        font-size: 0.75rem;
+        padding: 0.125rem 0.5rem;
+    }
+
+    .download-button {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .filtered-stats {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.5rem;
+    }
 }
 
 /* Custom scrollbar for webkit browsers */
@@ -57,13 +189,46 @@
     background: #555;
 }
 
-
-/* Attribution banner transition */
-#attribution-banner {
-    transition: all 0.3s ease-in-out;
+/* DataTables search box styling */
+.dataTables_filter input {
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    margin-left: 0.5rem;
 }
 
-#attribution-banner.hiding {
-    transform: translateY(-100%);
+.dataTables_filter input:focus {
+    outline: none;
+    border-color: #2563eb;
+    ring: 2px;
+    ring-color: #93c5fd;
+}
+
+/* DataTables pagination styling */
+.dataTables_paginate .paginate_button {
+    padding: 0.375rem 0.75rem;
+    margin: 0 0.25rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+.dataTables_paginate .paginate_button.current {
+    background-color: #2563eb !important;
+    color: white !important;
+    border: none !important;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background-color: #dbeafe !important;
+    color: #1e40af !important;
+    border: none !important;
+}
+
+/* DataTables length menu styling */
+.dataTables_length select {
+    padding: 0.375rem 2rem 0.375rem 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    margin: 0 0.5rem;
 }
 
