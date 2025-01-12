@@ -1,0 +1,69 @@
+/* Additional custom styles beyond Tailwind */
+.filter-pill {
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-pill:hover {
+    transform: scale(1.02);
+}
+
+.filter-pill[data-type="search"] {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.filter-pill[data-type="search"] button {
+    color: #92400e;
+}
+
+.filter-pill[data-type="search"]:hover {
+    background-color: #fde68a;
+}
+
+.gridjs-wrapper {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.gridjs-table {
+    border: 1px solid #e5e7eb !important;
+}
+
+.gridjs-th {
+    background-color: #f9fafb !important;
+    border-top: none !important;
+}
+
+.gridjs-td {
+    border-color: #e5e7eb !important;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Attribution banner transition */
+#attribution-banner {
+    transition: all 0.3s ease-in-out;
+}
+
+#attribution-banner.hiding {
+    transform: translateY(-100%);
+}
+
