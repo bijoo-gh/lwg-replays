@@ -9,7 +9,8 @@ class ReplayBrowser {
 
     async init() {
         try {
-            const response = await fetch('replays/index.json');
+            const unique = new Date().getTime();
+            const response = await fetch('replays/index.json' + '?unique='+unique);
             const data = await response.json();
 
             // Update collection date in the banner
