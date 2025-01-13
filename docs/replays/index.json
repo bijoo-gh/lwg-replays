@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-01-12T11:50:10.743768",
+  "last_updated": "2025-01-13T05:49:34.933960",
   "collection_info": {
-    "timestamp": "2025-01-12T11:50:10.743793",
+    "timestamp": "2025-01-13T05:49:34.933982",
     "total_replays": 0,
     "total_size": 0
   },
@@ -1229,6 +1229,37 @@
         },
         {
           "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "3den if he not move out he holds_v_Haffey_on_Ravaged (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/3den if he not move out he holds_v_Haffey_on_Ravaged (2).json",
+      "file_date": "2025-01-13T01:58:23",
+      "file_size": 248362,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Haffey",
           "team": 2,
           "clan": "beep"
         }
@@ -3399,6 +3430,37 @@
         },
         {
           "name": "mderg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "2den followup to punish 3rax2base archer allin_v_DESTROYcall_on_Ravaged (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/2den followup to punish 3rax2base archer allin_v_DESTROYcall_on_Ravaged (2).json",
+      "file_date": "2025-01-13T02:01:07",
+      "file_size": 193800,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DESTROYcall",
           "team": 2,
           "clan": ""
         }
