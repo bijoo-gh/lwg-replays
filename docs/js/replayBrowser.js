@@ -40,6 +40,9 @@ class ReplayBrowser {
     initializeDataTable(replays) {
         var that = this
         this.table = $('#replays-table').DataTable({
+            createdRow: function(row, data, dataIndex) {
+                $(row).attr('title', data.filename);
+            },
             data: replays,
             dom: 'Plfrtip',
             searchPanes: {
