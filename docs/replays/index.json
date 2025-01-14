@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-01-13T05:49:34.933960",
+  "last_updated": "2025-01-13T20:10:47.236144",
   "collection_info": {
-    "timestamp": "2025-01-13T05:49:34.933982",
+    "timestamp": "2025-01-13T20:10:47.236155",
     "total_replays": 0,
     "total_size": 0
   },
@@ -4378,6 +4378,223 @@
       }
     },
     {
+      "filename": "heroofages_v_ConsciouslyEating_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023/heroofages_v_ConsciouslyEating_on_Ravaged.json",
+      "file_date": "2023-05-24T11:22:40",
+      "file_size": 379867,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "heroofages",
+          "team": 1,
+          "clan": "GOAT17"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "4.9.3",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023",
+        "tournament_name": "CE's Replaypack No.1 - April_May2023",
+        "tournament_type": "Replay Pack",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "heroofages_v_guest_716798_on_Cursed_Temple.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023/heroofages_v_guest_716798_on_Cursed_Temple.json",
+      "file_date": "2023-05-22T11:35:10",
+      "file_size": 307252,
+      "map": "Cursed Temple",
+      "players": [
+        {
+          "name": "heroofages",
+          "team": 1,
+          "clan": "GOAT17"
+        },
+        {
+          "name": "guest_716798",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "4.9.3",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023",
+        "tournament_name": "CE's Replaypack No.1 - April_May2023",
+        "tournament_type": "Replay Pack",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Hobo_on_Acadia.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023/ConsciouslyEating_v_Hobo_on_Acadia.json",
+      "file_date": "2023-05-22T12:17:25",
+      "file_size": 354190,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Hobo",
+          "team": 2,
+          "clan": "noHome"
+        }
+      ],
+      "game_version": "4.9.3",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023",
+        "tournament_name": "CE's Replaypack No.1 - April_May2023",
+        "tournament_type": "Replay Pack",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Steveinator_v_itzJ_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023/Steveinator_v_itzJ_on_Ravaged.json",
+      "file_date": "2023-04-20T16:43:23",
+      "file_size": 447848,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Steveinator",
+          "team": 1,
+          "clan": "00000"
+        },
+        {
+          "name": "itzJ",
+          "team": 2,
+          "clan": "BestOf"
+        }
+      ],
+      "game_version": "4.9.3",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023",
+        "tournament_name": "CE's Replaypack No.1 - April_May2023",
+        "tournament_type": "Replay Pack",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_Sqrtofneg1_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023/WeirdRat_v_Sqrtofneg1_on_Ravaged.json",
+      "file_date": "2023-04-10T06:51:33",
+      "file_size": 547631,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Sqrtofneg1",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "4.9.3",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023",
+        "tournament_name": "CE's Replaypack No.1 - April_May2023",
+        "tournament_type": "Replay Pack",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheFighter_v_WeirdRat_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023/TheFighter_v_WeirdRat_on_Ravaged.json",
+      "file_date": "2023-05-06T16:04:10",
+      "file_size": 164840,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TheFighter",
+          "team": 1,
+          "clan": "PWS"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "4.9.3",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023",
+        "tournament_name": "CE's Replaypack No.1 - April_May2023",
+        "tournament_type": "Replay Pack",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "SlammerIV_v_Rynus_on_Sylvan_Charm.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023/SlammerIV_v_Rynus_on_Sylvan_Charm.json",
+      "file_date": "2023-05-27T15:03:34",
+      "file_size": 632246,
+      "map": "Sylvan Charm",
+      "players": [
+        {
+          "name": "SlammerIV",
+          "team": 1,
+          "clan": "OPCATA"
+        },
+        {
+          "name": "Rynus",
+          "team": 2,
+          "clan": "RYNU5"
+        }
+      ],
+      "game_version": "4.9.3",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.1 - April_May2023",
+        "tournament_name": "CE's Replaypack No.1 - April_May2023",
+        "tournament_type": "Replay Pack",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "LowerBracket_Semi_G1_SlammerIV_v_GUINNESS_on_Cursed Temple.json",
       "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 4/LowerBracket_Semi_G1_SlammerIV_v_GUINNESS_on_Cursed Temple.json",
       "file_date": "2023-07-16T04:26:04",
@@ -5618,223 +5835,6 @@
       }
     },
     {
-      "filename": "heroofages_v_ConsciouslyEating_on_Ravaged.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023/heroofages_v_ConsciouslyEating_on_Ravaged.json",
-      "file_date": "2023-05-24T11:22:40",
-      "file_size": 379867,
-      "map": "Ravaged",
-      "players": [
-        {
-          "name": "heroofages",
-          "team": 1,
-          "clan": "GOAT17"
-        },
-        {
-          "name": "ConsciouslyEating",
-          "team": 2,
-          "clan": ""
-        }
-      ],
-      "game_version": "4.9.3",
-      "tournament_info": {
-        "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023",
-        "tournament_name": "CE_s Replaypack No.1 - April_May2023",
-        "tournament_type": "Replay Pack",
-        "season": null,
-        "week": null,
-        "stage": null,
-        "group": null,
-        "match_info": null
-      }
-    },
-    {
-      "filename": "heroofages_v_guest_716798_on_Cursed_Temple.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023/heroofages_v_guest_716798_on_Cursed_Temple.json",
-      "file_date": "2023-05-22T11:35:10",
-      "file_size": 307252,
-      "map": "Cursed Temple",
-      "players": [
-        {
-          "name": "heroofages",
-          "team": 1,
-          "clan": "GOAT17"
-        },
-        {
-          "name": "guest_716798",
-          "team": 2,
-          "clan": ""
-        }
-      ],
-      "game_version": "4.9.3",
-      "tournament_info": {
-        "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023",
-        "tournament_name": "CE_s Replaypack No.1 - April_May2023",
-        "tournament_type": "Replay Pack",
-        "season": null,
-        "week": null,
-        "stage": null,
-        "group": null,
-        "match_info": null
-      }
-    },
-    {
-      "filename": "ConsciouslyEating_v_Hobo_on_Acadia.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023/ConsciouslyEating_v_Hobo_on_Acadia.json",
-      "file_date": "2023-05-22T12:17:25",
-      "file_size": 354190,
-      "map": "Acadia",
-      "players": [
-        {
-          "name": "ConsciouslyEating",
-          "team": 1,
-          "clan": ""
-        },
-        {
-          "name": "Hobo",
-          "team": 2,
-          "clan": "noHome"
-        }
-      ],
-      "game_version": "4.9.3",
-      "tournament_info": {
-        "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023",
-        "tournament_name": "CE_s Replaypack No.1 - April_May2023",
-        "tournament_type": "Replay Pack",
-        "season": null,
-        "week": null,
-        "stage": null,
-        "group": null,
-        "match_info": null
-      }
-    },
-    {
-      "filename": "Steveinator_v_itzJ_on_Ravaged.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023/Steveinator_v_itzJ_on_Ravaged.json",
-      "file_date": "2023-04-20T16:43:23",
-      "file_size": 447848,
-      "map": "Ravaged",
-      "players": [
-        {
-          "name": "Steveinator",
-          "team": 1,
-          "clan": "00000"
-        },
-        {
-          "name": "itzJ",
-          "team": 2,
-          "clan": "BestOf"
-        }
-      ],
-      "game_version": "4.9.3",
-      "tournament_info": {
-        "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023",
-        "tournament_name": "CE_s Replaypack No.1 - April_May2023",
-        "tournament_type": "Replay Pack",
-        "season": null,
-        "week": null,
-        "stage": null,
-        "group": null,
-        "match_info": null
-      }
-    },
-    {
-      "filename": "WeirdRat_v_Sqrtofneg1_on_Ravaged.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023/WeirdRat_v_Sqrtofneg1_on_Ravaged.json",
-      "file_date": "2023-04-10T06:51:33",
-      "file_size": 547631,
-      "map": "Ravaged",
-      "players": [
-        {
-          "name": "WeirdRat",
-          "team": 1,
-          "clan": "6Rax"
-        },
-        {
-          "name": "Sqrtofneg1",
-          "team": 2,
-          "clan": ""
-        }
-      ],
-      "game_version": "4.9.3",
-      "tournament_info": {
-        "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023",
-        "tournament_name": "CE_s Replaypack No.1 - April_May2023",
-        "tournament_type": "Replay Pack",
-        "season": null,
-        "week": null,
-        "stage": null,
-        "group": null,
-        "match_info": null
-      }
-    },
-    {
-      "filename": "TheFighter_v_WeirdRat_on_Ravaged.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023/TheFighter_v_WeirdRat_on_Ravaged.json",
-      "file_date": "2023-05-06T16:04:10",
-      "file_size": 164840,
-      "map": "Ravaged",
-      "players": [
-        {
-          "name": "TheFighter",
-          "team": 1,
-          "clan": "PWS"
-        },
-        {
-          "name": "WeirdRat",
-          "team": 2,
-          "clan": "6Rax"
-        }
-      ],
-      "game_version": "4.9.3",
-      "tournament_info": {
-        "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023",
-        "tournament_name": "CE_s Replaypack No.1 - April_May2023",
-        "tournament_type": "Replay Pack",
-        "season": null,
-        "week": null,
-        "stage": null,
-        "group": null,
-        "match_info": null
-      }
-    },
-    {
-      "filename": "SlammerIV_v_Rynus_on_Sylvan_Charm.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023/SlammerIV_v_Rynus_on_Sylvan_Charm.json",
-      "file_date": "2023-05-27T15:03:34",
-      "file_size": 632246,
-      "map": "Sylvan Charm",
-      "players": [
-        {
-          "name": "SlammerIV",
-          "team": 1,
-          "clan": "OPCATA"
-        },
-        {
-          "name": "Rynus",
-          "team": 2,
-          "clan": "RYNU5"
-        }
-      ],
-      "game_version": "4.9.3",
-      "tournament_info": {
-        "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.1 - April_May2023",
-        "tournament_name": "CE_s Replaypack No.1 - April_May2023",
-        "tournament_type": "Replay Pack",
-        "season": null,
-        "week": null,
-        "stage": null,
-        "group": null,
-        "match_info": null
-      }
-    },
-    {
       "filename": "Finals - BO3 - Game2 - ConsciouslyEating_v_bScherm_on_Light Shades.json",
       "url": "ce_replay_folder/CE Replay Folder/Closed Event Cup Vol 8/Finals - BO3 - Game2 - ConsciouslyEating_v_bScherm_on_Light Shades.json",
       "file_date": "2024-08-17T14:17:31",
@@ -6177,7 +6177,7 @@
     },
     {
       "filename": "WeirdRat_v_Sqrtofneg1_on_Ravaged (1).json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/WeirdRat_v_Sqrtofneg1_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/WeirdRat_v_Sqrtofneg1_on_Ravaged (1).json",
       "file_date": "2023-07-08T10:13:56",
       "file_size": 108473,
       "map": "Ravaged",
@@ -6196,8 +6196,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
@@ -6208,7 +6208,7 @@
     },
     {
       "filename": "Aicy_v_Sqrtofneg1_on_Cursed_Temple.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/Aicy_v_Sqrtofneg1_on_Cursed_Temple.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/Aicy_v_Sqrtofneg1_on_Cursed_Temple.json",
       "file_date": "2023-06-05T11:58:48",
       "file_size": 350924,
       "map": "Cursed Temple",
@@ -6227,8 +6227,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
@@ -6239,7 +6239,7 @@
     },
     {
       "filename": "WeirdRat_v_heroofages_on_Ravaged.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/WeirdRat_v_heroofages_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/WeirdRat_v_heroofages_on_Ravaged.json",
       "file_date": "2023-06-05T04:16:27",
       "file_size": 298338,
       "map": "Ravaged",
@@ -6258,8 +6258,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
@@ -6270,7 +6270,7 @@
     },
     {
       "filename": "ConsciouslyEating_v_TheFighter_on_Stream Junction.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/ConsciouslyEating_v_TheFighter_on_Stream Junction.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/ConsciouslyEating_v_TheFighter_on_Stream Junction.json",
       "file_date": "2023-06-10T09:35:23",
       "file_size": 237055,
       "map": "Stream Junction",
@@ -6289,8 +6289,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
@@ -6301,7 +6301,7 @@
     },
     {
       "filename": "itzJ_v_DESTROYcall_on_Ravaged_3.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/itzJ_v_DESTROYcall_on_Ravaged_3.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/itzJ_v_DESTROYcall_on_Ravaged_3.json",
       "file_date": "2023-06-14T00:51:58",
       "file_size": 155049,
       "map": "Ravaged",
@@ -6320,8 +6320,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
@@ -6332,7 +6332,7 @@
     },
     {
       "filename": "SlammerIV_v_Rynus_on_Sylvan_Charm (1).json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/SlammerIV_v_Rynus_on_Sylvan_Charm (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/SlammerIV_v_Rynus_on_Sylvan_Charm (1).json",
       "file_date": "2023-06-05T11:51:33",
       "file_size": 632246,
       "map": "Sylvan Charm",
@@ -6351,8 +6351,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
@@ -6363,7 +6363,7 @@
     },
     {
       "filename": "TheFighter_v_itzJ_on_Ravaged.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/TheFighter_v_itzJ_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/TheFighter_v_itzJ_on_Ravaged.json",
       "file_date": "2023-06-02T02:22:21",
       "file_size": 65874,
       "map": "Ravaged",
@@ -6382,8 +6382,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
@@ -6394,7 +6394,7 @@
     },
     {
       "filename": "ConsciouslyEating_v_DragonArcherZ_on_RavagedWIN.json",
-      "url": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023/ConsciouslyEating_v_DragonArcherZ_on_RavagedWIN.json",
+      "url": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023/ConsciouslyEating_v_DragonArcherZ_on_RavagedWIN.json",
       "file_date": "2023-12-29T07:52:30",
       "file_size": 50051,
       "map": "Ravaged",
@@ -6413,8 +6413,8 @@
       "game_version": "4.9.3",
       "tournament_info": {
         "is_tournament": false,
-        "tournament_path": "ce_replay_folder/CE Replay Folder/CE_s Replaypack No.2 - June_July2023",
-        "tournament_name": "CE_s Replaypack No.2 - June_July2023",
+        "tournament_path": "ce_replay_folder/CE Replay Folder/CE's Replaypack No.2 - June_July2023",
+        "tournament_name": "CE's Replaypack No.2 - June_July2023",
         "tournament_type": "Replay Pack",
         "season": null,
         "week": null,
