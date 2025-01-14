@@ -8,6 +8,7 @@ on:
 jobs:
   check-for-changes:
     runs-on: ubuntu-latest
+    container: rclone/rclone:latest
     outputs:
       changes_detected: ${{ steps.check.outputs.changes_detected }}
     steps:

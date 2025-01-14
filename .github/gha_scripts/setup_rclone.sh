@@ -1,8 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-# Install rclone
-sudo apt-get install rclone
 mkdir -p ~/.config/rclone
 
 # Setup configuration
