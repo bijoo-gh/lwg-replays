@@ -9,7 +9,7 @@ class ReplayBrowser {
 
     async init() {
         try {
-            const unique = new Date().getTime();
+            const unique = Math.floor(new Date().getTime() / (1000 * 60)); // Once a minute
             const response = await fetch('replays/index.json' + '?unique='+unique);
             const data = await response.json();
 
