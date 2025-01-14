@@ -1,0 +1,74 @@
+name: Sync and Index Replays
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-for-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      changes_detected: ${{ steps.check.outputs.changes_detected }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup rclone
+        env:
+          RCLONE_SERVICE_ACCOUNT: ${{ secrets.RCLONE_SERVICE_ACCOUNT }}
+        run: |
+          chmod +x .github/gha_scripts/setup_rclone.sh
+          .github/gha_scripts/setup_rclone.sh
+
+      - name: Check for changes
+        id: check
+        run: |
+          chmod +x .github/gha_scripts/check_and_sync.sh
+          .github/gha_scripts/check_and_sync.sh
+
+      - name: Upload synced files
+        if: steps.check.outputs.changes_detected == 'true'
+        uses: actions/upload-artifact@v3
+        with:
+          name: synced-replays
+          path: docs/replays/
+
+  process-and-index:
+    needs: check-for-changes
+    if: needs.check-for-changes.outputs.changes_detected == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download synced files
+        uses: actions/download-artifact@v3
+        with:
+          name: synced-replays
+          path: docs/replays/
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Poetry
+        run: |
+          chmod +x .github/gha_scripts/setup_poetry.sh
+          .github/gha_scripts/setup_poetry.sh
+
+      - name: Run indexer
+        run: |
+          chmod +x .github/gha_scripts/run_indexer.sh
+          .github/gha_scripts/run_indexer.sh
+
+      - name: Commit and push changes
+        run: |
+          chmod +x .github/gha_scripts/commit_changes.sh
+          .github/gha_scripts/commit_changes.sh
+
+      - name: Trigger GitHub Pages rebuild
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x .github/gha_scripts/trigger_pages.sh
+          .github/gha_scripts/trigger_pages.sh
