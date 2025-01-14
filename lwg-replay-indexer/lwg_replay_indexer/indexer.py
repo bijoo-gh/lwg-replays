@@ -106,8 +106,8 @@ class ReplayIndexer:
                     tournament_info['group'] = group
 
         # Replaypack detection
-        elif any(p.startswith('CE_s Replaypack No') for p in path_parts):
-            pack_part = next(p for p in path_parts if p.startswith('CE_s Replaypack No'))
+        elif any(p.startswith("CE's Replaypack No") for p in path_parts):
+            pack_part = next(p for p in path_parts if p.startswith("CE's Replaypack No"))
             tournament_info.update({
                 'is_tournament': False,
                 'tournament_type': 'Replay Pack',
