@@ -20,7 +20,7 @@ jobs:
     outputs:
       changes_detected: ${{ steps.check.outputs.changes_detected }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup scripts
         run: |
