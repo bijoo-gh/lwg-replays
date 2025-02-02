@@ -61,7 +61,7 @@ jobs:
 
       - name: Upload archive
         if: steps.check.outputs.changes_detected == 'true'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: replays-archive
           path: docs/replays.tar.gz
@@ -72,11 +72,11 @@ jobs:
     if: needs.check-for-changes.outputs.changes_detected == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
 
       - name: Download archive
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: replays-archive
           path: docs/
