@@ -35,6 +35,9 @@ else
     CURRENT_REPLAYS_CHECKSUM=""
 fi
 
+chmod +x .github/gha_scripts/run_indexer.sh
+.github/gha_scripts/run_indexer.sh
+
 # Stage the files
 git add "$INDEX_PATH" "$REPLAYS_PATH"
 

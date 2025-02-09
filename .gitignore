@@ -5,3 +5,7 @@ __pycache__/
 dist/
 concat*docs*sh
 context*txt
+.rclone
+service-account.json
+rclone.conf
+lwg-replays-1736763568731-e868f8f9d825.json

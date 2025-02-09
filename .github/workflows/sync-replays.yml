@@ -99,11 +99,6 @@ jobs:
           chmod +x .github/gha_scripts/setup_poetry.sh
           .github/gha_scripts/setup_poetry.sh
 
-      - name: Run indexer
-        run: |
-          chmod +x .github/gha_scripts/run_indexer.sh
-          .github/gha_scripts/run_indexer.sh
-
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
