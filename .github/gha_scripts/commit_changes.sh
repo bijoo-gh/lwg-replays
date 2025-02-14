@@ -9,8 +9,12 @@ get_checksum() {
         # For directories, checksum all files recursively
         find "$1" -type f -exec sha256sum {} + | sort | sha256sum
     else
-        # For single files
-        sha256sum "$1"
+        # For single files, if it's index.json, remove timestamp before checksum
+        if [[ "$1" == *"index.json" ]]; then
+            jq 'del(.collection_info.timestamp)' "$1" | sha256sum
+        else
+            sha256sum "$1"
+        fi
     fi
 }
 
