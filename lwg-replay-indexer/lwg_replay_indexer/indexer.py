@@ -12,7 +12,6 @@ class ReplayIndexer:
     def create_index(self) -> int:
         """Create index of replay files"""
         index = {
-            'last_updated': datetime.now().isoformat(),
             'collection_info': {
                 'timestamp': datetime.now().isoformat(),
                 'total_replays': 0,
