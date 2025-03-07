@@ -113,6 +113,14 @@ class ReplayIndexer:
                 'tournament_name': pack_part
             })
 
+        # Ravaged Nextpatch Round Robin detection
+        elif any(p.startswith("Ravaged Nextpatch Round Robin") for p in path_parts):
+            tournament_info.update({
+                'is_tournament': True,
+                'tournament_type': 'Ravaged Nextpatch',
+                'tournament_name': 'Ravaged Nextpatch'
+            })
+
         # LWGFiveHundred detection
         elif 'LWGFiveHundred792023' in path_parts:
             tournament_info.update({
