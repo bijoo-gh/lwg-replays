@@ -85,7 +85,7 @@ class ReplayBrowser {
                             return new Date(data).getTime();
                         }
                     },
-                    type: 'date'
+                    type: 'num'
                 },
                 {
                     data: 'map',
