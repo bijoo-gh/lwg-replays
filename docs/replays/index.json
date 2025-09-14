@@ -1,10 +1,103 @@
 {
   "collection_info": {
-    "timestamp": "2025-09-10T12:23:40.310869",
+    "timestamp": "2025-09-14T01:00:28.241087",
     "total_replays": 0,
     "total_size": 0
   },
   "replays": [
+    {
+      "filename": "Charger_v_IIIlllIII_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Charger_v_IIIlllIII_on_Ravaged.json",
+      "file_date": "2025-07-26T08:27:04",
+      "file_size": 142551,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Charger",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "IIIlllIII",
+          "team": 2,
+          "clan": "SMURF"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_Satocastor_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_Satocastor_on_Light Shades.json",
+      "file_date": "2025-08-28T19:01:54",
+      "file_size": 520291,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Aicy_v_ConsciouslyEating_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/Aicy_v_ConsciouslyEating_on_Past Purity.json",
+      "file_date": "2025-09-10T16:23:27",
+      "file_size": 171635,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
     {
       "filename": "guest_319465_v_guest_979257_on_Ravaged (3).json",
       "url": "ce_replay_folder/CE Replay Folder/guest_319465_v_guest_979257_on_Ravaged (3).json",
@@ -24,6 +117,68 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Marea_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Marea_on_Light Shades.json",
+      "file_date": "2025-08-28T19:01:09",
+      "file_size": 478099,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Charger_v_IIIlllIII_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/Charger_v_IIIlllIII_on_Mirrored Mire LE.json",
+      "file_date": "2025-07-26T08:27:09",
+      "file_size": 258300,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "Charger",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "IIIlllIII",
+          "team": 2,
+          "clan": "SMURF"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -68,6 +223,37 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_Highdra_x_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Highdra_x_on_Ravaged.json",
+      "file_date": "2025-09-13T23:57:26",
+      "file_size": 582029,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_WeirdRat_on_Ravaged (1).json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_WeirdRat_on_Ravaged (1).json",
       "file_date": "2024-09-07T16:26:28",
@@ -86,6 +272,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_bScherm_on_Light Shades (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_bScherm_on_Light Shades (1).json",
+      "file_date": "2025-08-28T19:02:33",
+      "file_size": 450370,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -130,6 +347,68 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_SMOCA_on_Silent Fjord.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_SMOCA_on_Silent Fjord.json",
+      "file_date": "2025-08-13T07:02:01",
+      "file_size": 244511,
+      "map": "Silent Fjord",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "SMOCA",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Spartan118_v_guest_577003_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Spartan118_v_guest_577003_on_Ravaged.json",
+      "file_date": "2025-09-10T16:24:01",
+      "file_size": 435992,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Spartan118",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_577003",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_WeirdRat_on_Little Ohana (1).json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_WeirdRat_on_Little Ohana (1).json",
       "file_date": "2024-06-21T14:50:53",
@@ -148,6 +427,99 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_ConsciouslyEating_on_Ravaged(2).json",
+      "url": "ce_replay_folder/CE Replay Folder/WeirdRat_v_ConsciouslyEating_on_Ravaged(2).json",
+      "file_date": "2025-09-12T21:33:24",
+      "file_size": 238845,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/WeirdRat_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-09-10T16:22:13",
+      "file_size": 736037,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Python_v_elbarto_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Python_v_elbarto_on_Ravaged.json",
+      "file_date": "2025-08-28T18:33:25",
+      "file_size": 755517,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Python",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -440,6 +812,37 @@
       }
     },
     {
+      "filename": "Bly4Egg_v_BeatFlitz_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Bly4Egg_v_BeatFlitz_on_Ravaged.json",
+      "file_date": "2025-09-02T12:48:41",
+      "file_size": 692959,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "BeatFlitz",
+          "team": 2,
+          "clan": "SAAP"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "BeatFlitz_v_derStef1991_on_Little Ohana.json",
       "url": "ce_replay_folder/CE Replay Folder/BeatFlitz_v_derStef1991_on_Little Ohana.json",
       "file_date": "2024-06-19T16:23:02",
@@ -502,6 +905,68 @@
       }
     },
     {
+      "filename": "Charger_v_IIIlllIII_on_Xenos.json",
+      "url": "ce_replay_folder/CE Replay Folder/Charger_v_IIIlllIII_on_Xenos.json",
+      "file_date": "2025-07-26T08:27:06",
+      "file_size": 466144,
+      "map": "Xenos",
+      "players": [
+        {
+          "name": "Charger",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "IIIlllIII",
+          "team": 2,
+          "clan": "SMURF"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Highdra_x_v_ConsciouslyEating_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Highdra_x_v_ConsciouslyEating_on_Ravaged.json",
+      "file_date": "2025-09-13T23:33:38",
+      "file_size": 122127,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Highdra_x",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_DragonArcherZ_on_Light Shades (1).json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_DragonArcherZ_on_Light Shades (1).json",
       "file_date": "2024-09-22T10:36:28",
@@ -520,6 +985,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Past Purity (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Past Purity (1).json",
+      "file_date": "2025-08-14T06:02:07",
+      "file_size": 310763,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -657,6 +1153,37 @@
       }
     },
     {
+      "filename": "Python_v_elbarto_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/Python_v_elbarto_on_Past Purity.json",
+      "file_date": "2025-08-24T08:30:26",
+      "file_size": 692954,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "Python",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_DragonArcherZ_on_Light Shades.json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_DragonArcherZ_on_Light Shades.json",
       "file_date": "2024-09-22T09:32:54",
@@ -706,6 +1233,68 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_DragonArcherZ_on_Past Purity wolfsnakevswolfarcher.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_DragonArcherZ_on_Past Purity wolfsnakevswolfarcher.json",
+      "file_date": "2025-08-13T13:13:40",
+      "file_size": 509251,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DragonArcherZ",
+          "team": 2,
+          "clan": "TZ"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_elbarto_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_elbarto_on_Springtime.json",
+      "file_date": "2025-08-28T19:01:07",
+      "file_size": 603600,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -812,6 +1401,37 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_Satocastor_on_Ravaged (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Satocastor_on_Ravaged (2).json",
+      "file_date": "2025-08-28T19:03:14",
+      "file_size": 381922,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Joshers09_on_Little Ohana.json",
       "url": "ce_replay_folder/CE Replay Folder/Joshers09_on_Little Ohana.json",
       "file_date": "2024-05-11T17:17:22",
@@ -874,6 +1494,57 @@
       }
     },
     {
+      "filename": "bScherm_v_ConsciouslyEating_v_Python_v_BeatFlitz_v_AustriaNoob_v_DragonArcherZ_on_Friends 3v3.json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_v_Python_v_BeatFlitz_v_AustriaNoob_v_DragonArcherZ_on_Friends 3v3.json",
+      "file_date": "2025-09-10T16:22:35",
+      "file_size": 1455621,
+      "map": "Friends 3v3",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Python",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "BeatFlitz",
+          "team": 2,
+          "clan": "SAAP"
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "DragonArcherZ",
+          "team": 2,
+          "clan": "TZ"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "avocadolord_on_Acadia.json",
       "url": "ce_replay_folder/CE Replay Folder/avocadolord_on_Acadia.json",
       "file_date": "2024-05-17T06:45:28",
@@ -892,6 +1563,68 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_SMOCA_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_SMOCA_on_Ravaged.json",
+      "file_date": "2025-08-13T07:02:03",
+      "file_size": 89885,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "SMOCA",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Satocastor_on_Ravaged (3).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Satocastor_on_Ravaged (3).json",
+      "file_date": "2025-07-20T14:12:52",
+      "file_size": 450562,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -954,6 +1687,37 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_EpicPants_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_EpicPants_on_Ravaged.json",
+      "file_date": "2025-08-26T05:05:44",
+      "file_size": 532405,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "EpicPants",
+          "team": 2,
+          "clan": "RYNU5"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1060,6 +1824,37 @@
       }
     },
     {
+      "filename": "IIIlllIII_v_guest_240212_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/IIIlllIII_v_guest_240212_on_Ravaged (1).json",
+      "file_date": "2025-07-26T08:27:16",
+      "file_size": 735044,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "IIIlllIII",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "guest_240212",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Neagat_v_itzJ_on_Acadia.json",
       "url": "ce_replay_folder/CE Replay Folder/Neagat_v_itzJ_on_Acadia.json",
       "file_date": "2024-10-04T04:43:50",
@@ -1078,6 +1873,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_SMOCA_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_SMOCA_on_Springtime.json",
+      "file_date": "2025-08-13T07:02:06",
+      "file_size": 158406,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "SMOCA",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1215,6 +2041,37 @@
       }
     },
     {
+      "filename": "Satocastor_v_ConsciouslyEating_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Satocastor_v_ConsciouslyEating_on_Ravaged.json",
+      "file_date": "2025-09-10T16:24:06",
+      "file_size": 436958,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_bScherm_on_Icecold LE.json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_bScherm_on_Icecold LE.json",
       "file_date": "2024-06-19T13:18:09",
@@ -1233,6 +2090,37 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "veni_v_Revise4_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/veni_v_Revise4_on_Ravaged.json",
+      "file_date": "2025-09-10T16:24:42",
+      "file_size": 256373,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "Revise4",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1295,6 +2183,68 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_062844_v_guest_021017_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/guest_062844_v_guest_021017_on_Ravaged.json",
+      "file_date": "2025-09-11T17:43:18",
+      "file_size": 518162,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_062844",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_021017",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Ravaged.json",
+      "file_date": "2025-09-12T19:38:13",
+      "file_size": 512193,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1388,6 +2338,37 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_TheDarkRealm_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/icomefromsc_v_TheDarkRealm_on_Past Purity.json",
+      "file_date": "2025-08-28T19:02:42",
+      "file_size": 607868,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1525,6 +2506,37 @@
       }
     },
     {
+      "filename": "bScherm_v_ConsciouslyEating_on_Past Purity (4).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Past Purity (4).json",
+      "file_date": "2025-08-16T18:56:42",
+      "file_size": 354065,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_DragonArcherZ_on_Springtime.json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_DragonArcherZ_on_Springtime.json",
       "file_date": "2024-09-22T10:36:25",
@@ -1543,6 +2555,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Holy_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Holy_on_Past Purity.json",
+      "file_date": "2025-09-10T16:24:28",
+      "file_size": 414009,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Holy",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1587,6 +2630,99 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_WeirdRat_on_AcadiaLOLWAT.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_WeirdRat_on_AcadiaLOLWAT.json",
+      "file_date": "2025-07-26T08:26:49",
+      "file_size": 138867,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "IIIlllIII_v_guest_240212_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/IIIlllIII_v_guest_240212_on_Ravaged.json",
+      "file_date": "2025-07-23T17:06:54",
+      "file_size": 735044,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "IIIlllIII",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "guest_240212",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_bScherm_on_Ravaged (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_bScherm_on_Ravaged (2).json",
+      "file_date": "2025-07-31T06:37:02",
+      "file_size": 831354,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_010530",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "eco2den into wolfgat (neagat prep PL7)_bScherm_on_Springtime.json",
       "url": "ce_replay_folder/CE Replay Folder/eco2den into wolfgat (neagat prep PL7)_bScherm_on_Springtime.json",
       "file_date": "2024-10-02T12:31:23",
@@ -1605,6 +2741,68 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_ConsciouslyEating_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/WeirdRat_v_ConsciouslyEating_on_Ravaged.json",
+      "file_date": "2025-09-03T06:52:13",
+      "file_size": 427456,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "11worker5raider.json",
+      "url": "ce_replay_folder/CE Replay Folder/11worker5raider.json",
+      "file_date": "2025-09-04T12:33:35",
+      "file_size": 49350,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Computer",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1667,6 +2865,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "12worker5raider.json",
+      "url": "ce_replay_folder/CE Replay Folder/12worker5raider.json",
+      "file_date": "2025-09-04T12:40:23",
+      "file_size": 39719,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Computer",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -1773,6 +3002,37 @@
       }
     },
     {
+      "filename": "Bly4Egg_v_Ninja5511_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Bly4Egg_v_Ninja5511_on_Ravaged.json",
+      "file_date": "2025-08-31T16:00:46",
+      "file_size": 346889,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Ninja5511",
+          "team": 2,
+          "clan": "n"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Haffey_v_Satocastor_on_Ravaged.json",
       "url": "ce_replay_folder/CE Replay Folder/Haffey_v_Satocastor_on_Ravaged.json",
       "file_date": "2024-06-16T17:33:03",
@@ -1835,6 +3095,37 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_glaba_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_glaba_on_Light Shades.json",
+      "file_date": "2025-09-10T16:21:52",
+      "file_size": 625063,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_derStef1991_on_Silent Fjord.json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_derStef1991_on_Silent Fjord.json",
       "file_date": "2024-06-12T16:01:19",
@@ -1866,6 +3157,78 @@
       }
     },
     {
+      "filename": "bScherm_v_Python_v_AustriaNoob_v_BeatFlitz_on_City of Perils.json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_Python_v_AustriaNoob_v_BeatFlitz_on_City of Perils.json",
+      "file_date": "2025-09-10T16:22:38",
+      "file_size": 1314859,
+      "map": "City of Perils",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Python",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "BeatFlitz",
+          "team": 2,
+          "clan": "SAAP"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_109129_on_Ravagedhahahasmoca.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_guest_109129_on_Ravagedhahahasmoca.json",
+      "file_date": "2025-08-21T18:25:06",
+      "file_size": 464307,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_109129",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_itzJ_on_Springtime.json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_itzJ_on_Springtime.json",
       "file_date": "2024-08-23T16:44:09",
@@ -1884,6 +3247,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Satocastor_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Satocastor_on_Darkwood Hills LE.json",
+      "file_date": "2025-08-26T05:05:13",
+      "file_size": 413823,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -2052,6 +3446,57 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_elbarto_v_guest_843936_v_Charger_v_guest_844721_v_Marea_on_Friends 3v3.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_elbarto_v_guest_843936_v_Charger_v_guest_844721_v_Marea_on_Friends 3v3.json",
+      "file_date": "2025-07-31T06:14:02",
+      "file_size": 1365323,
+      "map": "Friends 3v3",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "guest_843936",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Charger",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "guest_844721",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "WeirdRat_v_ConsciouslyEating_on_Light Shades.json",
       "url": "ce_replay_folder/CE Replay Folder/WeirdRat_v_ConsciouslyEating_on_Light Shades.json",
       "file_date": "2024-10-02T12:33:03",
@@ -2070,6 +3515,68 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_Satocastor_on_Light Shades (3).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_Satocastor_on_Light Shades (3).json",
+      "file_date": "2025-08-28T19:02:00",
+      "file_size": 527023,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "WeirdRat_v_Satocastor_on_Ravaged2raxraiderthrow.json",
+      "url": "ce_replay_folder/CE Replay Folder/WeirdRat_v_Satocastor_on_Ravaged2raxraiderthrow.json",
+      "file_date": "2025-07-25T18:43:16",
+      "file_size": 381399,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -2176,6 +3683,68 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_veni_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_veni_on_Light Shades.json",
+      "file_date": "2025-08-29T19:11:59",
+      "file_size": 292337,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Past Purity (3).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Past Purity (3).json",
+      "file_date": "2025-08-14T06:02:10",
+      "file_size": 165199,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "3den if he not move out he holds_v_Haffey_on_Ravaged (2).json",
       "url": "ce_replay_folder/CE Replay Folder/3den if he not move out he holds_v_Haffey_on_Ravaged (2).json",
       "file_date": "2025-01-13T06:58:23",
@@ -2225,6 +3794,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_710912_v_ConsciouslyEating_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/guest_710912_v_ConsciouslyEating_on_Springtime.json",
+      "file_date": "2025-08-14T06:28:33",
+      "file_size": 733651,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "guest_710912",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -2393,6 +3993,37 @@
       }
     },
     {
+      "filename": "Satocastor_v_ConsciouslyEating_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/Satocastor_v_ConsciouslyEating_on_Ravaged (1).json",
+      "file_date": "2025-09-10T16:24:12",
+      "file_size": 408189,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_Haffey_on_Mirrored Mire LE.json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Haffey_on_Mirrored Mire LE.json",
       "file_date": "2024-06-18T17:30:33",
@@ -2411,6 +4042,150 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Sort_v_ConsciouslyEating_on_Ravaged towercastleintoarchercata3rdmacro.json",
+      "url": "ce_replay_folder/CE Replay Folder/Sort_v_ConsciouslyEating_on_Ravaged towercastleintoarchercata3rdmacro.json",
+      "file_date": "2025-07-20T14:52:02",
+      "file_size": 536247,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Sort",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "KendrickKnight_v_BeatFlitz_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/KendrickKnight_v_BeatFlitz_on_Darkwood Hills LE.json",
+      "file_date": "2025-09-10T16:25:00",
+      "file_size": 356894,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "KendrickKnight",
+          "team": 1,
+          "clan": "Xtrier"
+        },
+        {
+          "name": "BeatFlitz",
+          "team": 2,
+          "clan": "SAAP"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_DinoDieno_v_AustriaNoob_v_DonWhoLeeOh_v_bScherm_v_Computer_on_THE BEST FFA MAP.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_DinoDieno_v_AustriaNoob_v_DonWhoLeeOh_v_bScherm_v_Computer_on_THE BEST FFA MAP.json",
+      "file_date": "2025-08-24T09:53:55",
+      "file_size": 1809279,
+      "map": "THE BEST FFA MAP",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DinoDieno",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "DonWhoLeeOh",
+          "team": 2,
+          "clan": "SHAMP"
+        },
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Computer",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheDarkRealm_v_icomefromsc_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/TheDarkRealm_v_icomefromsc_on_Light Shades.json",
+      "file_date": "2025-08-28T19:02:46",
+      "file_size": 519793,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -2473,6 +4248,37 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_486419_v_ConsciouslyEating_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/guest_486419_v_ConsciouslyEating_on_Springtime.json",
+      "file_date": "2025-08-14T06:26:11",
+      "file_size": 494045,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "guest_486419",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -2641,6 +4447,68 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_veni_on_Light Shades (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_veni_on_Light Shades (1).json",
+      "file_date": "2025-09-10T16:24:48",
+      "file_size": 292337,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_SMOCA_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_SMOCA_on_Ravaged (1).json",
+      "file_date": "2025-08-13T08:42:37",
+      "file_size": 248243,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "SMOCA",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Satocastor_v_itzJ_on_Little Ohana.json",
       "url": "ce_replay_folder/CE Replay Folder/Satocastor_v_itzJ_on_Little Ohana.json",
       "file_date": "2024-06-22T06:40:34",
@@ -2659,6 +4527,130 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Holy_v_ConsciouslyEating_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Holy_v_ConsciouslyEating_on_Ravaged.json",
+      "file_date": "2025-09-10T16:24:33",
+      "file_size": 401336,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Holy",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_bScherm_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_bScherm_on_Ravaged.json",
+      "file_date": "2025-08-28T19:02:37",
+      "file_size": 246648,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_Satocastor_on_Light Shades (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_Satocastor_on_Light Shades (2).json",
+      "file_date": "2025-08-28T19:01:58",
+      "file_size": 584061,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "BeatFlitz_v_Satocastor_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/BeatFlitz_v_Satocastor_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-10T16:24:54",
+      "file_size": 449533,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -2920,6 +4912,37 @@
       }
     },
     {
+      "filename": "bScherm_v_ConsciouslyEating_on_Ravaged (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Ravaged (2).json",
+      "file_date": "2025-09-12T19:39:08",
+      "file_size": 126540,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "itzJ_v_guest_160967_on_Ravaged.json",
       "url": "ce_replay_folder/CE Replay Folder/itzJ_v_guest_160967_on_Ravaged.json",
       "file_date": "2024-08-27T17:31:54",
@@ -3106,6 +5129,37 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_bScherm_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_bScherm_on_Mirrored Mire LE.json",
+      "file_date": "2025-08-28T19:01:14",
+      "file_size": 271041,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "WeirdRat_v_ConsciouslyEating_on_Mirrored Mire LE.json",
       "url": "ce_replay_folder/CE Replay Folder/WeirdRat_v_ConsciouslyEating_on_Mirrored Mire LE.json",
       "file_date": "2024-10-02T12:33:03",
@@ -3155,6 +5209,37 @@
         }
       ],
       "game_version": "5.0.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Satocastor_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Satocastor_on_Ravaged (1).json",
+      "file_date": "2025-08-26T05:02:41",
+      "file_size": 381922,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -3261,6 +5346,37 @@
       }
     },
     {
+      "filename": "AustriaNoob_v_KendrickKnight_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/AustriaNoob_v_KendrickKnight_on_Past Purity.json",
+      "file_date": "2025-09-10T16:24:18",
+      "file_size": 439874,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "AustriaNoob",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "KendrickKnight",
+          "team": 2,
+          "clan": "Xtrier"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "bScherm_v_ConsciouslyEating_on_Springtime.json",
       "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Springtime.json",
       "file_date": "2024-10-02T14:27:13",
@@ -3354,6 +5470,130 @@
       }
     },
     {
+      "filename": "bScherm_v_ConsciouslyEating_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Past Purity.json",
+      "file_date": "2025-08-14T06:02:02",
+      "file_size": 569041,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Invictus_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Invictus_on_Ravaged.json",
+      "file_date": "2025-07-20T14:08:05",
+      "file_size": 607030,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_018642",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_519842",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Sort_v_ConsciouslyEating_on_RavagedJOSHERS6DEN (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/Sort_v_ConsciouslyEating_on_RavagedJOSHERS6DEN (1).json",
+      "file_date": "2025-07-20T14:11:04",
+      "file_size": 171912,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Sort",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Satocastor_v_mderg_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/Satocastor_v_mderg_on_Light Shades.json",
+      "file_date": "2025-09-10T16:23:51",
+      "file_size": 393188,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "mderg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Highdra_x_v_Bly4Egg_on_Ravaged.json",
       "url": "ce_replay_folder/CE Replay Folder/Highdra_x_v_Bly4Egg_on_Ravaged.json",
       "file_date": "2024-05-11T17:05:03",
@@ -3403,6 +5643,37 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Springtime (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Springtime (2).json",
+      "file_date": "2025-08-28T19:01:52",
+      "file_size": 261770,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -3478,6 +5749,37 @@
       }
     },
     {
+      "filename": "Satocastor_v_WeirdRat_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/Satocastor_v_WeirdRat_on_Light Shades.json",
+      "file_date": "2025-09-03T06:48:15",
+      "file_size": 458456,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_mderg_on_Mirrored Mire LE (3).json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_mderg_on_Mirrored Mire LE (3).json",
       "file_date": "2024-10-01T12:17:27",
@@ -3496,6 +5798,68 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Sort_on_Ravaged3den.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Sort_on_Ravaged3den.json",
+      "file_date": "2025-07-20T14:12:36",
+      "file_size": 133819,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Sort",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "IIIlllIII_v_Charger_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/IIIlllIII_v_Charger_on_Little Ohana.json",
+      "file_date": "2025-07-26T08:27:07",
+      "file_size": 400230,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "IIIlllIII",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "Charger",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -3540,6 +5904,37 @@
       }
     },
     {
+      "filename": "Aicy_v_ConsciouslyEating_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/Aicy_v_ConsciouslyEating_on_Darkwood Hills LE.json",
+      "file_date": "2025-09-10T16:23:23",
+      "file_size": 226401,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Neagat_v_jp11_on_Ravaged (1).json",
       "url": "ce_replay_folder/CE Replay Folder/Neagat_v_jp11_on_Ravaged (1).json",
       "file_date": "2024-10-04T04:43:50",
@@ -3558,6 +5953,37 @@
         }
       ],
       "game_version": "5.0.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Ravaged (1).json",
+      "file_date": "2025-09-12T19:39:02",
+      "file_size": 186947,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -3664,6 +6090,68 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_Charger_on_Cursed Temple.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Charger_on_Cursed Temple.json",
+      "file_date": "2025-07-26T08:27:12",
+      "file_size": 482926,
+      "map": "Cursed Temple",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Charger",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Marea_on_Dragon Isle.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Marea_on_Dragon Isle.json",
+      "file_date": "2025-09-12T07:16:20",
+      "file_size": 246863,
+      "map": "Dragon Isle",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_bScherm_on_Springtime (2).json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_bScherm_on_Springtime (2).json",
       "file_date": "2024-10-02T12:31:54",
@@ -3726,6 +6214,37 @@
       }
     },
     {
+      "filename": "bScherm_v_ConsciouslyEating_on_Past Purity (2).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Past Purity (2).json",
+      "file_date": "2025-08-14T06:02:09",
+      "file_size": 63908,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "guest_114243_v_guest_377001_on_Ravaged.json",
       "url": "ce_replay_folder/CE Replay Folder/guest_114243_v_guest_377001_on_Ravaged.json",
       "file_date": "2024-08-23T17:13:16",
@@ -3757,6 +6276,130 @@
       }
     },
     {
+      "filename": "guest_551793_v_ConsciouslyEating_on_Ravagedhaffey1den.json",
+      "url": "ce_replay_folder/CE Replay Folder/guest_551793_v_ConsciouslyEating_on_Ravagedhaffey1den.json",
+      "file_date": "2025-08-27T07:17:25",
+      "file_size": 293539,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_551793",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_841040_v_TheDarkRealm_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/guest_841040_v_TheDarkRealm_on_Ravaged.json",
+      "file_date": "2025-08-28T19:01:49",
+      "file_size": 412012,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_841040",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_551793_v_ConsciouslyEating_on_Ravaged (1)CE gambit basetrade.json",
+      "url": "ce_replay_folder/CE Replay Folder/guest_551793_v_ConsciouslyEating_on_Ravaged (1)CE gambit basetrade.json",
+      "file_date": "2025-08-27T07:17:26",
+      "file_size": 188019,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_551793",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Millea9_v_ConsciouslyEating_on_Ravaged3den.json",
+      "url": "ce_replay_folder/CE Replay Folder/Millea9_v_ConsciouslyEating_on_Ravaged3den.json",
+      "file_date": "2025-07-20T14:13:00",
+      "file_size": 347840,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Millea9",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_derStef1991_on_Mirrored Mire LE.json",
       "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_derStef1991_on_Mirrored Mire LE.json",
       "file_date": "2024-06-12T16:01:24",
@@ -3775,6 +6418,99 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_lorimbo_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/DragonArcherZ_v_lorimbo_on_Light Shades.json",
+      "file_date": "2025-09-10T16:22:01",
+      "file_size": 540324,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "lorimbo",
+          "team": 2,
+          "clan": "ranked"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_ConsciouslyEating_on_Light Shades.json",
+      "file_date": "2025-08-28T19:02:03",
+      "file_size": 337943,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_Satocastor_on_Light Shades (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/bScherm_v_Satocastor_on_Light Shades (1).json",
+      "file_date": "2025-08-28T19:01:56",
+      "file_size": 523691,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
@@ -3868,6 +6604,161 @@
         }
       ],
       "game_version": "5.0.2",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Marea_v_ConsciouslyEating_on_Dragon Isle.json",
+      "url": "ce_replay_folder/CE Replay Folder/Marea_v_ConsciouslyEating_on_Dragon Isle.json",
+      "file_date": "2025-09-12T07:13:36",
+      "file_size": 492645,
+      "map": "Dragon Isle",
+      "players": [
+        {
+          "name": "Marea",
+          "team": 1,
+          "clan": "NoN3"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_bScherm_on_Mirrored Mire LE (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_bScherm_on_Mirrored Mire LE (1).json",
+      "file_date": "2025-09-10T16:26:17",
+      "file_size": 271041,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Marea_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/ConsciouslyEating_v_Marea_on_Past Purity.json",
+      "file_date": "2025-08-28T19:01:12",
+      "file_size": 367655,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "BeatFlitz_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/BeatFlitz_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-09-10T16:24:52",
+      "file_size": 418109,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Python_v_KendrickKnight_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/Python_v_KendrickKnight_on_Ravaged.json",
+      "file_date": "2025-08-28T19:01:17",
+      "file_size": 617472,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Python",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "KendrickKnight",
+          "team": 2,
+          "clan": "Xtrier"
+        }
+      ],
+      "game_version": "5.3.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
