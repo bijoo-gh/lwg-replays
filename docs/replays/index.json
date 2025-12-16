@@ -1,6 +1,6 @@
 {
   "collection_info": {
-    "timestamp": "2025-10-21T00:59:27.380103",
+    "timestamp": "2025-12-16T01:05:23.565989",
     "total_replays": 0,
     "total_size": 0
   },
@@ -20688,6 +20688,2982 @@
         "stage": null,
         "group": null,
         "match_info": "SEED5 GAME1 mderg_v_Joshers09_on_Cursed Temple.json"
+      }
+    },
+    {
+      "filename": "Seed2Game2lorimbo_v_Satocastor_on_Little Ohana (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed2Game2lorimbo_v_Satocastor_on_Little Ohana (1).json",
+      "file_date": "2025-09-28T18:22:47",
+      "file_size": 237443,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game2lorimbo_v_Satocastor_on_Little Ohana (1).json"
+      }
+    },
+    {
+      "filename": "Seed3Game2Highdra_x_v_BeatFlitz_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed3Game2Highdra_x_v_BeatFlitz_on_Light Shades.json",
+      "file_date": "2025-09-30T15:07:12",
+      "file_size": 251974,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Highdra_x",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "BeatFlitz",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game2Highdra_x_v_BeatFlitz_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed5Game3ReinJ_v_TheDarkRealm_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed5Game3ReinJ_v_TheDarkRealm_on_Light Shades.json",
+      "file_date": "2025-09-29T12:55:02",
+      "file_size": 569487,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game3ReinJ_v_TheDarkRealm_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed4Game1elbarto_v_Bly4Egg_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed4Game1elbarto_v_Bly4Egg_on_Light Shades.json",
+      "file_date": "2025-09-27T20:02:49",
+      "file_size": 301739,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "elbarto",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Bly4Egg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game1elbarto_v_Bly4Egg_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed5Game1ReinJ_v_TheDarkRealm_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed5Game1ReinJ_v_TheDarkRealm_on_Past Purity.json",
+      "file_date": "2025-09-29T12:55:04",
+      "file_size": 487095,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game1ReinJ_v_TheDarkRealm_on_Past Purity.json"
+      }
+    },
+    {
+      "filename": "Seed1Game2bScherm_v_WeirdRat_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed1Game2bScherm_v_WeirdRat_on_Light Shades.json",
+      "file_date": "2025-09-26T21:20:51",
+      "file_size": 227844,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game2bScherm_v_WeirdRat_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed2Game1lorimbo_v_Satocastor_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed2Game1lorimbo_v_Satocastor_on_Ravaged (1).json",
+      "file_date": "2025-09-28T18:22:54",
+      "file_size": 167470,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game1lorimbo_v_Satocastor_on_Ravaged (1).json"
+      }
+    },
+    {
+      "filename": "Seed5Game2TheDarkRealm_v_ReinJ_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed5Game2TheDarkRealm_v_ReinJ_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-29T12:55:02",
+      "file_size": 205736,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "ReinJ",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game2TheDarkRealm_v_ReinJ_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed1Game1bScherm_v_WeirdRat_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed1Game1bScherm_v_WeirdRat_on_Past Purity.json",
+      "file_date": "2025-09-26T21:20:42",
+      "file_size": 477677,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game1bScherm_v_WeirdRat_on_Past Purity.json"
+      }
+    },
+    {
+      "filename": "Seed4Game2Bly4Egg_v_elbarto_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed4Game2Bly4Egg_v_elbarto_on_Ravaged.json",
+      "file_date": "2025-09-27T20:02:48",
+      "file_size": 266785,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game1Highdra_x_v_BeatFlitz_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed2Game1Highdra_x_v_BeatFlitz_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-30T15:07:09",
+      "file_size": 411056,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "Highdra_x",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "BeatFlitz",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game1Highdra_x_v_BeatFlitz_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed2Game3lorimbo_v_Satocastor_on_Light Shades (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals/Seed2Game3lorimbo_v_Satocastor_on_Light Shades (1).json",
+      "file_date": "2025-09-28T18:22:32",
+      "file_size": 333645,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Finals",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game3lorimbo_v_Satocastor_on_Light Shades (1).json"
+      }
+    },
+    {
+      "filename": "Seed4Game1Steveinator_v_icomefromsc_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed4Game1Steveinator_v_icomefromsc_on_Light Shades.json",
+      "file_date": "2025-09-18T14:38:54",
+      "file_size": 218328,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Steveinator",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game1Steveinator_v_icomefromsc_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed3Game2veni_v_mderg_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed3Game2veni_v_mderg_on_Darkwood Hills LE.json",
+      "file_date": "2025-09-17T16:46:22",
+      "file_size": 447272,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "mderg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game2veni_v_mderg_on_Darkwood Hills LE.json"
+      }
+    },
+    {
+      "filename": "Seed2Game2MatthewN_v_glaba_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed2Game2MatthewN_v_glaba_on_Springtime.json",
+      "file_date": "2025-09-21T09:00:18",
+      "file_size": 819745,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "MatthewN",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed6Game2littlewolfgirl_v_AustriaNoob_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed6Game2littlewolfgirl_v_AustriaNoob_on_Ravaged.json",
+      "file_date": "2025-09-21T14:16:31",
+      "file_size": 350339,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "littlewolfgirl",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed3Game1veni_v_mderg_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed3Game1veni_v_mderg_on_Ravaged.json",
+      "file_date": "2025-09-17T16:46:06",
+      "file_size": 364552,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "mderg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game1glaba_v_MatthewN_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed2Game1glaba_v_MatthewN_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-21T09:00:11",
+      "file_size": 417457,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "glaba",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "MatthewN",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game1glaba_v_MatthewN_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed1Game3Aicy_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed1Game3Aicy_v_Marea_on_Ravaged.json",
+      "file_date": "2025-09-21T20:22:22",
+      "file_size": 507310,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game1Holy_v_KendrickKnight_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed5Game1Holy_v_KendrickKnight_on_Springtime.json",
+      "file_date": "2025-09-18T20:48:24",
+      "file_size": 234451,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "Holy",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "KendrickKnight",
+          "team": 2,
+          "clan": "Xtrier"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed1Game2Aicy_v_Marea_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed1Game2Aicy_v_Marea_on_Light Shades.json",
+      "file_date": "2025-09-21T20:22:20",
+      "file_size": 978487,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game2Aicy_v_Marea_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed4Game2icomefromsc_v_Steveinator_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed4Game2icomefromsc_v_Steveinator_on_Little Ohana.json",
+      "file_date": "2025-09-18T14:38:58",
+      "file_size": 377404,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Steveinator",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game2icomefromsc_v_Steveinator_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed6Game3AustriaNoob_v_littlewolfgirl_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed6Game3AustriaNoob_v_littlewolfgirl_on_Light Shades.json",
+      "file_date": "2025-09-21T14:16:34",
+      "file_size": 236146,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "AustriaNoob",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "littlewolfgirl",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game3AustriaNoob_v_littlewolfgirl_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed1Game1Aicy_v_Marea_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed1Game1Aicy_v_Marea_on_Darkwood Hills LE.json",
+      "file_date": "2025-09-21T20:22:18",
+      "file_size": 374871,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game1Aicy_v_Marea_on_Darkwood Hills LE.json"
+      }
+    },
+    {
+      "filename": "Seed6Game1littlewolfgirl_v_AustriaNoob_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed6Game1littlewolfgirl_v_AustriaNoob_on_Light Shades.json",
+      "file_date": "2025-09-21T14:16:28",
+      "file_size": 141466,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "littlewolfgirl",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game1littlewolfgirl_v_AustriaNoob_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed5Game2KendrickKnight_v_Holy_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge/Seed5Game2KendrickKnight_v_Holy_Ravaged.json",
+      "file_date": "2025-09-18T20:48:28",
+      "file_size": 577395,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "KendrickKnight",
+          "team": 1,
+          "clan": "Xtrier"
+        },
+        {
+          "name": "Holy",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/OGs vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game1Ninja5511_v_Python_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed5Game1Ninja5511_v_Python_on_Ravaged.json",
+      "file_date": "2025-09-21T08:00:48",
+      "file_size": 575407,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Ninja5511",
+          "team": 1,
+          "clan": "n"
+        },
+        {
+          "name": "Python",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game2Ninja5511_v_Python_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed5Game2Ninja5511_v_Python_on_Past Purity.json",
+      "file_date": "2025-09-21T08:00:56",
+      "file_size": 364912,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "Ninja5511",
+          "team": 1,
+          "clan": "n"
+        },
+        {
+          "name": "Python",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game2Ninja5511_v_Python_on_Past Purity.json"
+      }
+    },
+    {
+      "filename": "Seed4Game1Bly4Egg_v_elbarto_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed4Game1Bly4Egg_v_elbarto_on_Ravaged.json",
+      "file_date": "2025-09-22T19:18:17",
+      "file_size": 173354,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game3lorimbo_v_Satocastor_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed2Game3lorimbo_v_Satocastor_on_Little Ohana.json",
+      "file_date": "2025-09-21T07:42:37",
+      "file_size": 418218,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game3lorimbo_v_Satocastor_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed2Game1lorimbo_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed2Game1lorimbo_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-09-21T07:42:28",
+      "file_size": 219837,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed6Game1_ReinJ_v_TheDarkRealm_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed6Game1_ReinJ_v_TheDarkRealm_on_Little Ohana.json",
+      "file_date": "2025-09-19T10:00:26",
+      "file_size": 97031,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game1_ReinJ_v_TheDarkRealm_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed1Game2bScherm_v_WeirdRat_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed1Game2bScherm_v_WeirdRat_on_Ravaged.json",
+      "file_date": "2025-09-13T22:40:39",
+      "file_size": 208656,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed3Game2BeatFlitz_v_Highdra_x_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed3Game2BeatFlitz_v_Highdra_x_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-19T15:34:47",
+      "file_size": 628910,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game2BeatFlitz_v_Highdra_x_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed6Game2_ReinJ_v_TheDarkRealm_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed6Game2_ReinJ_v_TheDarkRealm_on_Springtime.json",
+      "file_date": "2025-09-19T10:00:29",
+      "file_size": 547076,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed1Game1bScherm_v_WeirdRat_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed1Game1bScherm_v_WeirdRat_on_Light Shades.json",
+      "file_date": "2025-09-13T22:40:34",
+      "file_size": 246901,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game1bScherm_v_WeirdRat_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed2Game2lorimbo_v_Satocastor_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed2Game2lorimbo_v_Satocastor_on_Light Shades.json",
+      "file_date": "2025-09-21T07:42:32",
+      "file_size": 693629,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game2lorimbo_v_Satocastor_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed3Game1BeatFlitz_v_Highdra_x_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed3Game1BeatFlitz_v_Highdra_x_on_Little Ohana.json",
+      "file_date": "2025-09-19T15:34:45",
+      "file_size": 554124,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game1BeatFlitz_v_Highdra_x_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed4Game2elbarto_v_Bly4Egg_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate/Seed4Game2elbarto_v_Bly4Egg_on_Light Shades.json",
+      "file_date": "2025-09-22T19:18:18",
+      "file_size": 112709,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "elbarto",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Bly4Egg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 3/Macronomics vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "3",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game2elbarto_v_Bly4Egg_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed5Game3KendrickKnight_v_Python_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed5Game3KendrickKnight_v_Python_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-06T21:28:48",
+      "file_size": 497679,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "KendrickKnight",
+          "team": 1,
+          "clan": "Xtrier"
+        },
+        {
+          "name": "Python",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game3KendrickKnight_v_Python_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed6Game2TheDarkRealm_v_AustriaNoob_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed6Game2TheDarkRealm_v_AustriaNoob_on_Light Shades.json",
+      "file_date": "2025-09-06T21:28:27",
+      "file_size": 800445,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game2TheDarkRealm_v_AustriaNoob_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed1Game1Marea_v_WeirdRat_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed1Game1Marea_v_WeirdRat_on_Light Shades.json",
+      "file_date": "2025-09-04T06:58:37",
+      "file_size": 722887,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Marea",
+          "team": 1,
+          "clan": "NoN3"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game1Marea_v_WeirdRat_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed3Game2mderg_v_Highdra_x_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed3Game2mderg_v_Highdra_x_on_Ravaged.json",
+      "file_date": "2025-09-07T12:32:34",
+      "file_size": 63191,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "mderg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed4Game2icomefromsc_v_elbarto_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed4Game2icomefromsc_v_elbarto_on_Little Ohana.json",
+      "file_date": "2025-09-03T06:27:19",
+      "file_size": 536707,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game2icomefromsc_v_elbarto_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed5Game2Python_v_KendrickKnight_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed5Game2Python_v_KendrickKnight_on_Ravaged.json",
+      "file_date": "2025-09-06T21:28:45",
+      "file_size": 301837,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Python",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "KendrickKnight",
+          "team": 2,
+          "clan": "Xtrier"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed3Game1mderg_v_Highdra_x_on_Light Shade.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed3Game1mderg_v_Highdra_x_on_Light Shade.json",
+      "file_date": "2025-09-07T12:32:39",
+      "file_size": 344407,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "mderg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game1mderg_v_Highdra_x_on_Light Shade.json"
+      }
+    },
+    {
+      "filename": "Seed4Game1icomefromsc_v_elbarto_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed4Game1icomefromsc_v_elbarto_on_Ravaged.json",
+      "file_date": "2025-09-03T06:27:24",
+      "file_size": 462406,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game1Python_v_KendrickKnight_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed5Game1Python_v_KendrickKnight_on_Light Shades.json",
+      "file_date": "2025-09-06T21:28:43",
+      "file_size": 450505,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Python",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "KendrickKnight",
+          "team": 2,
+          "clan": "Xtrier"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game1Python_v_KendrickKnight_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed2Game1Satocastor_v_MatthewN_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed2Game1Satocastor_v_MatthewN_on_Light Shades.json",
+      "file_date": "2025-09-06T21:29:23",
+      "file_size": 278229,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "MatthewN",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game1Satocastor_v_MatthewN_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed2Game2MatthewN_v_Satocastor_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed2Game2MatthewN_v_Satocastor_on_Ravaged.json",
+      "file_date": "2025-09-06T21:29:15",
+      "file_size": 392775,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "MatthewN",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed6Game1TheDarkRealm_v_AustriaNoob_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed6Game1TheDarkRealm_v_AustriaNoob_on_Ravaged.json",
+      "file_date": "2025-09-06T21:28:37",
+      "file_size": 646287,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "AustriaNoob",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed1Game3Marea_v_WeirdRat_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed1Game3Marea_v_WeirdRat_on_Little Ohana.json",
+      "file_date": "2025-09-04T06:58:50",
+      "file_size": 268734,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "Marea",
+          "team": 1,
+          "clan": "NoN3"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game3Marea_v_WeirdRat_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed1Game2WeirdRat_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate/Seed1Game2WeirdRat_v_Marea_on_Ravaged.json",
+      "file_date": "2025-09-04T06:58:45",
+      "file_size": 208003,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Inside Knowledge vs 6rax Syndicate",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game2lorimbo_v_glaba_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed2Game2lorimbo_v_glaba_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-07T16:46:43",
+      "file_size": 357879,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game2lorimbo_v_glaba_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed4Game2Steveinator_v_Bly4Egg_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed4Game2Steveinator_v_Bly4Egg_on_Springtime.json",
+      "file_date": "2025-09-03T13:49:29",
+      "file_size": 204441,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "Steveinator",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Bly4Egg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed3Game2BeatFlitz_v_veni_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed3Game2BeatFlitz_v_veni_on_Springtime.json",
+      "file_date": "2025-09-04T19:38:54",
+      "file_size": 701768,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed1Game2bScherm_v_Aicy_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed1Game2bScherm_v_Aicy_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-02T06:15:21",
+      "file_size": 419378,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Aicy",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game2bScherm_v_Aicy_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed3Game3BeatFlitz_v_veni_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed3Game3BeatFlitz_v_veni_on_Past Purity.json",
+      "file_date": "2025-09-04T19:38:56",
+      "file_size": 602278,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game3BeatFlitz_v_veni_on_Past Purity.json"
+      }
+    },
+    {
+      "filename": "Seed6Game2ReinJ_v_littlewolfgirl_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed6Game2ReinJ_v_littlewolfgirl_on_Springtime.json",
+      "file_date": "2025-09-03T06:16:34",
+      "file_size": 89383,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "littlewolfgirl",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game2Ninja5511_v_Holy_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed5Game2Ninja5511_v_Holy_on_Light Shades.json",
+      "file_date": "2025-09-07T09:01:08",
+      "file_size": 284888,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Ninja5511",
+          "team": 1,
+          "clan": "n"
+        },
+        {
+          "name": "Holy",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game2Ninja5511_v_Holy_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed5Game1Ninja5511_v_Holy_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed5Game1Ninja5511_v_Holy_on_Springtime.json",
+      "file_date": "2025-09-07T09:00:52",
+      "file_size": 564807,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "Ninja5511",
+          "team": 1,
+          "clan": "n"
+        },
+        {
+          "name": "Holy",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed3Game1BeatFlitz_v_veni_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed3Game1BeatFlitz_v_veni_on_Little Ohana.json",
+      "file_date": "2025-09-04T19:38:52",
+      "file_size": 427160,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game1BeatFlitz_v_veni_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed1Game1bScherm_v_Aicy_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed1Game1bScherm_v_Aicy_on_Darkwood Hills LE.json",
+      "file_date": "2025-09-02T06:15:19",
+      "file_size": 267590,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Aicy",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game1bScherm_v_Aicy_on_Darkwood Hills LE.json"
+      }
+    },
+    {
+      "filename": "Seed6Game1ReinJ_v_littlewolfgirl_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed6Game1ReinJ_v_littlewolfgirl_on_Light Shades.json",
+      "file_date": "2025-09-03T06:16:20",
+      "file_size": 117622,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "littlewolfgirl",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game1ReinJ_v_littlewolfgirl_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed4Game1Bly4Egg_v_Steveinator_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed4Game1Bly4Egg_v_Steveinator_on_Ravaged.json",
+      "file_date": "2025-09-03T13:49:28",
+      "file_size": 190160,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Steveinator",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game2lorimbo_v_glaba_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs/Seed2Game2lorimbo_v_glaba_on_Ravaged.json",
+      "file_date": "2025-09-07T16:46:54",
+      "file_size": 294372,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 1/Macronomics vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "1",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game1ReinJ_v_AustriaNoob_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed5Game1ReinJ_v_AustriaNoob_on_Ravaged.json",
+      "file_date": "2025-09-11T15:23:42",
+      "file_size": 85719,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed1Game2_Marea_v_bScherm_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed1Game2_Marea_v_bScherm_on_Light Shades.json",
+      "file_date": "2025-09-11T15:25:12",
+      "file_size": 599920,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Marea",
+          "team": 1,
+          "clan": "NoN3"
+        },
+        {
+          "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game2_Marea_v_bScherm_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed2Game3lorimbo_v_MatthewN_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed2Game3lorimbo_v_MatthewN_on_Little Ohana.json",
+      "file_date": "2025-09-12T16:52:35",
+      "file_size": 300326,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "MatthewN",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed2Game3lorimbo_v_MatthewN_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed1Game3_bScherm_v_Marea_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed1Game3_bScherm_v_Marea_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-11T15:25:18",
+      "file_size": 645352,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game3_bScherm_v_Marea_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed3Game1BeatFlitz_v_mderg_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed3Game1BeatFlitz_v_mderg_on_Darkwood Hills LE.json",
+      "file_date": "2025-09-15T18:21:42",
+      "file_size": 265874,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "mderg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game1BeatFlitz_v_mderg_on_Darkwood Hills LE.json"
+      }
+    },
+    {
+      "filename": "Seed6Game1AustriaNoob_v_ReinJ_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed6Game1AustriaNoob_v_ReinJ_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-15T18:22:50",
+      "file_size": 458457,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "AustriaNoob",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ReinJ",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game1AustriaNoob_v_ReinJ_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed4Game3Bly4Egg_v_icomefromsc_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed4Game3Bly4Egg_v_icomefromsc_on_Springtime.json",
+      "file_date": "2025-09-08T15:52:48",
+      "file_size": 489294,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed4Game1Bly4Egg_v_icomefromsc_on_Past Purity.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed4Game1Bly4Egg_v_icomefromsc_on_Past Purity.json",
+      "file_date": "2025-09-08T15:52:48",
+      "file_size": 123374,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game1Bly4Egg_v_icomefromsc_on_Past Purity.json"
+      }
+    },
+    {
+      "filename": "Seed3Game3BeatFlitz_v_mderg_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed3Game3BeatFlitz_v_mderg_on_Little Ohana.json",
+      "file_date": "2025-09-15T18:22:02",
+      "file_size": 744346,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "mderg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game3BeatFlitz_v_mderg_on_Little Ohana.json"
+      }
+    },
+    {
+      "filename": "Seed5Game2AustriaNoob_v_ReinJ_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed5Game2AustriaNoob_v_ReinJ_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-11T15:23:50",
+      "file_size": 458457,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "AustriaNoob",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ReinJ",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed5Game2AustriaNoob_v_ReinJ_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed4Game2Bly4Egg_v_icomefromsc_on_Darkwood Hills LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed4Game2Bly4Egg_v_icomefromsc_on_Darkwood Hills LE.json",
+      "file_date": "2025-09-08T15:52:47",
+      "file_size": 117453,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "Bly4Egg",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game2Bly4Egg_v_icomefromsc_on_Darkwood Hills LE.json"
+      }
+    },
+    {
+      "filename": "Seed2Game2MatthewN_v_lorimbo_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed2Game2MatthewN_v_lorimbo_on_Springtime.json",
+      "file_date": "2025-09-12T16:52:24",
+      "file_size": 217179,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "MatthewN",
+          "team": 1,
+          "clan": "BM"
+        },
+        {
+          "name": "lorimbo",
+          "team": 2,
+          "clan": "ranked"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed6Game2ReinJ_v_AustriaNoob_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed6Game2ReinJ_v_AustriaNoob_on_Ravaged (1).json",
+      "file_date": "2025-09-15T18:23:00",
+      "file_size": 85719,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game2ReinJ_v_AustriaNoob_on_Ravaged (1).json"
+      }
+    },
+    {
+      "filename": "Seed1Game1_bScherm_v_Marea_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed1Game1_bScherm_v_Marea_on_Ravaged.json",
+      "file_date": "2025-09-11T15:25:24",
+      "file_size": 234357,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Marea",
+          "team": 2,
+          "clan": "NoN3"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game1lorimbo_v_MatthewN_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed2Game1lorimbo_v_MatthewN_on_Ravaged.json",
+      "file_date": "2025-09-12T16:52:06",
+      "file_size": 277204,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "lorimbo",
+          "team": 1,
+          "clan": "ranked"
+        },
+        {
+          "name": "MatthewN",
+          "team": 2,
+          "clan": "BM"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed3Game2BeatFlitz_v_mderg_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge/Seed3Game2BeatFlitz_v_mderg_on_Springtime.json",
+      "file_date": "2025-09-15T18:21:54",
+      "file_size": 611909,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "BeatFlitz",
+          "team": 1,
+          "clan": "SAAP"
+        },
+        {
+          "name": "mderg",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/Macronomics vs Inside Knowledge",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game2Holy_v_Python.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed5Game2Holy_v_Python.json",
+      "file_date": "2025-09-12T21:35:26",
+      "file_size": 978958,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Holy",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Python",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed6Game1_TheDarkRealm_v_littlewolfgirl_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed6Game1_TheDarkRealm_v_littlewolfgirl_on_Light Shades.json",
+      "file_date": "2025-09-12T12:59:45",
+      "file_size": 80330,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "littlewolfgirl",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game1_TheDarkRealm_v_littlewolfgirl_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed4Game1elbarto_v_Steveinator_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed4Game1elbarto_v_Steveinator_on_Light Shades.json",
+      "file_date": "2025-09-15T18:09:45",
+      "file_size": 362241,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "elbarto",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Steveinator",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed4Game1elbarto_v_Steveinator_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed3Game2Highdra_x_v_veni_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed3Game2Highdra_x_v_veni_on_Light Shades.json",
+      "file_date": "2025-09-12T16:56:43",
+      "file_size": 417380,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Highdra_x",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "veni",
+          "team": 2,
+          "clan": "Div4"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed3Game2Highdra_x_v_veni_on_Light Shades.json"
+      }
+    },
+    {
+      "filename": "Seed4Game2elbarto_v_Steveinator_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed4Game2elbarto_v_Steveinator_on_Ravaged.json",
+      "file_date": "2025-09-15T18:09:42",
+      "file_size": 386715,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "elbarto",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Steveinator",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed6Game3_TheDarkRealm_v_littlewolfgirl_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed6Game3_TheDarkRealm_v_littlewolfgirl_on_Mirrored Mire LE.json",
+      "file_date": "2025-09-12T12:59:53",
+      "file_size": 310473,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "littlewolfgirl",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed6Game3_TheDarkRealm_v_littlewolfgirl_on_Mirrored Mire LE.json"
+      }
+    },
+    {
+      "filename": "Seed1Game1 Aicy vs WeirdRat.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed1Game1 Aicy vs WeirdRat.json",
+      "file_date": "2025-09-12T20:14:02",
+      "file_size": 717813,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "WeirdRat",
+          "team": 1,
+          "clan": "6Rax"
+        },
+        {
+          "name": "Aicy",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game1 Aicy vs WeirdRat.json"
+      }
+    },
+    {
+      "filename": "Seed3Game1veni_v_Highdra_x_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed3Game1veni_v_Highdra_x_on_Ravaged.json",
+      "file_date": "2025-09-12T16:56:24",
+      "file_size": 210642,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "veni",
+          "team": 1,
+          "clan": "Div4"
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game2glaba_v_Satocastor_on_Springtime.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed2Game2glaba_v_Satocastor_on_Springtime.json",
+      "file_date": "2025-09-13T22:38:40",
+      "file_size": 478297,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "glaba",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed1Game2 Aicy vs WeirdRat.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed1Game2 Aicy vs WeirdRat.json",
+      "file_date": "2025-09-12T20:14:17",
+      "file_size": 501899,
+      "map": "Past Purity",
+      "players": [
+        {
+          "name": "Aicy",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "WeirdRat",
+          "team": 2,
+          "clan": "6Rax"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": "Seed1Game2 Aicy vs WeirdRat.json"
+      }
+    },
+    {
+      "filename": "Seed5Game1Holy_v_Python.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed5Game1Holy_v_Python.json",
+      "file_date": "2025-09-12T21:35:21",
+      "file_size": 432678,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Holy",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Python",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed2Game1Satocastor_v_glaba_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed2Game1Satocastor_v_glaba_on_Ravaged.json",
+      "file_date": "2025-09-13T22:38:47",
+      "file_size": 410624,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "glaba",
+          "team": 2,
+          "clan": "snort"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed6Game2_littlewolfgirl_v_TheDarkRealm_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed6Game2_littlewolfgirl_v_TheDarkRealm_on_Ravaged.json",
+      "file_date": "2025-09-12T12:59:49",
+      "file_size": 430676,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "littlewolfgirl",
+          "team": 1,
+          "clan": "snort"
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Seed5Game3Holy_v_Python.json",
+      "url": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs/Seed5Game3Holy_v_Python.json",
+      "file_date": "2025-09-12T21:35:30",
+      "file_size": 301657,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Holy",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Python",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.3.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/ProLeague/ProLeague Season 8/Week 2/6rax Syndicate vs OGs",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": null,
+        "week": "2",
+        "stage": null,
+        "group": null,
+        "match_info": null
       }
     },
     {
