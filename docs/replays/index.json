@@ -1,6 +1,6 @@
 {
   "collection_info": {
-    "timestamp": "2026-05-22T02:36:21.383152",
+    "timestamp": "2026-05-24T02:31:26.211920",
     "total_replays": 0,
     "total_size": 0
   },
@@ -29469,8 +29469,8 @@
     {
       "filename": "Breach_v_ConsciouslyEating_on_Ravaged.json",
       "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Breach_v_ConsciouslyEating_on_Ravaged.json",
-      "file_date": "2026-05-21T14:59:31",
-      "file_size": 226060,
+      "file_date": "2026-05-24T00:48:38",
+      "file_size": 430134,
       "map": "Ravaged",
       "players": [
         {
@@ -29841,7 +29841,7 @@
     {
       "filename": "_Maru__v_DieTrying_on_Mirrored Mire LE.json",
       "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/_Maru__v_DieTrying_on_Mirrored Mire LE.json",
-      "file_date": "2026-05-12T19:50:36",
+      "file_date": "2026-05-24T02:31:06.407382",
       "file_size": 777176,
       "map": "Mirrored Mire LE",
       "players": [
@@ -29914,6 +29914,37 @@
         },
         {
           "name": "Zer0s",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Breach_v_ConsciouslyEating_on_Light Shades.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Breach_v_ConsciouslyEating_on_Light Shades.json",
+      "file_date": "2026-05-22T21:02:05",
+      "file_size": 377196,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Breach",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
           "team": 2,
           "clan": ""
         }
@@ -30133,6 +30164,37 @@
           "name": "Zer0s",
           "team": 2,
           "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Raedwulf_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/ConsciouslyEating_v_Raedwulf_on_Ravaged.json",
+      "file_date": "2026-05-23T16:52:55",
+      "file_size": 327049,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Raedwulf",
+          "team": 2,
+          "clan": "DOH"
         }
       ],
       "game_version": "5.4.0",
@@ -30771,8 +30833,8 @@
     {
       "filename": "redDain_v_ConsciouslyEating_on_Ravaged (5).json",
       "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/redDain_v_ConsciouslyEating_on_Ravaged (5).json",
-      "file_date": "2026-05-10T16:35:07",
-      "file_size": 368842,
+      "file_date": "2026-05-24T00:48:38",
+      "file_size": 963623,
       "map": "Ravaged",
       "players": [
         {
@@ -30802,7 +30864,7 @@
     {
       "filename": "Baks_v_tzonny97_v_AustriaNoob_v_ProLeagueEnthusiast_v_Xizun_v_Unknown12z_on_BALANCED 3V3 cloud.json",
       "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Baks_v_tzonny97_v_AustriaNoob_v_ProLeagueEnthusiast_v_Xizun_v_Unknown12z_on_BALANCED 3V3 cloud.json",
-      "file_date": "2026-05-15T06:00:39",
+      "file_date": "2026-05-24T02:31:06.360383",
       "file_size": 1356937,
       "map": "BALANCED 3V3 cloud",
       "players": [
@@ -30954,6 +31016,37 @@
           "name": "omegadeath",
           "team": 1,
           "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "redDain_v_ConsciouslyEating_on_Ravaged (6).json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/redDain_v_ConsciouslyEating_on_Ravaged (6).json",
+      "file_date": "2026-05-22T21:02:01",
+      "file_size": 554151,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "redDain",
+          "team": 1,
+          "clan": "DOH"
         },
         {
           "name": "ConsciouslyEating",
@@ -31142,7 +31235,7 @@
     {
       "filename": "_Maru__v_DieTrying_on_Xenos.json",
       "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/_Maru__v_DieTrying_on_Xenos.json",
-      "file_date": "2026-05-12T19:50:33",
+      "file_date": "2026-05-24T02:31:06.408382",
       "file_size": 359000,
       "map": "Xenos",
       "players": [
@@ -31215,6 +31308,37 @@
         },
         {
           "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Steveinator_v_crayon_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Steveinator_v_crayon_on_Ravaged.json",
+      "file_date": "2026-05-22T21:02:11",
+      "file_size": 198502,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Steveinator",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "crayon",
           "team": 2,
           "clan": ""
         }
@@ -31310,6 +31434,37 @@
           "name": "ConsciouslyEating",
           "team": 2,
           "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "redDain_v_bScherm_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/redDain_v_bScherm_on_Ravaged.json",
+      "file_date": "2026-05-22T21:01:54",
+      "file_size": 468057,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "redDain",
+          "team": 1,
+          "clan": "DOH"
+        },
+        {
+          "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
         }
       ],
       "game_version": "5.4.0",
