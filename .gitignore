@@ -9,3 +9,5 @@ context*txt
 service-account.json
 rclone.conf
 lwg-replays-1736763568731-e868f8f9d825.json
+.DS_Store
+docs/replays/.sync-manifest.json
