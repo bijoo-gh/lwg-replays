@@ -313,6 +313,8 @@ div.dtsp-searchPane {
 }
 div.dtsp-searchPane div.dataTables_wrapper,
 div.dtsp-searchPane div.dataTables_scrollBody,
+/* the vendor paints this one white with !important at (0,3,3) — match it */
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody,
 div.dtsp-searchPane table.dataTable {
     background: var(--surface-1) !important;
     border: 0 !important;
