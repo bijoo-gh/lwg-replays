@@ -1,234 +1,394 @@
-/* DataTables customization */
-.dtsp-searchPane {
-    min-width: 200px !important;
+/* ---------- design tokens ---------- */
+:root {
+    --page:           #f9f9f7;
+    --surface-1:      #fcfcfb;
+    --surface-2:      #f0efec;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11, 11, 11, 0.10);
+    --series-1:       #2a78d6;
+    --series-1-hover: #5598e7;
+    --bar-dim:        #cfcec8;
+    --accent:         #2a78d6;
+    --accent-ink:     #1c5cab;
+    --accent-wash:    rgba(42, 120, 214, 0.10);
+    --good:           #006300;
+    --chip-blue-bg:   #dbeafe;  --chip-blue-ink:   #1e40af;
+    --chip-amber-bg:  #fef3c7;  --chip-amber-ink:  #92400e;
+    --chip-green-bg:  #dcfce7;  --chip-green-ink:  #166534;
+    --chip-violet-bg: #ede9fe;  --chip-violet-ink: #5b21b6;
+    --chip-gray-bg:   #f0efec;  --chip-gray-ink:   #52514e;
+    --shadow: 0 1px 2px rgba(11, 11, 11, 0.05);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --page:           #0d0d0d;
+        --surface-1:      #1a1a19;
+        --surface-2:      #242423;
+        --text-primary:   #ffffff;
+        --text-secondary: #c3c2b7;
+        --text-muted:     #898781;
+        --gridline:       #2c2c2a;
+        --baseline:       #383835;
+        --border:         rgba(255, 255, 255, 0.10);
+        --series-1:       #3987e5;
+        --series-1-hover: #6da7ec;
+        --bar-dim:        #3a3a37;
+        --accent:         #3987e5;
+        --accent-ink:     #86b6ef;
+        --accent-wash:    rgba(57, 135, 229, 0.16);
+        --good:           #0ca30c;
+        --chip-blue-bg:   #1c3a63;  --chip-blue-ink:   #9ec5f4;
+        --chip-amber-bg:  #4a3508;  --chip-amber-ink:  #fcd34d;
+        --chip-green-bg:  #0e3a1d;  --chip-green-ink:  #86efac;
+        --chip-violet-bg: #322368;  --chip-violet-ink: #c4b5fd;
+        --chip-gray-bg:   #2c2c2a;  --chip-gray-ink:   #c3c2b7;
+        --shadow: none;
+    }
 }
 
-.dtsp-searchPanes {
-    margin-top: 1rem;
+/* ---------- base ---------- */
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 15px;
+    line-height: 1.45;
 }
+a { color: var(--accent-ink); }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
 
-.dtsp-titleRow {
-    padding: 0.5rem;
-    background-color: #f9fafb;
-    border-bottom: 1px solid #e5e7eb;
+/* ---------- header ---------- */
+.site-header {
+    background: var(--surface-1);
+    border-bottom: 1px solid var(--border);
 }
-
-/* Custom table styling */
-.dataTables_wrapper {
-    padding: 1rem;
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    padding-bottom: 14px;
 }
+.site-header h1 { margin: 0; font-size: 22px; font-weight: 700; }
+.site-sub { margin: 2px 0 0; font-size: 13px; color: var(--text-muted); }
+.header-links { display: flex; gap: 16px; font-size: 13px; white-space: nowrap; }
+.header-links a { color: var(--accent-ink); text-decoration: none; }
+.header-links a:hover { text-decoration: underline; }
 
-table.dataTable thead th {
-    padding: 10px 18px;
-    border-bottom: 1px solid #e5e7eb;
-    background-color: #f9fafb;
-    font-weight: 600;
+/* ---------- stats strip ---------- */
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 20px 0 12px;
 }
-
-table.dataTable tbody td {
-    padding: 8px 10px;
+.stat-tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    box-shadow: var(--shadow);
 }
+.stat-label { font-size: 12px; color: var(--text-muted); }
+.stat-value { font-size: 24px; font-weight: 600; margin-top: 2px; }
+.stat-sub { font-size: 12px; color: var(--text-muted); min-height: 1.2em; }
 
-/* Tournament type badges */
-.tournament-badge {
-    display: inline-block;
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    font-size: 0.875rem;
-    font-weight: 500;
+/* ---------- cards ---------- */
+.card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    padding: 16px 20px;
+    margin-bottom: 16px;
 }
-
-.tournament-badge.pro-league {
-    background-color: #dbeafe;
-    color: #1e40af;
+.chart-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
 }
+.chart-head h2 { margin: 0; font-size: 15px; font-weight: 600; }
+.chart-sub { margin: 2px 0 0; font-size: 12px; color: var(--text-muted); }
 
-.tournament-badge.cup {
-    background-color: #fef3c7;
-    color: #92400e;
-}
-
-.tournament-badge.global-league {
-    background-color: #dcfce7;
-    color: #166534;
-}
-
-.tournament-badge.showmatch {
-    background-color: #f3e8ff;
-    color: #6b21a8;
-}
-
-/* Download button styling */
-.download-button {
+.range-indicator {
     display: inline-flex;
     align-items: center;
-    padding: 0.375rem 0.75rem;
-    border-radius: 0.375rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: #ffffff;
-    background-color: #2563eb;
-    transition: background-color 150ms;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    background: var(--accent-wash);
+    border-radius: 999px;
+    padding: 4px 6px 4px 12px;
 }
-
-.download-button:hover {
-    background-color: #1d4ed8;
+.range-indicator.hidden { display: none; }
+.range-clear {
+    border: 0;
+    background: transparent;
+    color: var(--accent-ink);
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 999px;
 }
+.range-clear:hover { background: var(--accent-wash); }
 
-.download-button svg {
-    width: 1rem;
-    height: 1rem;
-    margin-right: 0.375rem;
-}
-
-/* Search panes improvements */
-.dtsp-searchPane .dtsp-searchCont {
-    padding: 0.5rem;
-}
-
-.dtsp-searchPane .dtsp-searchCont input {
-    width: 100%;
-    padding: 0.375rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.375rem;
-}
-
-/* File size formatting */
-.file-size {
-    font-family: monospace;
-    color: #6b7280;
-}
-
-/* Progress bar */
-.progress-wrapper {
-    width: 100%;
-    background-color: #f3f4f6;
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.progress-bar {
-    height: 0.5rem;
-    background-color: #2563eb;
-    transition: width 200ms ease;
-}
-
-/* Modal styling */
-.modal {
+#timeline { margin-top: 8px; position: relative; }
+#timeline svg { display: block; width: 100%; user-select: none; touch-action: pan-y; }
+.tl-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(11, 11, 11, 0.18);
+    padding: 6px 10px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    z-index: 30;
     display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
 }
+.tl-tooltip .tt-value { font-size: 14px; font-weight: 600; color: var(--text-primary); }
 
-.modal-content {
-    position: relative;
-    background-color: #ffffff;
-    margin: 15% auto;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    max-width: 32rem;
+/* ---------- table toolbar ---------- */
+.table-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
 }
-
-/* Filtered stats styling */
-.filtered-stats {
+.filtered-stats { font-size: 13px; color: var(--text-secondary); }
+.btn-primary {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    background-color: #f3f4f6;
-    border-radius: 0.375rem;
-    font-size: 0.875rem;
+    gap: 8px;
+    background: var(--accent);
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
 }
-
-.filtered-stats strong {
-    color: #1f2937;
-}
-
-/* DataTables responsive improvements */
-@media (max-width: 768px) {
-    .dtsp-searchPane {
-        min-width: 100% !important;
-    }
-
-    .tournament-badge {
-        font-size: 0.75rem;
-        padding: 0.125rem 0.5rem;
-    }
-
-    .download-button {
-        padding: 0.25rem 0.5rem;
-        font-size: 0.75rem;
-    }
-
-    .filtered-stats {
-        font-size: 0.75rem;
-        padding: 0.25rem 0.5rem;
-    }
-}
-
-/* Custom scrollbar for webkit browsers */
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-/* DataTables search box styling */
-.dataTables_filter input {
-    padding: 0.375rem 0.75rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.375rem;
-    margin-left: 0.5rem;
-}
-
-.dataTables_filter input:focus {
-    outline: none;
-    border-color: #2563eb;
-    ring: 2px;
-    ring-color: #93c5fd;
-}
-
-/* DataTables pagination styling */
-.dataTables_paginate .paginate_button {
-    padding: 0.375rem 0.75rem;
-    margin: 0 0.25rem;
-    border-radius: 0.375rem;
+.btn-primary:hover { background: var(--accent-ink); }
+.btn-primary svg { width: 18px; height: 18px; }
+.btn-danger {
+    background: #d03b3b;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font: inherit;
     cursor: pointer;
 }
 
-.dataTables_paginate .paginate_button.current {
-    background-color: #2563eb !important;
-    color: white !important;
-    border: none !important;
+/* ---------- badges ---------- */
+.tournament-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.tournament-badge.pro-league    { background: var(--chip-blue-bg);   color: var(--chip-blue-ink); }
+.tournament-badge.cup           { background: var(--chip-amber-bg);  color: var(--chip-amber-ink); }
+.tournament-badge.global-league { background: var(--chip-green-bg);  color: var(--chip-green-ink); }
+.tournament-badge.lwg500        { background: var(--chip-violet-bg); color: var(--chip-violet-ink); }
+.tournament-badge.default       { background: var(--chip-gray-bg);   color: var(--chip-gray-ink); }
+
+/* ---------- row download button ---------- */
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    color: var(--accent-ink);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 4px 10px;
+    font: inherit;
+    font-size: 12.5px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.download-button:hover { background: var(--accent-wash); border-color: var(--accent-ink); }
+.download-button svg { width: 14px; height: 14px; }
+
+/* ---------- DataTables restyle ---------- */
+.dataTables_wrapper { color: var(--text-secondary); font-size: 14px; }
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate { color: var(--text-secondary); font-size: 13px; }
+.dataTables_wrapper .dataTables_length { margin: 8px 0; }
+.dataTables_wrapper select,
+.dataTables_wrapper input[type="search"],
+.dtsp-searchPane input.dtsp-search {
+    background: var(--surface-1);
+    color: var(--text-primary);
+    border: 1px solid var(--baseline);
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+table.dataTable { border-collapse: collapse; width: 100% !important; }
+table.dataTable thead th {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--baseline) !important;
+    background: transparent;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 13px;
+    text-align: left;
+}
+table.dataTable tbody td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--gridline);
+    color: var(--text-primary);
+}
+table.dataTable tbody tr { background: transparent; }
+table.dataTable tbody tr:hover { background: var(--surface-2); }
+table.dataTable.no-footer { border-bottom: 1px solid var(--baseline); }
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: var(--text-secondary) !important;
+    border: 0;
+    border-radius: 6px;
+    padding: 4px 10px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: var(--accent-wash);
+    color: var(--accent-ink) !important;
+    border: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: var(--surface-2);
+    color: var(--text-primary) !important;
+    border: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled { opacity: 0.4; }
+td.col-date { white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.col-size { white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right; }
+th.col-size { text-align: right; }
+
+/* ---------- SearchPanes restyle ---------- */
+.dtsp-panesContainer { margin: 0 0 12px; }
+.dtsp-title { color: var(--text-secondary); }
+.dtsp-titleRow { padding: 4px 0; background: transparent; border: 0; }
+.dtsp-titleRow button.dtsp-clearAll,
+.dtsp-titleRow button.dtsp-collapseAll,
+.dtsp-titleRow button.dtsp-showAll {
+    color: var(--accent-ink);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.dtsp-searchPanes { margin-top: 4px; gap: 10px; }
+.dtsp-searchPane {
+    min-width: 180px !important;
+    background: var(--surface-1);
+    border: 1px solid var(--border) !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dtsp-searchPane .dataTables_wrapper { border: 0 !important; }
+.dtsp-searchPane .dataTables_scrollBody { background: var(--surface-1); }
+.dtsp-searchPane table.dataTable tbody td {
+    color: var(--text-secondary);
+    font-size: 13px;
+    border: 0;
+    padding: 6px 10px;
+}
+.dtsp-searchPane table.dataTable tbody tr.selected,
+.dtsp-searchPane table.dataTable tbody tr.selected td {
+    background: var(--accent-wash) !important;
+    color: var(--accent-ink) !important;
+    box-shadow: none !important;
+}
+.dtsp-searchPane .dtsp-pill {
+    background: var(--surface-2);
+    color: var(--text-secondary);
+    border: 0;
+    border-radius: 999px;
+}
+.dtsp-searchPane .dtsp-topRow {
+    border: 0 !important;
+    border-bottom: 1px solid var(--gridline) !important;
+    border-radius: 0;
+}
+.dtsp-searchPane input.dtsp-search { border: 0; background: transparent; }
+.dtsp-searchPane button { background: transparent; color: var(--text-muted); }
+
+/* ---------- modal ---------- */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(11, 11, 11, 0.5);
+    overflow-y: auto;
+    z-index: 50;
+}
+.modal-overlay.hidden { display: none; }
+.modal-box {
+    position: relative;
+    margin: 100px auto;
+    width: 380px;
+    max-width: calc(100vw - 40px);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+}
+.modal-box h3 { margin: 0 0 8px; font-size: 16px; }
+.modal-box p { color: var(--text-secondary); font-size: 14px; }
+.progress-track {
+    width: 100%;
+    height: 8px;
+    background: var(--surface-2);
+    border-radius: 999px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--series-1);
+    border-radius: 999px;
+    transition: width 0.15s ease;
 }
 
-.dataTables_paginate .paginate_button:hover {
-    background-color: #dbeafe !important;
-    color: #1e40af !important;
-    border: none !important;
+/* ---------- footer ---------- */
+.site-footer {
+    margin: 24px 0 32px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+    text-align: center;
 }
+.site-footer a { color: var(--text-muted); }
 
-/* DataTables length menu styling */
-.dataTables_length select {
-    padding: 0.375rem 2rem 0.375rem 0.75rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.375rem;
-    margin: 0 0.5rem;
+/* ---------- responsive ---------- */
+.table-scroll { overflow-x: auto; }
+@media (max-width: 1100px) {
+    .dtsp-searchPanes { flex-wrap: wrap; }
 }
-
+@media (max-width: 720px) {
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+    body { font-size: 14px; }
+    .card { padding: 12px; }
+}
