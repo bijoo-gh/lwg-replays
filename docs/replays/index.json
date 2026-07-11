@@ -1,8 +1,8 @@
 {
   "collection_info": {
-    "timestamp": "2026-07-11T17:39:56.004485",
-    "total_replays": 1020,
-    "total_size": 352497088,
+    "timestamp": "2026-07-11T19:48:45.249214",
+    "total_replays": 1030,
+    "total_size": 358195442,
     "skipped_files": 1
   },
   "replays": [
@@ -28352,6 +28352,57 @@
       }
     },
     {
+      "filename": "Baks_v_tzonny97_v_AustriaNoob_v_ProLeagueEnthusiast_v_Xizun_v_Unknown12z_on_BALANCED 3V3 cloud.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Baks_v_tzonny97_v_AustriaNoob_v_ProLeagueEnthusiast_v_Xizun_v_Unknown12z_on_BALANCED 3V3 cloud.json",
+      "file_date": "2026-05-15T06:00:39Z",
+      "file_size": 1356937,
+      "map": "BALANCED 3V3 cloud",
+      "players": [
+        {
+          "name": "Baks",
+          "team": 1,
+          "clan": "Pengy"
+        },
+        {
+          "name": "tzonny97",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "ProLeagueEnthusiast",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "Unknown12z",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Breach_v_ConsciouslyEating_on_Acadia (1).json",
       "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Breach_v_ConsciouslyEating_on_Acadia (1).json",
       "file_date": "2026-05-27T16:25:00.000Z",
@@ -28910,6 +28961,37 @@
       }
     },
     {
+      "filename": "Satocastor_v_ConsciouslyEating_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Satocastor_v_ConsciouslyEating_on_Ravaged (1).json",
+      "file_date": "2026-05-16T11:30:48Z",
+      "file_size": 274807,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Satocastor_v_DragonArcherZ_on_Ravaged(59.json",
       "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Satocastor_v_DragonArcherZ_on_Ravaged(59.json",
       "file_date": "2026-05-17T12:40:14.000Z",
@@ -28925,6 +29007,37 @@
           "name": "DragonArcherZ",
           "team": 2,
           "clan": "TZ"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Satocastor_v_bScherm_on_Ravaged.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/Satocastor_v_bScherm_on_Ravaged.json",
+      "file_date": "2026-05-18T19:56:56Z",
+      "file_size": 938560,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "bScherm",
+          "team": 2,
+          "clan": "beep"
         }
       ],
       "game_version": "5.4.0",
@@ -29803,6 +29916,223 @@
           "name": "ConsciouslyEating",
           "team": 2,
           "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "_Maru__v_DieTrying_on_Mirrored Mire LE.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/_Maru__v_DieTrying_on_Mirrored Mire LE.json",
+      "file_date": "2026-05-12T19:50:36Z",
+      "file_size": 777176,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "_Maru_",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DieTrying",
+          "team": 2,
+          "clan": "SMURF"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "_Maru__v_DieTrying_on_Xenos.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/_Maru__v_DieTrying_on_Xenos.json",
+      "file_date": "2026-05-12T19:50:33Z",
+      "file_size": 359000,
+      "map": "Xenos",
+      "players": [
+        {
+          "name": "_Maru_",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DieTrying",
+          "team": 2,
+          "clan": "SMURF"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Little Ohana (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/bScherm_v_ConsciouslyEating_on_Little Ohana (1).json",
+      "file_date": "2026-05-05T20:55:04Z",
+      "file_size": 409095,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Little Ohana.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/bScherm_v_ConsciouslyEating_on_Little Ohana.json",
+      "file_date": "2026-05-05T20:54:57Z",
+      "file_size": 432751,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Ravaged (1).json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/bScherm_v_ConsciouslyEating_on_Ravaged (1).json",
+      "file_date": "2026-05-21T15:04:42Z",
+      "file_size": 849527,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Silent Fjord.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/bScherm_v_ConsciouslyEating_on_Silent Fjord.json",
+      "file_date": "2026-05-05T20:54:35Z",
+      "file_size": 143706,
+      "map": "Silent Fjord",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": true,
+        "tournament_path": "ce_replay_folder/CE Replay Folder/draft prep proleague s9",
+        "tournament_name": "Pro League",
+        "tournament_type": "Pro League",
+        "season": "9",
+        "week": null,
+        "stage": "Draft Prep",
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_Satocastor_on_Silent Fjord.json",
+      "url": "ce_replay_folder/CE Replay Folder/draft prep proleague s9/bScherm_v_Satocastor_on_Silent Fjord.json",
+      "file_date": "2026-05-05T20:54:39Z",
+      "file_size": 156795,
+      "map": "Silent Fjord",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
         }
       ],
       "game_version": "5.4.0",
