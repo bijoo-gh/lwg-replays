@@ -16,8 +16,10 @@ PREFIX="ce_replay_folder/CE Replay Folder"
 TARGET="$REPLAYS_ROOT/$PREFIX"
 mkdir -p "$TARGET"
 
-echo "=== Syncing $REMOTE -> $TARGET ==="
-rclone --config="$RCLONE_CONFIG" sync "$REMOTE" "$TARGET" \
+# copy, never sync: the collection is append-only. Replays deleted from the
+# Drive folder stay on the site (their dates live on in the manifest).
+echo "=== Copying $REMOTE -> $TARGET ==="
+rclone --config="$RCLONE_CONFIG" copy "$REMOTE" "$TARGET" \
     --exclude ".DS_Store" --verbose
 
 echo "=== Building sync manifest ==="
@@ -26,6 +28,6 @@ trap 'rm -f "$LISTING"' EXIT
 rclone --config="$RCLONE_CONFIG" lsjson -R --files-only \
     --exclude ".DS_Store" "$REMOTE" > "$LISTING"
 python3 "$WORKSPACE/.github/gha_scripts/build_manifest.py" \
-    "$MANIFEST" "$REMOTE" "$PREFIX" "$LISTING"
+    "$MANIFEST" "$REPLAYS_ROOT" "$REMOTE" "$PREFIX" "$LISTING"
 
 echo "Synced $(find "$TARGET" -type f | wc -l) files"

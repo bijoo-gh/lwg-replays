@@ -7,6 +7,7 @@ git add -A docs/replays
 # index minus that line actually changed.
 CHANGED=false
 git diff --cached --quiet -- "docs/replays/ce_replay_folder" || CHANGED=true
+git diff --cached --quiet -- "docs/replays/.sync-manifest.json" || CHANGED=true
 git diff --cached --quiet -I '"timestamp":' -- docs/replays/index.json || CHANGED=true
 
 if [ "$CHANGED" = false ]; then
