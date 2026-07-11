@@ -287,53 +287,88 @@ td.col-date { white-space: nowrap; font-variant-numeric: tabular-nums; }
 td.col-size { white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right; }
 th.col-size { text-align: right; }
 
-/* ---------- SearchPanes restyle ---------- */
-.dtsp-panesContainer { margin: 0 0 12px; }
-.dtsp-title { color: var(--text-secondary); }
-.dtsp-titleRow { padding: 4px 0; background: transparent; border: 0; }
-.dtsp-titleRow button.dtsp-clearAll,
-.dtsp-titleRow button.dtsp-collapseAll,
-.dtsp-titleRow button.dtsp-showAll {
-    color: var(--accent-ink);
-    background: transparent;
+/* ---------- SearchPanes restyle ----------
+   The vendor stylesheet qualifies selectors with elements
+   (div.dtsp-searchPane div.dataTables_wrapper …), so overrides must match
+   or exceed that specificity — plain .class chains silently lose. */
+div.dtsp-panesContainer { margin: 0 0 12px; }
+div.dtsp-searchPanes { margin-top: 4px; gap: 10px; }
+div.dtsp-title { color: var(--text-secondary); }
+div.dtsp-titleRow { padding: 4px 0; background: transparent !important; border: 0; }
+div.dtsp-titleRow button.dtsp-clearAll,
+div.dtsp-titleRow button.dtsp-collapseAll,
+div.dtsp-titleRow button.dtsp-showAll {
+    color: var(--accent-ink) !important;
+    background: transparent !important;
     border: 0;
     cursor: pointer;
+    opacity: 1;
 }
-.dtsp-searchPanes { margin-top: 4px; gap: 10px; }
-.dtsp-searchPane {
+div.dtsp-searchPane {
     min-width: 180px !important;
     background: var(--surface-1);
     border: 1px solid var(--border) !important;
     border-radius: 10px;
     overflow: hidden;
 }
-.dtsp-searchPane .dataTables_wrapper { border: 0 !important; }
-.dtsp-searchPane .dataTables_scrollBody { background: var(--surface-1); }
-.dtsp-searchPane table.dataTable tbody td {
-    color: var(--text-secondary);
+div.dtsp-searchPane div.dataTables_wrapper,
+div.dtsp-searchPane div.dataTables_scrollBody,
+div.dtsp-searchPane table.dataTable {
+    background: var(--surface-1) !important;
+    border: 0 !important;
+}
+div.dtsp-searchPane table.dataTable tbody tr,
+div.dtsp-searchPane table.dataTable tbody td {
+    background: transparent !important;
+    color: var(--text-secondary) !important;
     font-size: 13px;
     border: 0;
-    padding: 6px 10px;
 }
-.dtsp-searchPane table.dataTable tbody tr.selected,
-.dtsp-searchPane table.dataTable tbody tr.selected td {
+div.dtsp-searchPane table.dataTable tbody td { padding: 6px 10px; }
+div.dtsp-searchPane table.dataTable tbody tr:hover,
+div.dtsp-searchPane table.dataTable tbody tr:hover td {
+    background: var(--surface-2) !important;
+}
+div.dtsp-searchPane table.dataTable tbody tr.selected,
+div.dtsp-searchPane table.dataTable tbody tr.selected td,
+div.dtsp-searchPane table.dataTable tbody > tr.selected > * {
     background: var(--accent-wash) !important;
     color: var(--accent-ink) !important;
     box-shadow: none !important;
 }
-.dtsp-searchPane .dtsp-pill {
-    background: var(--surface-2);
-    color: var(--text-secondary);
-    border: 0;
+div.dtsp-searchPane span.dtsp-pill,
+div.dtsp-searchPane div.dtsp-nameCont span.dtsp-pill {
+    background: var(--surface-2) !important;
+    color: var(--text-secondary) !important;
+    border: 0 !important;
     border-radius: 999px;
 }
-.dtsp-searchPane .dtsp-topRow {
+div.dtsp-searchPane div.dtsp-topRow {
+    background: transparent !important;
     border: 0 !important;
     border-bottom: 1px solid var(--gridline) !important;
     border-radius: 0;
 }
-.dtsp-searchPane input.dtsp-search { border: 0; background: transparent; }
-.dtsp-searchPane button { background: transparent; color: var(--text-muted); }
+div.dtsp-searchPane input.dtsp-search,
+div.dtsp-searchPane div.dtsp-topRow input {
+    border: 0 !important;
+    background: transparent !important;
+    color: var(--text-primary) !important;
+}
+div.dtsp-searchPane input.dtsp-search::placeholder { color: var(--text-muted); }
+div.dtsp-searchPane button {
+    background: transparent !important;
+    color: var(--text-muted);
+}
+/* the vendor search/collapse icons are dark PNGs — invert them in dark mode */
+@media (prefers-color-scheme: dark) {
+    div.dtsp-searchPane button.dtsp-searchIcon span,
+    div.dtsp-searchPane button.dtsp-paneButton span,
+    div.dtsp-searchPanes button span,
+    div.dtsp-titleRow button span {
+        filter: invert(0.7);
+    }
+}
 
 /* ---------- modal ---------- */
 .modal-overlay {
