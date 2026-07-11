@@ -1,46 +1,103 @@
 class ReplayBrowser {
     constructor() {
         this.table = null;
+        this.timeline = null;
+        this.dateRange = null;          // {a: 'YYYY-MM', b: 'YYYY-MM'} inclusive
         this.downloadQueue = [];
         this.isDownloading = false;
         this.playersArray = [];
+        this.totals = { count: 0, size: 0 };
         this.init();
     }
 
     async init() {
         try {
             const unique = Math.floor(new Date().getTime() / (1000 * 60)); // Once a minute
-            const response = await fetch('replays/index.json' + '?unique='+unique);
+            const response = await fetch('replays/index.json' + '?unique=' + unique);
             const data = await response.json();
 
-            // Update collection date in the banner
             if (data.collection_info?.timestamp) {
                 const collectionDate = new Date(data.collection_info.timestamp).toISOString().split('T')[0];
                 document.getElementById('collection-date').textContent = collectionDate;
             }
+            this.totals = {
+                count: data.replays.length,
+                size: data.replays.reduce((s, r) => s + (r.file_size || 0), 0),
+            };
 
-            // Prepare unique players using only player names
+            // Unique player names for the custom SearchPane
             const uniquePlayers = new Set();
             data.replays.forEach(replay => {
-                replay.players.forEach(player => {
-                    uniquePlayers.add(player.name);  // Use only the player name
-                });
+                replay.players.forEach(player => uniquePlayers.add(player.name));
             });
             this.playersArray = Array.from(uniquePlayers).sort();
 
+            this.setupDateRangeFilter();
             await this.initializeDataTable(data.replays);
+            this.setupTimeline(data.replays);
             this.setupEventListeners();
-            this.loadStateFromUrl();
         } catch (error) {
             console.error('Failed to load replay data:', error);
             this.showError('Failed to load replay data. Please try again later.');
         }
     }
 
+    /* The timeline brush filters the table through this predicate. */
+    setupDateRangeFilter() {
+        $.fn.dataTable.ext.search.push((settings, data, dataIndex, rowData) => {
+            if (settings.nTable.id !== 'replays-table') return true;
+            if (!this.dateRange || !rowData.file_date) return true;
+            const ym = rowData.file_date.slice(0, 7);
+            return ym >= this.dateRange.a && ym <= this.dateRange.b;
+        });
+    }
+
+    setupTimeline(replays) {
+        const container = document.getElementById('timeline');
+        this.timeline = new ActivityTimeline(container, replays, (a, b) => {
+            this.dateRange = a ? { a, b } : null;
+            this.updateRangeIndicator();
+            this.updateRangeHash();
+            this.table.draw();
+        });
+        document.getElementById('range-clear').addEventListener('click', () => {
+            this.timeline.clear();
+        });
+
+        // restore a shared link like #range=2025-01:2025-06
+        const m = location.hash.match(/range=(\d{4}-\d{2}):(\d{4}-\d{2})/);
+        if (m) this.timeline.setRange(m[1], m[2]);
+    }
+
+    updateRangeHash() {
+        const url = this.dateRange
+            ? `#range=${this.dateRange.a}:${this.dateRange.b}`
+            : location.pathname + location.search;
+        history.replaceState(null, '', url);
+    }
+
+    updateRangeIndicator() {
+        const box = document.getElementById('range-indicator');
+        const text = document.getElementById('range-text');
+        if (!this.dateRange) {
+            box.classList.add('hidden');
+            return;
+        }
+        const label = ym => {
+            const [y, m] = ym.split('-');
+            return new Date(Number(y), Number(m) - 1, 1)
+                .toLocaleString('en', { month: 'short' }) + ' ' + y;
+        };
+        text.textContent = this.dateRange.a === this.dateRange.b
+            ? label(this.dateRange.a)
+            : `${label(this.dateRange.a)} – ${label(this.dateRange.b)}`;
+        box.classList.remove('hidden');
+    }
+
     initializeDataTable(replays) {
-        var that = this
+        var that = this;
         this.table = $('#replays-table').DataTable({
-            createdRow: function(row, data, dataIndex) {
+            createdRow: function (row, data) {
                 $(row).attr('title', data.filename);
             },
             data: replays,
@@ -48,19 +105,17 @@ class ReplayBrowser {
             searchPanes: {
                 cascadePanes: true,
                 viewTotal: true,
-                layout: 'columns-5',  // Adjust the layout as needed
+                layout: 'columns-5',
                 clear: true,
                 controls: false,
                 initCollapsed: false,
                 orderable: false,
                 panes: [
-                    // Custom 'Player' Pane
                     {
                         header: 'Player',
                         options: this.playersArray.map(player => ({
                             label: player,
-                            value: function(rowData) {
-                                // Compare using only the player name
+                            value: function (rowData) {
                                 return rowData.players.some(p => p.name === player);
                             }
                         }))
@@ -71,50 +126,42 @@ class ReplayBrowser {
             columns: [
                 {
                     data: 'file_date',
+                    className: 'col-date',
                     render: {
-                        _: function(data) {
-                            return new Date(data).toISOString().split('T')[0]; // YYYY-MM-DD format
-                        },
-                        display: function(data) {
-                            return new Date(data).toISOString().split('T')[0];
-                        },
-                        sort: function(data) {
-                            return new Date(data).getTime();
-                        },
-                        filter: function(data) {
-                            return new Date(data).getTime();
-                        }
+                        _: data => (data || '').slice(0, 10),
+                        sort: data => data || '',
+                        filter: data => (data || '').slice(0, 10),
                     },
-                    type: 'num'
+                    type: 'string'
                 },
                 {
                     data: 'map',
-                    searchPanes: {
-                        show: true
-                    }
+                    searchPanes: { show: true }
                 },
                 {
                     data: 'players',
-                    render: function(data, type, row) {
-                        let playerNames = data.map(p =>
+                    render: function (data) {
+                        return data.map(p =>
                             p.clan ? `${p.name} [${p.clan}]` : p.name
                         ).join(' vs ');
-                        return playerNames;
                     }
-                    // No automatic SearchPane for this column
                 },
                 {
-                    data: function(row) {
+                    data: function (row) {
                         return (row.tournament_info && row.tournament_info.tournament_type) || '';
                     },
                     defaultContent: '',
-                    searchPanes: {
-                        show: true
-                    },
-                    render: function(data, type, row) {
-                        if (!data) return '';
+                    searchPanes: { show: true },
+                    render: function (data, type, row) {
+                        // Casual games get a real label instead of a blank
+                        if (!data) {
+                            return (type === 'display')
+                                ? '<span class="tournament-badge default">Casual</span>'
+                                : 'Casual';
+                        }
                         const className = that.getTournamentClassName(data);
-                        const season = row.tournament_info && row.tournament_info.season ? ` S${row.tournament_info.season}` : '';
+                        const season = row.tournament_info && row.tournament_info.season
+                            ? ` S${row.tournament_info.season}` : '';
                         if (type === 'display') {
                             return `<span class="tournament-badge ${className}">${data}${season}</span>`;
                         }
@@ -122,44 +169,33 @@ class ReplayBrowser {
                     }
                 },
                 {
-                    data: function(row) {
+                    data: function (row) {
                         let data = row.tournament_info || {};
                         if (data.week) {
                             const weekMatch = data.week.toString().match(/week\s*(\d+)/i);
-                            if (weekMatch) {
-                                return `Week ${weekMatch[1]}`;
-                            } else {
-                                return `Week ${data.week}`;
-                            }
+                            return weekMatch ? `Week ${weekMatch[1]}` : `Week ${data.week}`;
                         } else if (data.stage) {
-                            if (data.stage.toLowerCase().includes('group stage')) {
-                                return 'Group Stage';
-                            } else {
-                                return data.stage;
-                            }
+                            return data.stage;
                         } else if (data.group) {
                             const groupMatch = data.group.match(/group\s*([a-d])/i);
-                            if (groupMatch) {
-                                return `Group ${groupMatch[1].toUpperCase()}`;
-                            } else {
-                                return data.group;
-                            }
+                            return groupMatch ? `Group ${groupMatch[1].toUpperCase()}` : data.group;
                         }
                         return '';
                     },
                     type: 'string',
-                    searchPanes: {
-                        show: true
+                    searchPanes: { show: true, orthogonal: 'sp' },
+                    render: function (data, type) {
+                        if (type === 'sp') return data || '(none)';
+                        return data;
                     }
                 },
                 {
                     data: 'game_version',
-                    searchPanes: {
-                        show: true
-                    }
+                    searchPanes: { show: true }
                 },
                 {
                     data: 'file_size',
+                    className: 'col-size',
                     render: {
                         _: (data) => this.formatFileSize(data),
                         sort: (data) => data,
@@ -169,13 +205,14 @@ class ReplayBrowser {
                 },
                 {
                     data: 'url',
+                    orderable: false,
                     render: (data) => `
                         <button class="download-button" onclick="browser.downloadReplay('${data}')">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                             </svg>
-                            Download
+                            .lwg
                         </button>`
                 }
             ],
@@ -197,38 +234,28 @@ class ReplayBrowser {
             'Pro League': 'pro-league',
             'Closed Event Cup': 'cup',
             'Global League': 'global-league',
-            'Showmatch': 'showmatch'
+            'LWG500': 'lwg500',
         };
         return classMap[type] || 'default';
     }
 
     formatFileSize(bytes) {
-        if (bytes === 0) return '0 B';
+        if (!bytes) return '0 B';
         const k = 1024;
         const sizes = ['B', 'KB', 'MB', 'GB'];
         const i = Math.floor(Math.log(bytes) / Math.log(k));
-        return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
+        return `${parseFloat((bytes / Math.pow(k, i)).toFixed(1))} ${sizes[i]}`;
     }
 
     setupEventListeners() {
         document.getElementById('download-filtered').addEventListener('click', () => {
             this.downloadFilteredReplays();
         });
-
         document.getElementById('cancel-download')?.addEventListener('click', () => {
             this.cancelDownload();
         });
-
-        this.table.on('stateLoaded search.dt', () => {
-            this.updateFilteredStats();
-            this.saveStateToUrl();
-        });
-
-        window.addEventListener('popstate', (event) => {
-            if (event.state) {
-                this.loadState(event.state);
-            }
-        });
+        this.table.on('draw.dt', () => this.updateFilteredStats());
+        this.updateFilteredStats();
     }
 
     updateFilteredStats() {
@@ -238,54 +265,27 @@ class ReplayBrowser {
 
         document.getElementById('filtered-count').textContent = filteredData.length;
         document.getElementById('filtered-size').textContent = `${sizeMB} MB`;
-    }
 
-    saveStateToUrl() {
-        // disable this for now
-        if (true) {
-            return;
-        }
-        const state = this.table.state.loaded();
-        if (!state) return;
-
-        const urlState = {
-            search: state.search.search,
-            searchPanes: state.searchPanes
-        };
-
-        const stateStr = btoa(JSON.stringify(urlState));
-        const newUrl = `${window.location.pathname}?state=${stateStr}`;
-        window.history.pushState(state, '', newUrl);
-    }
-
-    loadStateFromUrl() {
-        const params = new URLSearchParams(window.location.search);
-        const stateStr = params.get('state');
-
-        if (stateStr) {
-            try {
-                const state = JSON.parse(atob(stateStr));
-                this.loadState(state);
-            } catch (e) {
-                console.error('Failed to load state from URL:', e);
-            }
-        }
-    }
-
-    loadState(state) {
-        if (!state) return;
-
-        if (state.search) {
-            this.table.search(state.search);
-        }
-
-        if (state.searchPanes) {
-            this.table.searchPanes.clearSelections();
-            this.table.searchPanes.stateRestore(state.searchPanes);
-        }
-
-        this.table.draw();
-        this.updateFilteredStats();
+        // stat tiles reflect the current filter slice
+        const players = new Set();
+        const maps = new Set();
+        filteredData.forEach(r => {
+            r.players.forEach(p => players.add(p.name));
+            if (r.map) maps.add(r.map);
+        });
+        const filtered = filteredData.length !== this.totals.count;
+        document.getElementById('stat-replays').textContent =
+            filteredData.length.toLocaleString();
+        document.getElementById('stat-replays-sub').textContent =
+            filtered ? `of ${this.totals.count.toLocaleString()}` : '';
+        document.getElementById('stat-size').textContent =
+            totalSize >= 1024 * 1024 * 1024
+                ? `${(totalSize / 1073741824).toFixed(2)} GB`
+                : `${Math.round(totalSize / 1048576)} MB`;
+        document.getElementById('stat-players').textContent =
+            players.size.toLocaleString();
+        document.getElementById('stat-maps').textContent =
+            maps.size.toLocaleString();
     }
 
     async downloadFilteredReplays() {
@@ -391,11 +391,10 @@ class ReplayBrowser {
     updateDownloadProgress(current, total) {
         document.getElementById('download-current').textContent = current;
         const percentage = (current / total) * 100;
-        document.querySelector('#download-progress .bg-blue-600').style.width = `${percentage}%`;
+        document.querySelector('#download-progress .progress-fill').style.width = `${percentage}%`;
     }
 
     showError(message) {
         alert(message);
     }
 }
-

@@ -4,147 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LWG Replays</title>
-    
+    <meta name="description" content="Little War Game replay archive — browse, filter and download tournament and ladder replays.">
+    <meta name="color-scheme" content="light dark">
+
     <!-- DataTables CSS -->
     <link href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/searchpanes/2.2.0/css/searchPanes.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/select/1.7.0/css/select.dataTables.min.css" rel="stylesheet">
-    <link href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css" rel="stylesheet">
-    
-    <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Custom CSS -->
+
+    <!-- Site CSS (loads after DataTables so the token theme wins) -->
     <link href="css/styles.css" rel="stylesheet">
-    
+
     <!-- Required JS -->
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/searchpanes/2.2.0/js/dataTables.searchPanes.min.js"></script>
     <script src="https://cdn.datatables.net/select/1.7.0/js/dataTables.select.min.js"></script>
-    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
-<body class="bg-gray-50">
-    <!-- Attribution Banner -->
-    <div id="attribution-banner" class="bg-blue-50 border-b border-blue-100">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex items-center justify-between">
-                <div class="flex items-center">
-                    <div class="text-sm text-blue-700">
-                        Replays collected by ConsciouslyEating 
-                        <span class="text-gray-600">(last updated: <span id="collection-date">-</span>)</span>
-                        - 
-                        <a href="https://drive.google.com/drive/folders/1AeRCATKwpiD87BxAnOpwRZca-IMtg6ED" 
-                           class="underline hover:text-blue-800"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            Original collection
-                        </a>
-                        |
-                        <a href="https://littlewargame.com/play/" 
-                           class="underline hover:text-blue-800">
-                            Play LWG
-                        </a>
-                    </div>
+<body>
+    <header class="site-header">
+        <div class="wrap header-row">
+            <div>
+                <h1>LWG Replays</h1>
+                <p class="site-sub">
+                    Little War Game replay archive · collected by ConsciouslyEating ·
+                    updated <span id="collection-date">–</span>
+                </p>
+            </div>
+            <nav class="header-links">
+                <a href="https://drive.google.com/drive/folders/1AeRCATKwpiD87BxAnOpwRZca-IMtg6ED"
+                   target="_blank" rel="noopener noreferrer">Original collection</a>
+                <a href="https://littlewargame.com/play/" target="_blank"
+                   rel="noopener noreferrer">Play LWG</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="stats-row" aria-label="Collection stats">
+            <div class="stat-tile">
+                <div class="stat-label">Replays</div>
+                <div class="stat-value" id="stat-replays">–</div>
+                <div class="stat-sub" id="stat-replays-sub"></div>
+            </div>
+            <div class="stat-tile">
+                <div class="stat-label">Total size</div>
+                <div class="stat-value" id="stat-size">–</div>
+                <div class="stat-sub"></div>
+            </div>
+            <div class="stat-tile">
+                <div class="stat-label">Players</div>
+                <div class="stat-value" id="stat-players">–</div>
+                <div class="stat-sub"></div>
+            </div>
+            <div class="stat-tile">
+                <div class="stat-label">Maps</div>
+                <div class="stat-value" id="stat-maps">–</div>
+                <div class="stat-sub"></div>
+            </div>
+        </section>
+
+        <section class="card chart-card">
+            <div class="chart-head">
+                <div>
+                    <h2>Games per month</h2>
+                    <p class="chart-sub">Drag across the chart to filter the table by date · click a month to select it</p>
                 </div>
-                <button onclick="dismissBanner()" class="text-blue-500 hover:text-blue-700">
-                    <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                <div id="range-indicator" class="range-indicator hidden">
+                    <span id="range-text"></span>
+                    <button id="range-clear" class="range-clear" type="button">Clear ×</button>
+                </div>
+            </div>
+            <div id="timeline"></div>
+        </section>
+
+        <section class="card table-card">
+            <div class="table-toolbar">
+                <div class="filtered-stats">
+                    Showing <strong id="filtered-count">0</strong> replays
+                    (<strong id="filtered-size">0 MB</strong>)
+                </div>
+                <button id="download-filtered" class="btn-primary" type="button">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
+                    Download filtered replays
                 </button>
             </div>
-        </div>
-    </div>
-
-    <div class="container mx-auto px-4 py-6">
-        <!-- Main Content -->
-        <div class="mb-6">
-            <h1 class="text-2xl font-bold text-gray-900">Little War Game Replays</h1>
-        </div>
-
-        <!-- Download All Button and Stats -->
-        <div class="mb-4 flex justify-between items-center">
-            <div class="text-sm text-gray-600 filtered-stats">
-                Filtered: <strong id="filtered-count">0</strong> replays 
-                (<strong id="filtered-size">0 MB</strong>)
+            <div class="table-scroll">
+                <table id="replays-table" class="w-full">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Map</th>
+                            <th>Players</th>
+                            <th>Tournament</th>
+                            <th>Stage</th>
+                            <th>Version</th>
+                            <th class="col-size">Size</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
             </div>
-            <button id="download-filtered" 
-                    class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
-                          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-                </svg>
-                Download Filtered Replays
-            </button>
-        </div>
+        </section>
+    </main>
 
-        <!-- DataTable -->
-        <div class="bg-white rounded-lg shadow-md p-4">
-<table id="replays-table" class="w-full">
-    <thead>
-        <tr>
-            <th>Date</th>
-            <th>Map</th>
-            <th>Players</th>
-            <th>Tournament</th>
-            <th>Stage</th>
-            <th>Version</th>
-            <th>Size</th>
-            <th>Download</th>
-        </tr>
-    </thead>
-</table>
+    <footer class="site-footer">
+        Replays belong to the LWG community ·
+        <a href="https://github.com/bijoo-gh/lwg-replays">Source on GitHub</a>
+    </footer>
 
-        </div>
-
-        <!-- Download Modal -->
-        <div id="download-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full">
-            <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
-                <div class="mt-3 text-center">
-                    <h3 class="text-lg leading-6 font-medium text-gray-900">Download Replays</h3>
-                    <div class="mt-2 px-7 py-3">
-                        <p class="text-sm text-gray-500">
-                            Preparing to download <span id="download-count">0</span> replays
-                            (<span id="download-size">0</span> MB)
-                        </p>
-                        <div id="download-progress" class="mt-4">
-                            <div class="w-full bg-gray-200 rounded-full h-2.5">
-                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
-                            </div>
-                            <p class="text-sm text-gray-600 mt-2">
-                                Processing: <span id="download-current">0</span>/<span id="download-total">0</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="items-center px-4 py-3">
-                        <button id="cancel-download" 
-                                class="px-4 py-2 bg-red-500 text-white text-base font-medium rounded-md shadow-sm hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300">
-                            Cancel
-                        </button>
-                    </div>
+    <!-- Download Modal -->
+    <div id="download-modal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <h3>Download replays</h3>
+            <p>
+                Preparing <span id="download-count">0</span> replays
+                (<span id="download-size">0</span> MB)
+            </p>
+            <div id="download-progress">
+                <div class="progress-track">
+                    <div class="progress-fill"></div>
                 </div>
+                <p>
+                    Processing: <span id="download-current">0</span>/<span id="download-total">0</span>
+                </p>
             </div>
+            <button id="cancel-download" class="btn-danger" type="button">Cancel</button>
         </div>
     </div>
 
+    <script src="js/timeline.js"></script>
     <script src="js/replayBrowser.js"></script>
     <script>
         let browser;
         document.addEventListener('DOMContentLoaded', () => {
             browser = new ReplayBrowser();
-            
-            if (localStorage.getItem('bannerDismissed')) {
-                document.getElementById('attribution-banner').style.display = 'none';
-            }
         });
-
-        function dismissBanner() {
-            const banner = document.getElementById('attribution-banner');
-            banner.style.display = 'none';
-            localStorage.setItem('bannerDismissed', 'true');
-        }
     </script>
 </body>
 </html>
-
