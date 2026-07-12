@@ -108,11 +108,15 @@ class ReplayBrowser {
                 layout: 'columns-5',
                 clear: true,
                 controls: false,
-                initCollapsed: false,
+                // On small screens the five panes would push the table several
+                // viewports down — start them collapsed there.
+                initCollapsed: window.matchMedia('(max-width: 720px)').matches,
                 orderable: false,
                 panes: [
                     {
                         header: 'Player',
+                        // most-active players first, not alphabetical
+                        dtOpts: { order: [[1, 'desc']] },
                         options: this.playersArray.map(player => ({
                             label: player,
                             value: function (rowData) {
@@ -127,6 +131,7 @@ class ReplayBrowser {
                 {
                     data: 'file_date',
                     className: 'col-date',
+                    responsivePriority: 1,
                     render: {
                         _: data => (data || '').slice(0, 10),
                         sort: data => data || '',
@@ -136,10 +141,12 @@ class ReplayBrowser {
                 },
                 {
                     data: 'map',
+                    responsivePriority: 5,
                     searchPanes: { show: true }
                 },
                 {
                     data: 'players',
+                    responsivePriority: 2,
                     render: function (data) {
                         return data.map(p =>
                             p.clan ? `${p.name} [${p.clan}]` : p.name
@@ -151,6 +158,7 @@ class ReplayBrowser {
                         return (row.tournament_info && row.tournament_info.tournament_type) || '';
                     },
                     defaultContent: '',
+                    responsivePriority: 4,
                     searchPanes: { show: true },
                     render: function (data, type, row) {
                         // Casual games get a real label instead of a blank
@@ -183,6 +191,7 @@ class ReplayBrowser {
                         return '';
                     },
                     type: 'string',
+                    responsivePriority: 6,
                     searchPanes: { show: true, orthogonal: 'sp' },
                     render: function (data, type) {
                         if (type === 'sp') return data || '(none)';
@@ -191,11 +200,13 @@ class ReplayBrowser {
                 },
                 {
                     data: 'game_version',
+                    responsivePriority: 8,
                     searchPanes: { show: true }
                 },
                 {
                     data: 'file_size',
                     className: 'col-size',
+                    responsivePriority: 7,
                     render: {
                         _: (data) => this.formatFileSize(data),
                         sort: (data) => data,
@@ -206,6 +217,7 @@ class ReplayBrowser {
                 {
                     data: 'url',
                     orderable: false,
+                    responsivePriority: 3,
                     render: (data) => `
                         <button class="download-button" onclick="browser.downloadReplay('${data}')">
                             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
