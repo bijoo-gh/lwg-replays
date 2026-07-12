@@ -2,8 +2,13 @@ name: Sync and Index Replays
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    # off the top of the hour: exact 00:00/12:00 UTC is GitHub's most
+    # congested cron slot and fired 1-2h late for this repo
+    - cron: '23 3,15 * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-replays.yml'
 
 permissions:
   contents: write
