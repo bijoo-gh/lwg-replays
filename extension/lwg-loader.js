@@ -123,6 +123,23 @@
     loadButton.click();
   }
 
+  // Playback never started. The most common reason is age: about a third of the
+  // archive was recorded on 4.x, and the current client does not appear able to
+  // start those (the map arrives and replay chat streams, but nothing renders).
+  // Say so rather than leaving a banner spinning.
+  function describeStall(replay) {
+    const clientVersion = ([...document.querySelectorAll('a')]
+        .map(a => a.textContent.trim()).find(t => /^\d+\.\d+\.\d+$/.test(t))) || null;
+    const major = (v) => parseInt(String(v).split('.')[0], 10);
+    if (replay.gameVersion && clientVersion &&
+        major(replay.gameVersion) < major(clientVersion)) {
+      return `the game did not start this replay -- it was recorded on ${replay.gameVersion} ` +
+             `and the game is now ${clientVersion}. Older replays often will not load.`;
+    }
+    return `the game did not start ${replay.map}` +
+           (replay.gameVersion ? ` (replay version ${replay.gameVersion})` : '');
+  }
+
   function replayNameFromUrl(url) {
     let name = 'replay.json';
     try {
@@ -151,24 +168,31 @@
       }
 
       // Loading a replay makes the game ask its server for the map, so the
-      // socket has to be up first -- acting too early only earns a Connection
-      // Error. The game shows #lobbyDiv exactly when it is connected and
-      // sitting in the lobby, which is the state we need.
-      // Do not gate on #NoConnectionWindow either. The game creates it from
-      // Network.send() whenever a send is attempted while disconnected --
-      // which is precisely what this loader did before it waited -- and it is
-      // never taken down again, so a page that has since connected fine still
-      // shows one. Its presence describes a past moment, not the state now.
+      // socket has to be up first -- sending early earns a Connection Error and
+      // no map ever arrives.
+      //
+      // Gate on the online player list having entries. It starts empty and is
+      // filled from server messages, so content there is proof of a live
+      // connection. #lobbyDiv being visible is NOT proof: it is shown by
+      // default before the first frame evaluates its condition, which is how
+      // 0.1.2 still managed to send too early. And #NoConnectionWindow is no
+      // use either -- the game never takes it down once created, so a page that
+      // has since connected fine still shows one.
       banner.show('Waiting for the game to connect…');
-      await waitFor(() => document.querySelector('#lobbyDiv')?.offsetParent || null,
+      await waitFor(() => (document.querySelector('#playersListOnline')?.children.length || 0) > 0
+                          && document.querySelector('#lobbyDiv')?.offsetParent || null,
                     CONNECT_TIMEOUT_MS);
 
       banner.show(`Loading ${replay.map}…`);
       const file = new File([text], replayNameFromUrl(url), { type: 'application/json' });
       await handOffToGame(file);
 
-      await waitFor(() => document.querySelector('#replayControlWindow')?.offsetParent || null,
-                    UI_TIMEOUT_MS);
+      try {
+        await waitFor(() => document.querySelector('#replayControlWindow')?.offsetParent || null,
+                      UI_TIMEOUT_MS);
+      } catch (err) {
+        throw new Error(describeStall(replay));
+      }
       banner.hide();
       hideLobbyDuringPlayback();
     } catch (err) {
