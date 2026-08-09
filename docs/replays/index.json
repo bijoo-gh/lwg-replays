@@ -1,8 +1,8 @@
 {
   "collection_info": {
-    "timestamp": "2026-08-08T20:40:00.108839",
-    "total_replays": 1070,
-    "total_size": 382781845,
+    "timestamp": "2026-08-08T21:13:21.299245",
+    "total_replays": 1150,
+    "total_size": 432068306,
     "skipped_files": 1
   },
   "replays": [
@@ -32257,6 +32257,139 @@
       }
     },
     {
+      "filename": "Baks_v_JZ07_v_guest_274757_v_Xizun_on_2vs2_Cloud_Kingdom.json",
+      "url": "discord_replays/Baks_v_JZ07_v_guest_274757_v_Xizun_on_2vs2_Cloud_Kingdom.json",
+      "file_date": "2026-01-21T20:50:15.000Z",
+      "file_size": 202721,
+      "map": "2vs2 Cloud Kingdom",
+      "players": [
+        {
+          "name": "Baks",
+          "team": 1,
+          "clan": "Pengy"
+        },
+        {
+          "name": "JZ07",
+          "team": 1,
+          "clan": "Xtrier"
+        },
+        {
+          "name": "guest_274757",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "Xizun",
+          "team": 2,
+          "clan": "PROL"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Baks_v_TryDying_v_SillyTooth_v_tzonny97_on_2vs2_Cloud_Kingdom.json",
+      "url": "discord_replays/Baks_v_TryDying_v_SillyTooth_v_tzonny97_on_2vs2_Cloud_Kingdom.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 449192,
+      "map": "2vs2 Cloud Kingdom",
+      "players": [
+        {
+          "name": "Baks",
+          "team": 1,
+          "clan": "Pengy"
+        },
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "SillyTooth",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "tzonny97",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Baks_v_avop3ia_v_1r0k_v_Xizun_v_guest_452315_v_guest_547470_on_BALANCED_3V3_cloud.json",
+      "url": "discord_replays/Baks_v_avop3ia_v_1r0k_v_Xizun_v_guest_452315_v_guest_547470_on_BALANCED_3V3_cloud.json",
+      "file_date": "2026-06-04T19:36:48.000Z",
+      "file_size": 3070232,
+      "map": "BALANCED 3V3 cloud",
+      "players": [
+        {
+          "name": "Baks",
+          "team": 1,
+          "clan": "Pengy"
+        },
+        {
+          "name": "avop3ia",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "1r0k",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "Xizun",
+          "team": 2,
+          "clan": "PROL"
+        },
+        {
+          "name": "guest_452315",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_547470",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Baks_v_mqcmqc_v_QWOP_ONE_v_guest_460228_on_Kingdom TD Arena.json",
       "url": "discord_replays/Baks_v_mqcmqc_v_QWOP_ONE_v_guest_460228_on_Kingdom TD Arena.json",
       "file_date": "2026-07-26T13:03:45.000Z",
@@ -32285,6 +32418,274 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Baks_v_tzonny97_v_AustriaNoob_v_ProLeagueEnthusiast_v_Xizun_v_Unknown12z_on_BALANCED_3V3_cloud.json",
+      "url": "discord_replays/Baks_v_tzonny97_v_AustriaNoob_v_ProLeagueEnthusiast_v_Xizun_v_Unknown12z_on_BALANCED_3V3_cloud.json",
+      "file_date": "2026-05-14T19:27:28.000Z",
+      "file_size": 1357167,
+      "map": "BALANCED 3V3 cloud",
+      "players": [
+        {
+          "name": "Baks",
+          "team": 1,
+          "clan": "Pengy"
+        },
+        {
+          "name": "tzonny97",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "AustriaNoob",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "ProLeagueEnthusiast",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "Unknown12z",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Blademaster_v_UVMatrix_on_Silent_Fjord.json",
+      "url": "discord_replays/Blademaster_v_UVMatrix_on_Silent_Fjord.json",
+      "file_date": "2026-04-02T09:13:42.000Z",
+      "file_size": 335885,
+      "map": "Silent Fjord",
+      "players": [
+        {
+          "name": "Blademaster",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "UVMatrix",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Breach_v_Xizun_on_Ravaged.json",
+      "url": "discord_replays/Breach_v_Xizun_on_Ravaged.json",
+      "file_date": "2026-05-21T07:37:33.000Z",
+      "file_size": 867364,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Breach",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Xizun",
+          "team": 2,
+          "clan": "PROL"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Computer_Custom_AI_1_on_Ravaged.json",
+      "url": "discord_replays/ConsciouslyEating_v_Computer_Custom_AI_1_on_Ravaged.json",
+      "file_date": "2026-03-20T23:23:22.000Z",
+      "file_size": 1084531,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Computer (Custom AI 1)",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_DragonArcherZ_on_Acadia.json",
+      "url": "discord_replays/ConsciouslyEating_v_DragonArcherZ_on_Acadia.json",
+      "file_date": "2026-05-02T16:05:25.000Z",
+      "file_size": 485661,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DragonArcherZ",
+          "team": 2,
+          "clan": "TZ"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_DragonArcherZ_on_Acadia_d05703.json",
+      "url": "discord_replays/ConsciouslyEating_v_DragonArcherZ_on_Acadia_d05703.json",
+      "file_date": "2026-05-02T16:02:59.000Z",
+      "file_size": 485194,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DragonArcherZ",
+          "team": 2,
+          "clan": "TZ"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_DragonArcherZ_on_Little_Ohana.json",
+      "url": "discord_replays/ConsciouslyEating_v_DragonArcherZ_on_Little_Ohana.json",
+      "file_date": "2026-05-02T16:05:25.000Z",
+      "file_size": 530899,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DragonArcherZ",
+          "team": 2,
+          "clan": "TZ"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_DragonArcherZ_on_Little_Ohana_d07647.json",
+      "url": "discord_replays/ConsciouslyEating_v_DragonArcherZ_on_Little_Ohana_d07647.json",
+      "file_date": "2026-05-02T16:02:59.000Z",
+      "file_size": 530888,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "DragonArcherZ",
+          "team": 2,
+          "clan": "TZ"
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -32360,6 +32761,130 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_Satocastor_on_Light_Shades_2.json",
+      "url": "discord_replays/ConsciouslyEating_v_Satocastor_on_Light_Shades_2.json",
+      "file_date": "2026-05-20T10:55:07.000Z",
+      "file_size": 201664,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Satocastor",
+          "team": 2,
+          "clan": "beep"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Sort_on_Light_Shades.json",
+      "url": "discord_replays/ConsciouslyEating_v_Sort_on_Light_Shades.json",
+      "file_date": "2026-05-20T10:55:07.000Z",
+      "file_size": 680444,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Sort",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Sort_on_Light_Shades_d16530.json",
+      "url": "discord_replays/ConsciouslyEating_v_Sort_on_Light_Shades_d16530.json",
+      "file_date": "2026-03-14T15:27:04.000Z",
+      "file_size": 183058,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Sort",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Sort_on_Mirrored_Mire_LE.json",
+      "url": "discord_replays/ConsciouslyEating_v_Sort_on_Mirrored_Mire_LE.json",
+      "file_date": "2026-03-14T15:27:04.000Z",
+      "file_size": 420086,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Sort",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_TheDarkRealm_v_mqcmqc_v_someremorse_v_Rai97_v_Unknown12z_on_Culture_Wars_UPDATED.json",
       "url": "discord_replays/ConsciouslyEating_v_TheDarkRealm_v_mqcmqc_v_someremorse_v_Rai97_v_Unknown12z_on_Culture_Wars_UPDATED.json",
       "file_date": "2026-07-11T12:45:07.000Z",
@@ -32398,6 +32923,68 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Xab_on_Darkwood_Hills_LE.json",
+      "url": "discord_replays/ConsciouslyEating_v_Xab_on_Darkwood_Hills_LE.json",
+      "file_date": "2026-05-02T16:02:59.000Z",
+      "file_size": 81956,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Xab",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_Xab_on_Springtime_1.json",
+      "url": "discord_replays/ConsciouslyEating_v_Xab_on_Springtime_1.json",
+      "file_date": "2026-05-02T16:02:59.000Z",
+      "file_size": 94148,
+      "map": "Springtime",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Xab",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -32628,6 +33215,274 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_icomefromsc_on_Dragon_Isle.json",
+      "url": "discord_replays/ConsciouslyEating_v_icomefromsc_on_Dragon_Isle.json",
+      "file_date": "2026-04-11T03:19:01.000Z",
+      "file_size": 36201,
+      "map": "Dragon Isle",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DieTrying_v_RumHam_on_Icecold_LE.json",
+      "url": "discord_replays/DieTrying_v_RumHam_on_Icecold_LE.json",
+      "file_date": "2026-03-18T22:48:14.000Z",
+      "file_size": 168830,
+      "map": "Icecold LE",
+      "players": [
+        {
+          "name": "DieTrying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "RumHam",
+          "team": 2,
+          "clan": "DEN"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DieTrying_v_RumHam_on_Ravaged.json",
+      "url": "discord_replays/DieTrying_v_RumHam_on_Ravaged.json",
+      "file_date": "2026-03-18T22:48:14.000Z",
+      "file_size": 502520,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "DieTrying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "RumHam",
+          "team": 2,
+          "clan": "DEN"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DinoDieno_v_smhdmc_v_0ld5oul_v_CASTOR_v_guest_380730_v_guest_922778_on_Friends_3v3.json",
+      "url": "discord_replays/DinoDieno_v_smhdmc_v_0ld5oul_v_CASTOR_v_guest_380730_v_guest_922778_on_Friends_3v3.json",
+      "file_date": "2026-04-19T21:43:35.000Z",
+      "file_size": 3248687,
+      "map": "Friends 3v3",
+      "players": [
+        {
+          "name": "DinoDieno",
+          "team": 1,
+          "clan": "Syn"
+        },
+        {
+          "name": "smhdmc",
+          "team": 1,
+          "clan": "TURK1"
+        },
+        {
+          "name": "0ld5oul",
+          "team": 1,
+          "clan": "Light"
+        },
+        {
+          "name": "CASTOR",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "guest_380730",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "guest_922778",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_ConsciouslyEating_on_Acadia.json",
+      "url": "discord_replays/DragonArcherZ_v_ConsciouslyEating_on_Acadia.json",
+      "file_date": "2026-05-02T16:05:25.000Z",
+      "file_size": 283691,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_ConsciouslyEating_on_Acadia_d45654.json",
+      "url": "discord_replays/DragonArcherZ_v_ConsciouslyEating_on_Acadia_d45654.json",
+      "file_date": "2026-05-02T16:02:59.000Z",
+      "file_size": 283680,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_ConsciouslyEating_on_Darkwood_Hills_LE.json",
+      "url": "discord_replays/DragonArcherZ_v_ConsciouslyEating_on_Darkwood_Hills_LE.json",
+      "file_date": "2026-05-02T16:05:25.000Z",
+      "file_size": 204259,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_ConsciouslyEating_on_Darkwood_Hills_LE_d17807.json",
+      "url": "discord_replays/DragonArcherZ_v_ConsciouslyEating_on_Darkwood_Hills_LE_d17807.json",
+      "file_date": "2026-05-02T16:02:59.000Z",
+      "file_size": 204249,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "DragonArcherZ_v_GUINNESS_on_Ravaged.json",
       "url": "discord_replays/DragonArcherZ_v_GUINNESS_on_Ravaged.json",
       "file_date": "2026-06-26T18:54:10.000Z",
@@ -32646,6 +33501,264 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_Highdra_x_on_Acadia.json",
+      "url": "discord_replays/DragonArcherZ_v_Highdra_x_on_Acadia.json",
+      "file_date": "2026-05-02T16:05:25.000Z",
+      "file_size": 915062,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_Highdra_x_on_Darkwood_Hills_LE.json",
+      "url": "discord_replays/DragonArcherZ_v_Highdra_x_on_Darkwood_Hills_LE.json",
+      "file_date": "2026-05-02T16:05:25.000Z",
+      "file_size": 458850,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_Highdra_x_on_Darkwood_Hills_LE_d67736.json",
+      "url": "discord_replays/DragonArcherZ_v_Highdra_x_on_Darkwood_Hills_LE_d67736.json",
+      "file_date": "2026-05-02T16:02:59.000Z",
+      "file_size": 458850,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "Highdra_x",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_itzJ_v_Sort_v_ConsciouslyEating_on_City_of_Perils.json",
+      "url": "discord_replays/DragonArcherZ_v_itzJ_v_Sort_v_ConsciouslyEating_on_City_of_Perils.json",
+      "file_date": "2026-03-14T15:27:04.000Z",
+      "file_size": 1048827,
+      "map": "City of Perils",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "itzJ",
+          "team": 2,
+          "clan": "BestOf"
+        },
+        {
+          "name": "Sort",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Ener_v_guest_670323_on_Light_Shades.json",
+      "url": "discord_replays/Ener_v_guest_670323_on_Light_Shades.json",
+      "file_date": "2026-04-07T20:13:52.000Z",
+      "file_size": 346052,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Ener",
+          "team": 1,
+          "clan": "Xtrier"
+        },
+        {
+          "name": "guest_670323",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Haffey_v_icomefromsc_on_Light_Shades.json",
+      "url": "discord_replays/Haffey_v_icomefromsc_on_Light_Shades.json",
+      "file_date": "2026-04-11T03:19:01.000Z",
+      "file_size": 153937,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Haffey",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Haffey_v_icomefromsc_on_Xenos.json",
+      "url": "discord_replays/Haffey_v_icomefromsc_on_Xenos.json",
+      "file_date": "2026-04-11T03:19:01.000Z",
+      "file_size": 151351,
+      "map": "Xenos",
+      "players": [
+        {
+          "name": "Haffey",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Neagat_v_ConsciouslyEating_on_Light_Shades.json",
+      "url": "discord_replays/Neagat_v_ConsciouslyEating_on_Light_Shades.json",
+      "file_date": "2026-05-20T10:55:07.000Z",
+      "file_size": 1284565,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "Neagat",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -32721,6 +33834,68 @@
       }
     },
     {
+      "filename": "RumHam_v_DieTrying_on_Icecold_LE.json",
+      "url": "discord_replays/RumHam_v_DieTrying_on_Icecold_LE.json",
+      "file_date": "2026-03-18T22:48:14.000Z",
+      "file_size": 501034,
+      "map": "Icecold LE",
+      "players": [
+        {
+          "name": "RumHam",
+          "team": 1,
+          "clan": "DEN"
+        },
+        {
+          "name": "DieTrying",
+          "team": 2,
+          "clan": "SMURF"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "SatCitAnanda_v_icomefromsc_on_King_Seyong_Station.json",
+      "url": "discord_replays/SatCitAnanda_v_icomefromsc_on_King_Seyong_Station.json",
+      "file_date": "2026-05-28T00:06:09.000Z",
+      "file_size": 138429,
+      "map": "King Seyong Station",
+      "players": [
+        {
+          "name": "SatCitAnanda",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Satocastor_v_crayon_on_Ravaged (3).json",
       "url": "discord_replays/Satocastor_v_crayon_on_Ravaged (3).json",
       "file_date": "2026-07-30T08:52:32.000Z",
@@ -32739,6 +33914,626 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Sort_v_LucrativeGalbani_on_Ravaged.json",
+      "url": "discord_replays/Sort_v_LucrativeGalbani_on_Ravaged.json",
+      "file_date": "2026-01-27T00:03:25.000Z",
+      "file_size": 640216,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Sort",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "LucrativeGalbani",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheDarkRealm_v_TheFighter_on_Icecold_LE.json",
+      "url": "discord_replays/TheDarkRealm_v_TheFighter_on_Icecold_LE.json",
+      "file_date": "2026-03-13T14:26:57.000Z",
+      "file_size": 898344,
+      "map": "Icecold LE",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "TheFighter",
+          "team": 2,
+          "clan": "PWS"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheDarkRealm_v_icomefromsc_on_Little_Ohana.json",
+      "url": "discord_replays/TheDarkRealm_v_icomefromsc_on_Little_Ohana.json",
+      "file_date": "2026-04-11T02:06:56.000Z",
+      "file_size": 206066,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheDarkRealm_v_icomefromsc_on_Silent_Fjord.json",
+      "url": "discord_replays/TheDarkRealm_v_icomefromsc_on_Silent_Fjord.json",
+      "file_date": "2026-04-11T03:19:01.000Z",
+      "file_size": 517042,
+      "map": "Silent Fjord",
+      "players": [
+        {
+          "name": "TheDarkRealm",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheFighter_v_LucrativeGalbani_on_Cursed_Temple.json",
+      "url": "discord_replays/TheFighter_v_LucrativeGalbani_on_Cursed_Temple.json",
+      "file_date": "2026-04-13T00:24:51.000Z",
+      "file_size": 663882,
+      "map": "Cursed Temple",
+      "players": [
+        {
+          "name": "TheFighter",
+          "team": 1,
+          "clan": "PWS"
+        },
+        {
+          "name": "LucrativeGalbani",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheFighter_v_TheDarkRealm_on_Little_Ohana.json",
+      "url": "discord_replays/TheFighter_v_TheDarkRealm_on_Little_Ohana.json",
+      "file_date": "2026-03-13T14:26:57.000Z",
+      "file_size": 882460,
+      "map": "Little Ohana",
+      "players": [
+        {
+          "name": "TheFighter",
+          "team": 1,
+          "clan": "PWS"
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheFighter_v_TheDarkRealm_on_Mirrored_Mire_LE.json",
+      "url": "discord_replays/TheFighter_v_TheDarkRealm_on_Mirrored_Mire_LE.json",
+      "file_date": "2026-04-11T00:27:11.000Z",
+      "file_size": 556998,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "TheFighter",
+          "team": 1,
+          "clan": "PWS"
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TheFighter_v_Xizun_on_Acadia.json",
+      "url": "discord_replays/TheFighter_v_Xizun_on_Acadia.json",
+      "file_date": "2026-03-02T22:02:18.000Z",
+      "file_size": 395162,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "TheFighter",
+          "team": 1,
+          "clan": "PWS"
+        },
+        {
+          "name": "Xizun",
+          "team": 2,
+          "clan": "PROL"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TryDying_v_Cantor_on_Ravaged.json",
+      "url": "discord_replays/TryDying_v_Cantor_on_Ravaged.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 196050,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "Cantor",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TryDying_v_Cantor_on_Ravaged_1.json",
+      "url": "discord_replays/TryDying_v_Cantor_on_Ravaged_1.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 98822,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "Cantor",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TryDying_v_SillyTooth_on_Ravaged.json",
+      "url": "discord_replays/TryDying_v_SillyTooth_on_Ravaged.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 75011,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "SillyTooth",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TryDying_v_SillyTooth_on_Ravaged_1.json",
+      "url": "discord_replays/TryDying_v_SillyTooth_on_Ravaged_1.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 52477,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "SillyTooth",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TryDying_v_legellon_on_Ravaged.json",
+      "url": "discord_replays/TryDying_v_legellon_on_Ravaged.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 460919,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "legellon",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TryDying_v_legellon_on_Ravaged_1.json",
+      "url": "discord_replays/TryDying_v_legellon_on_Ravaged_1.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 211373,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "legellon",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "TryDying_v_legellon_on_Ravaged_2.json",
+      "url": "discord_replays/TryDying_v_legellon_on_Ravaged_2.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 119728,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "TryDying",
+          "team": 1,
+          "clan": "SMURF"
+        },
+        {
+          "name": "legellon",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Unknown12z_v_Computer_Default_on_TD_Legion_MEGA.json",
+      "url": "discord_replays/Unknown12z_v_Computer_Default_on_TD_Legion_MEGA.json",
+      "file_date": "2026-03-14T12:44:13.000Z",
+      "file_size": 4380729,
+      "map": "TD Legion MEGA",
+      "players": [
+        {
+          "name": "Unknown12z",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Computer (Default)",
+          "team": 3,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Unknown12z_v_Computer_Default_on_TD_Legion_MEGA_1.json",
+      "url": "discord_replays/Unknown12z_v_Computer_Default_on_TD_Legion_MEGA_1.json",
+      "file_date": "2026-03-15T03:41:58.000Z",
+      "file_size": 3748640,
+      "map": "TD Legion MEGA",
+      "players": [
+        {
+          "name": "Unknown12z",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Computer (Default)",
+          "team": 3,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xab_v_fenish_on_Silent_Fjord.json",
+      "url": "discord_replays/Xab_v_fenish_on_Silent_Fjord.json",
+      "file_date": "2026-03-08T17:28:29.000Z",
+      "file_size": 128192,
+      "map": "Silent Fjord",
+      "players": [
+        {
+          "name": "Xab",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "fenish",
+          "team": 2,
+          "clan": "PROL"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xizun_v_BobaLindsley_on_Xenos.json",
+      "url": "discord_replays/Xizun_v_BobaLindsley_on_Xenos.json",
+      "file_date": "2026-05-08T17:42:47.000Z",
+      "file_size": 81679,
+      "map": "Xenos",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "BobaLindsley",
+          "team": 2,
+          "clan": "AFK"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xizun_v_LoveSosa_on_Mirrored_Mire_LE.json",
+      "url": "discord_replays/Xizun_v_LoveSosa_on_Mirrored_Mire_LE.json",
+      "file_date": "2026-04-08T20:02:17.000Z",
+      "file_size": 279753,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "LoveSosa",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -32803,6 +34598,57 @@
       }
     },
     {
+      "filename": "Xizun_v_Unknown12z_v_DinoDieno_v_guest_507085_v_tzonny97_v_humon_on_Starcraft_3.json",
+      "url": "discord_replays/Xizun_v_Unknown12z_v_DinoDieno_v_guest_507085_v_tzonny97_v_humon_on_Starcraft_3.json",
+      "file_date": "2026-03-14T19:21:12.000Z",
+      "file_size": 2006302,
+      "map": "Starcraft 3",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "Unknown12z",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "DinoDieno",
+          "team": 1,
+          "clan": "Syn"
+        },
+        {
+          "name": "guest_507085",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "tzonny97",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "humon",
+          "team": 2,
+          "clan": "ModN"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Xizun_v_Unknown12z_v_itzJ_v_avop3ia_v_guest_900540_v_Dames_on_Golem_Invasion.json",
       "url": "discord_replays/Xizun_v_Unknown12z_v_itzJ_v_avop3ia_v_guest_900540_v_Dames_on_Golem_Invasion.json",
       "file_date": "2026-08-01T04:27:56.000Z",
@@ -32841,6 +34687,47 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xizun_v_Unknown12z_v_maqle_v_Baks_on_Yin_Yang_2v2_Modded.json",
+      "url": "discord_replays/Xizun_v_Unknown12z_v_maqle_v_Baks_on_Yin_Yang_2v2_Modded.json",
+      "file_date": "2026-05-21T19:41:21.000Z",
+      "file_size": 1579681,
+      "map": "Yin Yang 2v2 Modded",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "Unknown12z",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "maqle",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Baks",
+          "team": 2,
+          "clan": "Pengy"
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -32926,6 +34813,37 @@
       }
     },
     {
+      "filename": "Xizun_v_icomefromsc_on_Mirrored_Mire_LE.json",
+      "url": "discord_replays/Xizun_v_icomefromsc_on_Mirrored_Mire_LE.json",
+      "file_date": "2026-04-28T04:25:20.000Z",
+      "file_size": 1030117,
+      "map": "Mirrored Mire LE",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Zer0s_v_icomefromsc_on_April Trip.json",
       "url": "discord_replays/Zer0s_v_icomefromsc_on_April Trip.json",
       "file_date": "2026-07-11T05:37:39.000Z",
@@ -32944,6 +34862,68 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "a1cluke_v_Xizun_on_Ravaged.json",
+      "url": "discord_replays/a1cluke_v_Xizun_on_Ravaged.json",
+      "file_date": "2026-04-29T22:55:30.000Z",
+      "file_size": 346789,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "a1cluke",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Xizun",
+          "team": 2,
+          "clan": "PROL"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_ConsciouslyEating_on_Ravaged_1.json",
+      "url": "discord_replays/bScherm_v_ConsciouslyEating_on_Ravaged_1.json",
+      "file_date": "2026-05-10T16:34:46.000Z",
+      "file_size": 1126820,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "ConsciouslyEating",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -33019,6 +34999,73 @@
       }
     },
     {
+      "filename": "crayon_v_icomefromsc_on_Fissures.json",
+      "url": "discord_replays/crayon_v_icomefromsc_on_Fissures.json",
+      "file_date": "2026-05-28T00:06:09.000Z",
+      "file_size": 76647,
+      "map": "Fissures",
+      "players": [
+        {
+          "name": "crayon",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ggwp.json",
+      "url": "discord_replays/ggwp.json",
+      "file_date": "2026-03-17T11:34:32.000Z",
+      "file_size": 1583524,
+      "map": "Merry Go Round",
+      "players": [
+        {
+          "name": "guest_879251",
+          "team": 3,
+          "clan": ""
+        },
+        {
+          "name": "pro_smeh2",
+          "team": 2,
+          "clan": "DOFTL"
+        },
+        {
+          "name": "tzonny97",
+          "team": 1,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "guest_001489_v_MrCheeser_on_Ravaged.json",
       "url": "discord_replays/guest_001489_v_MrCheeser_on_Ravaged.json",
       "file_date": "2026-07-19T07:27:39.000Z",
@@ -33081,6 +35128,171 @@
       }
     },
     {
+      "filename": "guest_413987_v_BraveHeart_v_a1cluke_v_guest_131744_on_Badlands_2v2.json",
+      "url": "discord_replays/guest_413987_v_BraveHeart_v_a1cluke_v_guest_131744_on_Badlands_2v2.json",
+      "file_date": "2026-04-19T21:43:35.000Z",
+      "file_size": 175847,
+      "map": "Badlands 2v2",
+      "players": [
+        {
+          "name": "guest_413987",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "BraveHeart",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "a1cluke",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_131744",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_472049_v_guest_422373_on_Ravaged.json",
+      "url": "discord_replays/guest_472049_v_guest_422373_on_Ravaged.json",
+      "file_date": "2026-05-10T18:26:01.000Z",
+      "file_size": 293735,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_472049",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_422373",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_550630_v_guest_050800_on_Ravaged.json",
+      "url": "discord_replays/guest_550630_v_guest_050800_on_Ravaged.json",
+      "file_date": "2026-06-14T06:49:02.000Z",
+      "file_size": 413734,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_550630",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_050800",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_815692_v_guest_834744_on_Ravaged.json",
+      "url": "discord_replays/guest_815692_v_guest_834744_on_Ravaged.json",
+      "file_date": "2026-04-06T19:02:36.000Z",
+      "file_size": 340941,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_815692",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_834744",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_932693_v_TheDarkRealm_on_Ravaged.json",
+      "url": "discord_replays/guest_932693_v_TheDarkRealm_on_Ravaged.json",
+      "file_date": "2026-02-28T11:09:43.000Z",
+      "file_size": 125314,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_932693",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "guest_948240_v_elbarto_on_Paintball.json",
       "url": "discord_replays/guest_948240_v_elbarto_on_Paintball.json",
       "file_date": "2026-07-21T11:53:46.000Z",
@@ -33099,6 +35311,99 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_992205_v_icomefromsc_on_Ravaged.json",
+      "url": "discord_replays/guest_992205_v_icomefromsc_on_Ravaged.json",
+      "file_date": "2026-06-06T05:11:00.000Z",
+      "file_size": 728170,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_992205",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_RumHam_on_Ravaged.json",
+      "url": "discord_replays/icomefromsc_v_RumHam_on_Ravaged.json",
+      "file_date": "2026-03-14T03:58:38.000Z",
+      "file_size": 184829,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "RumHam",
+          "team": 2,
+          "clan": "DEN"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_Unknown12z_on_King_Seyong_Station.json",
+      "url": "discord_replays/icomefromsc_v_Unknown12z_on_King_Seyong_Station.json",
+      "file_date": "2026-05-30T04:57:30.000Z",
+      "file_size": 297378,
+      "map": "King Seyong Station",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Unknown12z",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -33192,6 +35497,68 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_crayon_on_Fissures.json",
+      "url": "discord_replays/icomefromsc_v_crayon_on_Fissures.json",
+      "file_date": "2026-05-30T04:57:30.000Z",
+      "file_size": 139432,
+      "map": "Fissures",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "crayon",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_crayon_on_King_Seyong_Station.json",
+      "url": "discord_replays/icomefromsc_v_crayon_on_King_Seyong_Station.json",
+      "file_date": "2026-05-30T04:57:30.000Z",
+      "file_size": 483777,
+      "map": "King Seyong Station",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "crayon",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
@@ -33360,6 +35727,223 @@
       }
     },
     {
+      "filename": "icomefromsc_v_guest_343543_on_Fissures.json",
+      "url": "discord_replays/icomefromsc_v_guest_343543_on_Fissures.json",
+      "file_date": "2026-05-28T00:06:09.000Z",
+      "file_size": 161787,
+      "map": "Fissures",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_343543",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_guest_840437_on_Fissures.json",
+      "url": "discord_replays/icomefromsc_v_guest_840437_on_Fissures.json",
+      "file_date": "2026-05-28T00:06:09.000Z",
+      "file_size": 259078,
+      "map": "Fissures",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_840437",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_icamefromsc_on_Fissures.json",
+      "url": "discord_replays/icomefromsc_v_icamefromsc_on_Fissures.json",
+      "file_date": "2026-05-30T04:57:30.000Z",
+      "file_size": 479181,
+      "map": "Fissures",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icamefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_icamefromsc_on_Ravaged.json",
+      "url": "discord_replays/icomefromsc_v_icamefromsc_on_Ravaged.json",
+      "file_date": "2026-03-14T03:58:38.000Z",
+      "file_size": 187799,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "icamefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_itzJ_on_Fissures.json",
+      "url": "discord_replays/icomefromsc_v_itzJ_on_Fissures.json",
+      "file_date": "2026-05-30T04:57:30.000Z",
+      "file_size": 222524,
+      "map": "Fissures",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "itzJ",
+          "team": 2,
+          "clan": "BestOf"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_itzJ_on_Fissures_1.json",
+      "url": "discord_replays/icomefromsc_v_itzJ_on_Fissures_1.json",
+      "file_date": "2026-05-30T04:57:30.000Z",
+      "file_size": 142284,
+      "map": "Fissures",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "itzJ",
+          "team": 2,
+          "clan": "BestOf"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_smhdmc_on_King_Seyong_Station.json",
+      "url": "discord_replays/icomefromsc_v_smhdmc_on_King_Seyong_Station.json",
+      "file_date": "2026-05-28T00:06:09.000Z",
+      "file_size": 239878,
+      "map": "King Seyong Station",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "smhdmc",
+          "team": 2,
+          "clan": "TURK1"
+        }
+      ],
+      "game_version": "5.4.0",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "itzJ_v_icomefromsc_on_April Trip (1).json",
       "url": "discord_replays/itzJ_v_icomefromsc_on_April Trip (1).json",
       "file_date": "2026-07-11T05:37:39.000Z",
@@ -33471,6 +36055,47 @@
         }
       ],
       "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "tzonny97_v_Baks_v_guest_045241_v_TryDying_on_2vs2_Cloud_Kingdom.json",
+      "url": "discord_replays/tzonny97_v_Baks_v_guest_045241_v_TryDying_on_2vs2_Cloud_Kingdom.json",
+      "file_date": "2026-03-24T20:48:20.000Z",
+      "file_size": 617186,
+      "map": "2vs2 Cloud Kingdom",
+      "players": [
+        {
+          "name": "tzonny97",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "Baks",
+          "team": 1,
+          "clan": "Pengy"
+        },
+        {
+          "name": "guest_045241",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "TryDying",
+          "team": 2,
+          "clan": "SMURF"
+        }
+      ],
+      "game_version": "5.4.0",
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "discord_replays",
