@@ -11,6 +11,10 @@ survive CI checkouts.
 The collection is append-only: a file that disappears from Drive but is still
 on disk keeps its previous manifest entry and gains "archived": true, so
 Drive-side deletions never remove games (or their dates) from the site.
+
+Sources with no listing on the command line (e.g. discord_replays, whose
+files and dates are committed by hand) pass through unchanged: no listing
+means no news, not deletion.
 """
 import json
 import sys
@@ -24,15 +28,18 @@ def main() -> None:
     if not triples or len(triples) % 3:
         sys.exit(__doc__)
 
-    previous = {}
+    previous_sources = []
     if manifest_path.exists():
         with open(manifest_path, 'r', encoding='utf-8') as f:
-            for src in json.load(f).get('sources', []):
-                previous[src['prefix']] = {e['Path']: e for e in src['files']}
+            previous_sources = json.load(f).get('sources', [])
+    previous = {src['prefix']: {e['Path']: e for e in src['files']}
+                for src in previous_sources}
 
     sources = []
+    synced_prefixes = set()
     for i in range(0, len(triples), 3):
         remote, prefix, listing_path = triples[i:i + 3]
+        synced_prefixes.add(prefix)
         with open(listing_path, 'r', encoding='utf-8') as f:
             files = {e['Path']: e for e in json.load(f)}
         archived = 0
@@ -46,9 +53,15 @@ def main() -> None:
         print(f"{remote} -> {prefix}: {len(ordered)} files "
               f"({archived} archived, no longer on Drive)")
 
+    for src in previous_sources:
+        if src['prefix'] not in synced_prefixes:
+            sources.append(src)
+            print(f"{src['remote']} -> {src['prefix']}: "
+                  f"{len(src['files'])} files (no listing; carried through)")
+
     with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump({'sources': sources}, f, indent=1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

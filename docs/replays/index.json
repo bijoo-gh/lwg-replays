@@ -1,8 +1,8 @@
 {
   "collection_info": {
-    "timestamp": "2026-07-11T19:48:45.249214",
-    "total_replays": 1030,
-    "total_size": 358195442,
+    "timestamp": "2026-08-08T20:14:29.314429",
+    "total_replays": 1058,
+    "total_size": 372163761,
     "skipped_files": 1
   },
   "replays": [
@@ -32247,6 +32247,904 @@
       "tournament_info": {
         "is_tournament": false,
         "tournament_path": "ce_replay_folder/CE Replay Folder",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Baks_v_mqcmqc_v_QWOP_ONE_v_guest_460228_on_Kingdom TD Arena.json",
+      "url": "discord_replays/Baks_v_mqcmqc_v_QWOP_ONE_v_guest_460228_on_Kingdom TD Arena.json",
+      "file_date": "2026-07-26T13:03:45.000Z",
+      "file_size": 1580591,
+      "map": "Kingdom TD Arena",
+      "players": [
+        {
+          "name": "Baks",
+          "team": 1,
+          "clan": "Pengy"
+        },
+        {
+          "name": "mqcmqc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "QWOP_ONE",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "guest_460228",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_GUINNESS_on_Ravaged (1).json",
+      "url": "discord_replays/ConsciouslyEating_v_GUINNESS_on_Ravaged (1).json",
+      "file_date": "2026-06-26T18:54:10.000Z",
+      "file_size": 365247,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "GUINNESS",
+          "team": 2,
+          "clan": "OPCATA"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_GUINNESS_on_Ravaged.json",
+      "url": "discord_replays/ConsciouslyEating_v_GUINNESS_on_Ravaged.json",
+      "file_date": "2026-06-26T18:54:10.000Z",
+      "file_size": 544764,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "GUINNESS",
+          "team": 2,
+          "clan": "OPCATA"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_284813_on_Ravaged (1).json",
+      "url": "discord_replays/ConsciouslyEating_v_guest_284813_on_Ravaged (1).json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 220283,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_284813",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_284813_on_Ravaged (2).json",
+      "url": "discord_replays/ConsciouslyEating_v_guest_284813_on_Ravaged (2).json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 208285,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_284813",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_284813_on_Ravaged (3).json",
+      "url": "discord_replays/ConsciouslyEating_v_guest_284813_on_Ravaged (3).json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 192814,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_284813",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_284813_on_Ravaged.json",
+      "url": "discord_replays/ConsciouslyEating_v_guest_284813_on_Ravaged.json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 180519,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_284813",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_709585_on_Ravaged (1).json",
+      "url": "discord_replays/ConsciouslyEating_v_guest_709585_on_Ravaged (1).json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 253574,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_709585",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_709585_on_Ravaged (2).json",
+      "url": "discord_replays/ConsciouslyEating_v_guest_709585_on_Ravaged (2).json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 184031,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_709585",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "ConsciouslyEating_v_guest_709585_on_Ravaged.json",
+      "url": "discord_replays/ConsciouslyEating_v_guest_709585_on_Ravaged.json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 206350,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_709585",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "DragonArcherZ_v_GUINNESS_on_Ravaged.json",
+      "url": "discord_replays/DragonArcherZ_v_GUINNESS_on_Ravaged.json",
+      "file_date": "2026-06-26T18:54:10.000Z",
+      "file_size": 1017142,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "DragonArcherZ",
+          "team": 1,
+          "clan": "TZ"
+        },
+        {
+          "name": "GUINNESS",
+          "team": 2,
+          "clan": "OPCATA"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Satocastor_v_crayon_on_Ravaged (3).json",
+      "url": "discord_replays/Satocastor_v_crayon_on_Ravaged (3).json",
+      "file_date": "2026-07-30T08:52:32.000Z",
+      "file_size": 859083,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Satocastor",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "crayon",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xizun_v_SuperKimi09_v_avop3ia_v_Unknown12z_v_itzJ_v_maqle_on_Ancient World.json",
+      "url": "discord_replays/Xizun_v_SuperKimi09_v_avop3ia_v_Unknown12z_v_itzJ_v_maqle_on_Ancient World.json",
+      "file_date": "2026-06-26T04:14:04.000Z",
+      "file_size": 1220996,
+      "map": "Ancient World",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "SuperKimi09",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "avop3ia",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "Unknown12z",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "itzJ",
+          "team": 2,
+          "clan": "BestOf"
+        },
+        {
+          "name": "maqle",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Zer0s_v_icomefromsc_on_April Trip.json",
+      "url": "discord_replays/Zer0s_v_icomefromsc_on_April Trip.json",
+      "file_date": "2026-07-11T05:37:39.000Z",
+      "file_size": 271922,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "Zer0s",
+          "team": 1,
+          "clan": "NOX"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "bScherm_v_guest_284813_on_Ravaged.json",
+      "url": "discord_replays/bScherm_v_guest_284813_on_Ravaged.json",
+      "file_date": "2026-06-19T19:27:53.000Z",
+      "file_size": 81502,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "bScherm",
+          "team": 1,
+          "clan": "beep"
+        },
+        {
+          "name": "guest_284813",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "crayon_v_guest_264271_on_Silent Fjord.json",
+      "url": "discord_replays/crayon_v_guest_264271_on_Silent Fjord.json",
+      "file_date": "2026-06-20T04:19:56.000Z",
+      "file_size": 393106,
+      "map": "Silent Fjord",
+      "players": [
+        {
+          "name": "crayon",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_264271",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_399190_v_Computer (Default)_on_Ravaged.json",
+      "url": "discord_replays/guest_399190_v_Computer (Default)_on_Ravaged.json",
+      "file_date": "2026-06-29T04:44:40.000Z",
+      "file_size": 1977791,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_399190",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Computer (Default)",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_Zer0s_on_April Trip (1).json",
+      "url": "discord_replays/icomefromsc_v_Zer0s_on_April Trip (1).json",
+      "file_date": "2026-07-11T05:37:39.000Z",
+      "file_size": 440680,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Zer0s",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_Zer0s_on_April Trip.json",
+      "url": "discord_replays/icomefromsc_v_Zer0s_on_April Trip.json",
+      "file_date": "2026-07-11T05:37:39.000Z",
+      "file_size": 562294,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Zer0s",
+          "team": 2,
+          "clan": "NOX"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_avop3ia_on_April Trip.json",
+      "url": "discord_replays/icomefromsc_v_avop3ia_on_April Trip.json",
+      "file_date": "2026-07-11T05:37:39.000Z",
+      "file_size": 427671,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "avop3ia",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_guest_109833_on_April Trip.json",
+      "url": "discord_replays/icomefromsc_v_guest_109833_on_April Trip.json",
+      "file_date": "2026-07-11T05:38:24.000Z",
+      "file_size": 492861,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_109833",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_guest_122983_on_April Trip.json",
+      "url": "discord_replays/icomefromsc_v_guest_122983_on_April Trip.json",
+      "file_date": "2026-07-11T05:38:24.000Z",
+      "file_size": 286891,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_122983",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_guest_323487_on_April Trip (1).json",
+      "url": "discord_replays/icomefromsc_v_guest_323487_on_April Trip (1).json",
+      "file_date": "2026-07-11T05:38:24.000Z",
+      "file_size": 378772,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_323487",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_guest_323487_on_April Trip (2).json",
+      "url": "discord_replays/icomefromsc_v_guest_323487_on_April Trip (2).json",
+      "file_date": "2026-07-11T05:38:24.000Z",
+      "file_size": 406217,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_323487",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "icomefromsc_v_guest_323487_on_April Trip.json",
+      "url": "discord_replays/icomefromsc_v_guest_323487_on_April Trip.json",
+      "file_date": "2026-07-11T05:38:24.000Z",
+      "file_size": 307676,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_323487",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "itzJ_v_icomefromsc_on_April Trip (1).json",
+      "url": "discord_replays/itzJ_v_icomefromsc_on_April Trip (1).json",
+      "file_date": "2026-07-11T05:37:39.000Z",
+      "file_size": 237143,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "itzJ",
+          "team": 2,
+          "clan": "BestOf"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "itzJ_v_icomefromsc_on_April Trip.json",
+      "url": "discord_replays/itzJ_v_icomefromsc_on_April Trip.json",
+      "file_date": "2026-07-11T05:37:39.000Z",
+      "file_size": 221851,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "itzJ",
+          "team": 2,
+          "clan": "BestOf"
+        },
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "jp11_v_icomefromsc_on_April Trip.json",
+      "url": "discord_replays/jp11_v_icomefromsc_on_April Trip.json",
+      "file_date": "2026-07-11T05:37:39.000Z",
+      "file_size": 448263,
+      "map": "April Trip",
+      "players": [
+        {
+          "name": "jp11",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "icomefromsc",
+          "team": 1,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
         "tournament_name": null,
         "tournament_type": null,
         "season": null,
