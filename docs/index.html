@@ -139,6 +139,32 @@
         </div>
     </div>
 
+    <!-- Shown when a watch button is clicked without the loader installed -->
+    <div id="loader-modal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <h3>One-click watching needs a small add-on</h3>
+            <p>
+                The game can load a replay from a link, but only with the
+                <strong>LWG Replay Loader</strong> extension installed. It fetches the
+                replay and hands it to the game's own “Load external” loader — nothing is
+                saved to the game, and you stay logged in.
+            </p>
+            <p>
+                <a href="https://github.com/bijoo-gh/lwg-replays/tree/main/extension"
+                   target="_blank" rel="noopener noreferrer">Get it for Firefox or Chrome →</a>
+            </p>
+            <p class="watch-url-note">
+                Without it, this replay's link is
+                <code id="watch-url"></code>
+            </p>
+            <p>
+                <a id="watch-anyway" href="#" target="_blank" rel="noopener noreferrer">Open the game anyway</a>
+                · or use the <strong>.lwg</strong> button and load the file by hand.
+            </p>
+            <button id="close-loader-modal" class="btn-danger" type="button">Close</button>
+        </div>
+    </div>
+
     <script src="js/timeline.js"></script>
     <script src="js/replayBrowser.js"></script>
     <script>

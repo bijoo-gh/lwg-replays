@@ -84,6 +84,27 @@
     setTimeout(() => { if (!spent) restore(); }, UI_TIMEOUT_MS);
   }
 
+  // Starting a replay leaves the lobby windows drawn on top of the game -- the
+  // game only takes them down when it transitions out of the lobby itself, and
+  // watching a replay is not that transition. Tuck them away for the duration
+  // and put them back when playback ends, so nothing is left hidden.
+  function hideLobbyDuringPlayback() {
+    const ids = ['#lobbyDiv', '#lobbyChatWindow', '#playersWindow', '#gamesWindow', '#accInfoWindow'];
+    const restore = [];
+    for (const id of ids) {
+      const el = document.querySelector(id);
+      if (!el) continue;
+      restore.push([el, el.style.visibility]);
+      el.style.visibility = 'hidden';
+    }
+    if (!restore.length) return;
+    const timer = setInterval(() => {
+      if (document.querySelector('#replayControlWindow')?.offsetParent) return;
+      clearInterval(timer);
+      for (const [el, previous] of restore) el.style.visibility = previous;
+    }, 1000);
+  }
+
   function replayNameFromUrl(url) {
     let name = 'replay.json';
     try {
@@ -125,6 +146,7 @@
       banner.show(`Loading ${replay.map}…`);
       await waitFor(() => document.querySelector('#replayControlWindow')?.offsetParent, UI_TIMEOUT_MS);
       banner.hide();
+      hideLobbyDuringPlayback();
     } catch (err) {
       banner.show(`Replay loader: ${err.message}`, true);
       console.error('[LWG Replay Loader]', err);

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "LWG Replay Loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open a Little War Game replay straight from a link: littlewargame.com/play/#replay=<url-to-json>",
   "icons": {},
   "content_scripts": [

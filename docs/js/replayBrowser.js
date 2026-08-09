@@ -1,3 +1,5 @@
+const GAME_URL = 'https://littlewargame.com/play/';
+
 class ReplayBrowser {
     constructor() {
         this.table = null;
@@ -7,7 +9,35 @@ class ReplayBrowser {
         this.isDownloading = false;
         this.playersArray = [];
         this.totals = { count: 0, size: 0 };
+        this.hasLoader = false;
+        this.watchLoader();
         this.init();
+    }
+
+    // The game has no built-in way to open a replay from a link yet, so the
+    // watch buttons need the LWG Replay Loader extension, which announces
+    // itself on this page. Until then they explain themselves instead.
+    watchLoader() {
+        const mark = () => {
+            this.hasLoader = document.documentElement.hasAttribute('data-lwg-loader');
+            document.documentElement.classList.toggle('has-lwg-loader', this.hasLoader);
+        };
+        mark();
+        window.addEventListener('lwg-loader-ready', mark);
+    }
+
+    watchUrl(url) {
+        const replay = new URL(`replays/${url}`, location.href).href;
+        return `${GAME_URL}#replay=${encodeURIComponent(replay)}`;
+    }
+
+    onWatchClick(event, url) {
+        if (this.hasLoader) return true;   // let the link open the game
+        event.preventDefault();
+        document.getElementById('watch-url').textContent = this.watchUrl(url);
+        document.getElementById('watch-anyway').href = this.watchUrl(url);
+        document.getElementById('loader-modal').classList.remove('hidden');
+        return false;
     }
 
     async init() {
@@ -219,6 +249,15 @@ class ReplayBrowser {
                     orderable: false,
                     responsivePriority: 3,
                     render: (data) => `
+                        <a class="watch-button" href="${that.watchUrl(data)}"
+                           target="_blank" rel="noopener noreferrer"
+                           title="Watch this replay in Little War Game"
+                           onclick="return browser.onWatchClick(event, '${data}')">
+                            <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                            watch
+                        </a>
                         <button class="download-button" onclick="browser.downloadReplay('${data}')">
                             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -260,6 +299,9 @@ class ReplayBrowser {
     }
 
     setupEventListeners() {
+        document.getElementById('close-loader-modal')?.addEventListener('click', () => {
+            document.getElementById('loader-modal').classList.add('hidden');
+        });
         document.getElementById('download-filtered').addEventListener('click', () => {
             this.downloadFilteredReplays();
         });
