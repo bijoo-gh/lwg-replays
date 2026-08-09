@@ -14,6 +14,9 @@
 
   const HASH_PARAM = 'replay';
   const UI_TIMEOUT_MS = 45000;
+  // Connecting can take a while on a cold load, and the content script runs
+  // long before the socket is up.
+  const CONNECT_TIMEOUT_MS = 90000;
 
   function replayUrlFromHash() {
     const hash = location.hash.replace(/^#/, '');
@@ -49,7 +52,9 @@
       const deadline = Date.now() + timeoutMs;
       (function poll() {
         let value = null;
-        try { value = test(); } catch (e) { /* UI not built yet */ }
+        // A test throws to give up early -- e.g. the game reports it cannot
+        // connect, and no amount of waiting will help.
+        try { value = test(); } catch (e) { return reject(e); }
         if (value) return resolve(value);
         if (Date.now() > deadline) return reject(new Error('timed out waiting for the game UI'));
         setTimeout(poll, 200);
@@ -105,6 +110,19 @@
     }, 1000);
   }
 
+  // Open the Replays window and click "Load external", with the file picker
+  // intercepted so the game reads our replay instead of opening a dialog.
+  async function handOffToGame(file) {
+    interceptNextFilePicker(file);
+    const replaysButton = await waitFor(
+        () => { const b = document.querySelector('#replayButton'); return b?.offsetParent ? b : null; },
+        UI_TIMEOUT_MS);
+    replaysButton.click();
+    const loadButton = await waitFor(
+        () => document.querySelector('#loadExternalReplayButton'), UI_TIMEOUT_MS);
+    loadButton.click();
+  }
+
   function replayNameFromUrl(url) {
     let name = 'replay.json';
     try {
@@ -132,19 +150,23 @@
         throw new Error('that file does not look like a replay');
       }
 
-      interceptNextFilePicker(new File([text], replayNameFromUrl(url), { type: 'application/json' }));
-
-      const replaysButton = await waitFor(
-          () => { const b = document.querySelector('#replayButton'); return b?.offsetParent ? b : null; },
-          UI_TIMEOUT_MS);
-      replaysButton.click();
-
-      const loadButton = await waitFor(
-          () => document.querySelector('#loadExternalReplayButton'), UI_TIMEOUT_MS);
-      loadButton.click();
+      // Loading a replay makes the game ask its server for the map, so the
+      // socket has to be up first -- acting too early only earns a Connection
+      // Error. The game shows #lobbyDiv exactly when it is connected and
+      // sitting in the lobby, which is the state we need.
+      // (Do not read #NoConnectionWindow to detect trouble: the game leaves a
+      // collapsed one in the DOM after any transient startup hiccup, so it is
+      // present and "visible" even on a perfectly healthy connection.)
+      banner.show('Waiting for the game to connect…');
+      await waitFor(() => document.querySelector('#lobbyDiv')?.offsetParent || null,
+                    CONNECT_TIMEOUT_MS);
 
       banner.show(`Loading ${replay.map}…`);
-      await waitFor(() => document.querySelector('#replayControlWindow')?.offsetParent, UI_TIMEOUT_MS);
+      const file = new File([text], replayNameFromUrl(url), { type: 'application/json' });
+      await handOffToGame(file);
+
+      await waitFor(() => document.querySelector('#replayControlWindow')?.offsetParent || null,
+                    UI_TIMEOUT_MS);
       banner.hide();
       hideLobbyDuringPlayback();
     } catch (err) {
