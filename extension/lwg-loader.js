@@ -154,9 +154,11 @@
       // socket has to be up first -- acting too early only earns a Connection
       // Error. The game shows #lobbyDiv exactly when it is connected and
       // sitting in the lobby, which is the state we need.
-      // (Do not read #NoConnectionWindow to detect trouble: the game leaves a
-      // collapsed one in the DOM after any transient startup hiccup, so it is
-      // present and "visible" even on a perfectly healthy connection.)
+      // Do not gate on #NoConnectionWindow either. The game creates it from
+      // Network.send() whenever a send is attempted while disconnected --
+      // which is precisely what this loader did before it waited -- and it is
+      // never taken down again, so a page that has since connected fine still
+      // shows one. Its presence describes a past moment, not the state now.
       banner.show('Waiting for the game to connect…');
       await waitFor(() => document.querySelector('#lobbyDiv')?.offsetParent || null,
                     CONNECT_TIMEOUT_MS);
