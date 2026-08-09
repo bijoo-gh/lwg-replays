@@ -1,8 +1,8 @@
 {
   "collection_info": {
-    "timestamp": "2026-08-08T20:14:29.314429",
-    "total_replays": 1058,
-    "total_size": 372163761,
+    "timestamp": "2026-08-08T20:40:00.108839",
+    "total_replays": 1070,
+    "total_size": 382781845,
     "skipped_files": 1
   },
   "replays": [
@@ -32360,6 +32360,57 @@
       }
     },
     {
+      "filename": "ConsciouslyEating_v_TheDarkRealm_v_mqcmqc_v_someremorse_v_Rai97_v_Unknown12z_on_Culture_Wars_UPDATED.json",
+      "url": "discord_replays/ConsciouslyEating_v_TheDarkRealm_v_mqcmqc_v_someremorse_v_Rai97_v_Unknown12z_on_Culture_Wars_UPDATED.json",
+      "file_date": "2026-07-11T12:45:07.000Z",
+      "file_size": 3539245,
+      "map": "Culture Wars UPDATED",
+      "players": [
+        {
+          "name": "ConsciouslyEating",
+          "team": 4,
+          "clan": ""
+        },
+        {
+          "name": "TheDarkRealm",
+          "team": 2,
+          "clan": "NOX"
+        },
+        {
+          "name": "mqcmqc",
+          "team": 4,
+          "clan": ""
+        },
+        {
+          "name": "someremorse",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Rai97",
+          "team": 3,
+          "clan": ""
+        },
+        {
+          "name": "Unknown12z",
+          "team": 4,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "ConsciouslyEating_v_guest_284813_on_Ravaged (1).json",
       "url": "discord_replays/ConsciouslyEating_v_guest_284813_on_Ravaged (1).json",
       "file_date": "2026-06-19T19:27:53.000Z",
@@ -32608,6 +32659,68 @@
       }
     },
     {
+      "filename": "QWOP_ONE_v_maqle_on_Xenos_1.json",
+      "url": "discord_replays/QWOP_ONE_v_maqle_on_Xenos_1.json",
+      "file_date": "2026-06-15T12:26:14.000Z",
+      "file_size": 315068,
+      "map": "Xenos",
+      "players": [
+        {
+          "name": "QWOP_ONE",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "maqle",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "QWOP_ONE_v_maqle_on_Xenos_2.json",
+      "url": "discord_replays/QWOP_ONE_v_maqle_on_Xenos_2.json",
+      "file_date": "2026-06-15T12:26:14.000Z",
+      "file_size": 324980,
+      "map": "Xenos",
+      "players": [
+        {
+          "name": "QWOP_ONE",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "maqle",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "Satocastor_v_crayon_on_Ravaged (3).json",
       "url": "discord_replays/Satocastor_v_crayon_on_Ravaged (3).json",
       "file_date": "2026-07-30T08:52:32.000Z",
@@ -32674,6 +32787,129 @@
           "name": "maqle",
           "team": 2,
           "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xizun_v_Unknown12z_v_itzJ_v_avop3ia_v_guest_900540_v_Dames_on_Golem_Invasion.json",
+      "url": "discord_replays/Xizun_v_Unknown12z_v_itzJ_v_avop3ia_v_guest_900540_v_Dames_on_Golem_Invasion.json",
+      "file_date": "2026-08-01T04:27:56.000Z",
+      "file_size": 2932360,
+      "map": "Golem Invasion",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "Unknown12z",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "itzJ",
+          "team": 1,
+          "clan": "BestOf"
+        },
+        {
+          "name": "avop3ia",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "guest_900540",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "Dames",
+          "team": 1,
+          "clan": "beeep"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xizun_v_avop3ia_v_itzJ_v_guest_144963_on_Sea_of_Warships_Bal.json",
+      "url": "discord_replays/Xizun_v_avop3ia_v_itzJ_v_guest_144963_on_Sea_of_Warships_Bal.json",
+      "file_date": "2026-07-15T03:51:51.000Z",
+      "file_size": 1700857,
+      "map": "Sea of Warships Bal",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "avop3ia",
+          "team": 2,
+          "clan": ""
+        },
+        {
+          "name": "itzJ",
+          "team": 3,
+          "clan": "BestOf"
+        },
+        {
+          "name": "guest_144963",
+          "team": 4,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "Xizun_v_elbarto_on_Ravaged.json",
+      "url": "discord_replays/Xizun_v_elbarto_on_Ravaged.json",
+      "file_date": "2026-08-01T07:52:57.000Z",
+      "file_size": 85878,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "Xizun",
+          "team": 1,
+          "clan": "PROL"
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
         }
       ],
       "game_version": "5.5.1",
@@ -32783,6 +33019,37 @@
       }
     },
     {
+      "filename": "guest_001489_v_MrCheeser_on_Ravaged.json",
+      "url": "discord_replays/guest_001489_v_MrCheeser_on_Ravaged.json",
+      "file_date": "2026-07-19T07:27:39.000Z",
+      "file_size": 119063,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "guest_001489",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "MrCheeser",
+          "team": 2,
+          "clan": "PROL"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
       "filename": "guest_399190_v_Computer (Default)_on_Ravaged.json",
       "url": "discord_replays/guest_399190_v_Computer (Default)_on_Ravaged.json",
       "file_date": "2026-06-29T04:44:40.000Z",
@@ -32798,6 +33065,37 @@
           "name": "Computer (Default)",
           "team": 2,
           "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "guest_948240_v_elbarto_on_Paintball.json",
+      "url": "discord_replays/guest_948240_v_elbarto_on_Paintball.json",
+      "file_date": "2026-07-21T11:53:46.000Z",
+      "file_size": 29045,
+      "map": "Paintball",
+      "players": [
+        {
+          "name": "guest_948240",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "elbarto",
+          "team": 2,
+          "clan": "6Rax"
         }
       ],
       "game_version": "5.5.1",
@@ -33139,6 +33437,130 @@
           "name": "icomefromsc",
           "team": 1,
           "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "maqle_v_QWOP_ONE_on_Acadia.json",
+      "url": "discord_replays/maqle_v_QWOP_ONE_on_Acadia.json",
+      "file_date": "2026-06-15T12:26:14.000Z",
+      "file_size": 390631,
+      "map": "Acadia",
+      "players": [
+        {
+          "name": "maqle",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "QWOP_ONE",
+          "team": 2,
+          "clan": ""
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "week2ReinJ_v_Kray_on_Darkwood_Hills_LEG2.json",
+      "url": "discord_replays/week2ReinJ_v_Kray_on_Darkwood_Hills_LEG2.json",
+      "file_date": "2026-06-15T20:49:46.000Z",
+      "file_size": 533484,
+      "map": "Darkwood Hills LE",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Kray",
+          "team": 2,
+          "clan": "FoFoG"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "week2ReinJ_v_Kray_on_Light_ShadesG1.json",
+      "url": "discord_replays/week2ReinJ_v_Kray_on_Light_ShadesG1.json",
+      "file_date": "2026-06-15T20:49:46.000Z",
+      "file_size": 204522,
+      "map": "Light Shades",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Kray",
+          "team": 2,
+          "clan": "FoFoG"
+        }
+      ],
+      "game_version": "5.5.1",
+      "tournament_info": {
+        "is_tournament": false,
+        "tournament_path": "discord_replays",
+        "tournament_name": null,
+        "tournament_type": null,
+        "season": null,
+        "week": null,
+        "stage": null,
+        "group": null,
+        "match_info": null
+      }
+    },
+    {
+      "filename": "week2ReinJ_v_Kray_on_Ravaged_1.json",
+      "url": "discord_replays/week2ReinJ_v_Kray_on_Ravaged_1.json",
+      "file_date": "2026-06-15T20:49:46.000Z",
+      "file_size": 442951,
+      "map": "Ravaged",
+      "players": [
+        {
+          "name": "ReinJ",
+          "team": 1,
+          "clan": ""
+        },
+        {
+          "name": "Kray",
+          "team": 2,
+          "clan": "FoFoG"
         }
       ],
       "game_version": "5.5.1",
