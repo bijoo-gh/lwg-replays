@@ -10,6 +10,7 @@ class ReplayBrowser {
         this.playersArray = [];
         this.totals = { count: 0, size: 0 };
         this.hasLoader = false;
+        this.pendingWatchLink = null;
         this.watchLoader();
         this.init();
     }
@@ -34,8 +35,11 @@ class ReplayBrowser {
     onWatchClick(event, url) {
         if (this.hasLoader) return true;   // let the link open the game
         event.preventDefault();
-        document.getElementById('watch-url').textContent = this.watchUrl(url);
-        document.getElementById('watch-anyway').href = this.watchUrl(url);
+        // The link itself is doubly encoded (a URL nested inside a URL), which
+        // reads as line noise -- show the replay, keep the link for copying.
+        this.pendingWatchLink = this.watchUrl(url);
+        document.getElementById('watch-url').textContent = decodeURIComponent(url);
+        document.getElementById('watch-anyway').href = this.pendingWatchLink;
         document.getElementById('loader-modal').classList.remove('hidden');
         return false;
     }
@@ -301,6 +305,16 @@ class ReplayBrowser {
     setupEventListeners() {
         document.getElementById('close-loader-modal')?.addEventListener('click', () => {
             document.getElementById('loader-modal').classList.add('hidden');
+        });
+        document.getElementById('copy-watch-link')?.addEventListener('click', async (event) => {
+            const button = event.currentTarget;
+            try {
+                await navigator.clipboard.writeText(this.pendingWatchLink || '');
+                button.textContent = 'Copied';
+            } catch (error) {
+                button.textContent = 'Copy failed';
+            }
+            setTimeout(() => { button.textContent = 'Copy watch link'; }, 2000);
         });
         document.getElementById('download-filtered').addEventListener('click', () => {
             this.downloadFilteredReplays();

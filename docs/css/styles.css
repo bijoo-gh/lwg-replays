@@ -481,3 +481,13 @@ table.dataTable > tbody > tr.child:hover { background: var(--surface-2) !importa
 table.dataTable > tbody > tr.child ul.dtr-details { width: 100%; }
 table.dataTable > tbody > tr.child li.dtr-title { color: var(--text-muted); font-weight: 500; }
 table.dataTable > tbody > tr.child span.dtr-data { color: var(--text-primary); }
+
+.link-button {
+    background: none;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    color: var(--accent-ink);
+    cursor: pointer;
+    text-decoration: underline;
+}
