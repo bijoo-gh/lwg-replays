@@ -238,9 +238,21 @@ class ReplayBrowser {
                     searchPanes: { show: true }
                 },
                 {
+                    data: 'duration_seconds',
+                    className: 'col-duration',
+                    defaultContent: '',
+                    responsivePriority: 7,
+                    render: {
+                        _: (data) => this.formatDuration(data),
+                        sort: (data) => data ?? -1,
+                        filter: (data) => this.formatDuration(data)
+                    },
+                    type: 'num'
+                },
+                {
                     data: 'file_size',
                     className: 'col-size',
-                    responsivePriority: 7,
+                    responsivePriority: 9,
                     render: {
                         _: (data) => this.formatFileSize(data),
                         sort: (data) => data,
@@ -300,6 +312,15 @@ class ReplayBrowser {
         const sizes = ['B', 'KB', 'MB', 'GB'];
         const i = Math.floor(Math.log(bytes) / Math.log(k));
         return `${parseFloat((bytes / Math.pow(k, i)).toFixed(1))} ${sizes[i]}`;
+    }
+
+    // Game length as the client shows it: m:ss, or h:mm:ss past an hour
+    formatDuration(seconds) {
+        if (seconds == null) return '';
+        const h = Math.floor(seconds / 3600);
+        const m = Math.floor((seconds % 3600) / 60);
+        const s = String(seconds % 60).padStart(2, '0');
+        return h ? `${h}:${String(m).padStart(2, '0')}:${s}` : `${m}:${s}`;
     }
 
     setupEventListeners() {

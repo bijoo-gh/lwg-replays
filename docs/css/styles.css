@@ -312,6 +312,8 @@ table.dataTable.no-footer { border-bottom: 1px solid var(--baseline); }
 td.col-date { white-space: nowrap; font-variant-numeric: tabular-nums; }
 td.col-size { white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right; }
 th.col-size { text-align: right; }
+td.col-duration { white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right; }
+th.col-duration { text-align: right; }
 
 /* ---------- SearchPanes restyle ----------
    The vendor stylesheet qualifies selectors with elements

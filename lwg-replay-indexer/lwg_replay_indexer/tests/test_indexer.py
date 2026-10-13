@@ -106,6 +106,46 @@ def test_file_date_comes_from_manifest(tmp_path):
     assert entry['file_size'] == 12345
 
 
+def test_file_date_prefers_game_played(tmp_path):
+    # 5.7.0+ replays carry the match start; it beats the upload time
+    replay_dir = tmp_path / 'replays'
+    write_replay(replay_dir / 'prefix' / 'game.json', gamePlayed=1788764328765)
+    manifest = {
+        'sources': [{
+            'remote': 'test:',
+            'prefix': 'prefix',
+            'files': [{'Path': 'game.json',
+                       'ModTime': '2026-09-08T15:42:51.560Z',
+                       'Size': 12345}],
+        }]
+    }
+    (replay_dir / '.sync-manifest.json').write_text(json.dumps(manifest))
+
+    output_file = tmp_path / 'index.json'
+    ReplayIndexer(str(replay_dir), str(output_file)).create_index()
+
+    entry = json.loads(output_file.read_text())['replays'][0]
+    assert entry['file_date'] == '2026-09-07T06:58:48.765Z'
+    assert entry['file_size'] == 12345
+
+
+@pytest.mark.parametrize('value', [None, 0, -5, True, '1788764328765', 1e30])
+def test_unusable_game_played_falls_back(value):
+    assert ReplayIndexer._game_played({'gamePlayed': value}) is None
+
+
+@pytest.mark.parametrize('ticks, seconds', [
+    (3298, 165),    # the 2026-08-24 calibration game: 2:45
+    (26241, 1312),
+    (0, 0),
+    (None, None),
+    ('3298', None),
+    (-1, None),
+])
+def test_duration_from_ticks(ticks, seconds):
+    assert ReplayIndexer._duration_seconds({'ticksCounter': ticks}) == seconds
+
+
 def test_index_is_deterministic(tmp_path):
     replay_dir = tmp_path / 'replays'
     write_replay(replay_dir / 'z.json')

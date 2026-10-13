@@ -1,11 +1,15 @@
 import json
 import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, Optional
 
 
 class ReplayIndexer:
+    # The game loop runs at 20 ticks/s: the client shows a replay's length
+    # as getFormattedDuration(ticksCounter * 50).
+    MS_PER_TICK = 50
+
     # Matches "season 3", "Season 7", "ProLeague Season 8", "s9"
     SEASON_RE = re.compile(r'\bs(?:eason)?\s*\.?\s*(\d+)\b', re.IGNORECASE)
     WEEK_RE = re.compile(r'\bweek\s*(\d+)\b', re.IGNORECASE)
@@ -215,6 +219,13 @@ class ReplayIndexer:
         with open(filepath, 'r', encoding='utf-8') as f:
             replay_data = json.load(f)
 
+        # LWG 5.7.0+ stamps the match start into the replay itself; prefer it
+        # over Drive/Discord dates, which are upload times and can trail the
+        # game by days.
+        played = self._game_played(replay_data)
+        if played:
+            file_date = played
+
         # Filter out spectators (team 0)
         active_players = [
             {
@@ -234,8 +245,29 @@ class ReplayIndexer:
             'map': replay_data.get('map'),
             'players': active_players,
             'game_version': replay_data.get('gameVersion'),
+            'duration_seconds': self._duration_seconds(replay_data),
             'tournament_info': self._extract_tournament_info(rel_path)
         }
+
+    @staticmethod
+    def _game_played(replay_data: Dict) -> Optional[str]:
+        """Match start from the replay's `gamePlayed` (epoch ms), in the
+        manifest's ModTime format; None for replays that predate it."""
+        ms = replay_data.get('gamePlayed')
+        if isinstance(ms, bool) or not isinstance(ms, (int, float)) or ms <= 0:
+            return None
+        try:
+            dt = datetime.fromtimestamp(ms / 1000, tz=timezone.utc)
+        except (OverflowError, OSError, ValueError):
+            return None
+        return dt.strftime('%Y-%m-%dT%H:%M:%S.') + f'{dt.microsecond // 1000:03d}Z'
+
+    @classmethod
+    def _duration_seconds(cls, replay_data: Dict) -> Optional[int]:
+        ticks = replay_data.get('ticksCounter')
+        if isinstance(ticks, bool) or not isinstance(ticks, int) or ticks < 0:
+            return None
+        return round(ticks * cls.MS_PER_TICK / 1000)
 
     def _save_index(self, index: Dict) -> None:
         """Save index to file"""
